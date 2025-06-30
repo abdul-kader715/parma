@@ -1,0 +1,333 @@
+/* Process Card ---------------------------------- */
+.process-card-wrap {
+   position: relative;
+   z-index: 1;
+   margin-top: 78px;
+
+   @include ml {
+      margin-top: 0px;
+   }
+
+   @include lg {
+      gap: 40px 0;
+   }
+
+   &:after {
+      content: '';
+      position: absolute;
+      top: -48px;
+      left: 0;
+      width: 100%;
+      height: 52px;
+      background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='874' height='52' viewBox='0 0 874 52' fill='none'%3E%3Cpath d='M1 11.4512C30.8833 0.643549 97.1931 -6.60964 131.313 46.7598C133.338 49.9265 137.668 50.8156 140.679 48.5659C191.926 10.2762 312.342 -36.7023 431.309 50.2584C433.478 51.8443 436.441 51.8924 438.622 50.3222C490.546 12.9383 614.625 -35.1582 729.567 48.921C732.463 51.0394 736.613 50.3076 738.808 47.4689C755.391 26.0201 799.607 -4.52152 873 11.4512' stroke='white'/%3E%3C/svg%3E") no-repeat center;
+      background-size: contain;
+      z-index: -1;
+
+      @include ml {
+         display: none;
+      }
+   }
+
+   .process-card {
+      @include xs {
+         width: 100%;
+      }
+   }
+}
+
+.process-card {
+   position: relative;
+   text-align: left;
+   padding: 40px;
+   border-radius: 16px;
+   border: 1px solid $black-color5;
+   background: $black-color4;
+   backdrop-filter: blur(30px);
+
+   @include lg {
+      padding: 40px 30px;
+   }
+
+   @include lg {
+      padding: 30px 20px;
+   }
+
+   &:after {
+      content: '';
+      position: absolute;
+      width: 16px;
+      height: 16px;
+      background: $white-color;
+      top: -7px;
+      left: 50%;
+      transform: translateX(-50%);
+      border-radius: 100px;
+   }
+
+   &::before {
+      position: absolute;
+      left: 50%;
+      top: -30px;
+      transform: translateX(-50%);
+      z-index: -11;
+      opacity: 0;
+      visibility: hidden;
+      transition: all 0.3s;
+      width: 119px;
+      height: 119px;
+      border-radius: 100px;
+      background: $theme-color;
+      content: '';
+
+      @include md {
+         display: none;
+      }
+   }
+
+   .box-bg-shape {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      opacity: 0;
+      visibility: hidden;
+      transition: all 0.3s ease-in-out;
+
+      img {
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
+         border-radius: 16px;
+      }
+   }
+
+   @include lg {
+      gap: 30px;
+   }
+
+   .box-thumb-wrap {}
+
+   .box-number {
+      font-size: 84px;
+      font-weight: 700;
+      font-family: $title-font;
+      color: $border-color;
+      margin-top: -0.28em;
+      margin-bottom: -0.28em;
+      width: 100%;
+      position: relative;
+
+      @include lg {
+         font-size: 70px;
+      }
+
+      @include md {
+         font-size: 60px;
+      }
+
+      &:after {
+         content: '';
+         position: absolute;
+         width: 24px;
+         height: 24px;
+         border-radius: 50%;
+         background: linear-gradient(to left, $theme-color3, $theme-color);
+         top: -30px;
+         left: 50%;
+         transform: translate(-50%, 0);
+
+         @include lg {
+            display: none;
+         }
+      }
+   }
+
+   .box-thumb {
+      display: inline-block;
+      overflow: hidden;
+      flex: none;
+      width: 86px;
+      height: 86px;
+      border-radius: 86px;
+      border: 1px solid rgb(255, 255, 255, 0.2);
+      text-align: center;
+      line-height: 75px;
+      margin-bottom: -5px;
+
+      img {
+         width: 50px;
+         height: 50px;
+         object-fit: cover;
+         transition: 0.4s;
+      }
+   }
+
+   .box-title {
+      margin-bottom: 12px;
+      line-height: 1.416;
+      max-width: 200px;
+      color: $white-color;
+      font-size: 28px;
+      font-weight: 500;
+
+      @include ml {
+         max-width: 100%;
+      }
+
+      @include md {
+         font-size: 20px;
+      }
+
+   }
+
+   .box-text {
+      color: $gray-color5;
+      margin: 30px 0;
+
+      @include ml {
+         margin-top: 10px;
+      }
+   }
+
+   &:hover {
+      .box-thumb-wrap {
+         .box-thumb {
+            img {
+               transform: scale(1.1);
+            }
+         }
+      }
+
+      &::before {
+         opacity: 1;
+         visibility: visible;
+         transition-delay: 0s;
+      }
+
+      .box-bg-shape {
+         opacity: 1;
+         visibility: visible;
+      }
+   }
+}
+
+.process1 {
+   border-radius: 24px;
+   padding-bottom: 474px;
+
+   @include ml {
+      border-radius: 0px;
+      padding-bottom: 374px;
+   }
+
+   @include lg {
+      padding-bottom: 330px;
+   }
+
+   @include md {
+      padding-bottom: 290px;
+   }
+
+   @include sm {
+      padding-bottom: 230px;
+   }
+}
+
+/* Process Card 2---------------------------------- */
+.process-img-box2 {
+   border-radius: 30px;
+   overflow: hidden;
+
+   img {
+      width: 100%;
+   }
+}
+
+.process-wrap2 {
+   position: relative;
+
+}
+
+.process-card2 {
+   position: relative;
+   display: flex;
+   gap: 56px;
+
+   @for $i from 1 through 9 {
+      &:nth-child(#{$i}) {
+         margin-left: ($i - 1) * 96px;
+
+         @include sm {
+            margin-left: 0;
+         }
+      }
+   }
+
+   .process-arrow {
+      position: absolute;
+      left: 19px;
+      top: 49px;
+
+      @include sm {
+         display: none;
+      }
+   }
+
+   &:nth-child(even) {
+      .process-arrow {
+         position: absolute;
+         left: -41px;
+         top: 40px;
+      }
+   }
+
+   &:not(:last-child) {
+      margin-bottom: 40px;
+   }
+
+   &:last-child {
+      .process-arrow {
+         display: none;
+      }
+   }
+
+   .box-number {
+      height: 40px;
+      width: 40px;
+      border: 2px solid $theme-color;
+      border-radius: 13px;
+      flex: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      font-weight: 500;
+      color: $title-color;
+      font-family: $title-font;
+   }
+
+   .box-title {
+      font-size: 24px;
+      font-weight: 600;
+      margin-bottom: -0.4em;
+
+      @include ml {
+         font-size: 22px;
+      }
+   }
+
+   .box-text {
+      margin-top: 24px;
+      max-width: 380px;
+   }
+
+   @include sm {
+      gap: 30px;
+   }
+
+   @include xs {
+      gap: 20px;
+   }
+}
