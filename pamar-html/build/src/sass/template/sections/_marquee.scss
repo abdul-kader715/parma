@@ -66,43 +66,9 @@
 
 /* Marquee Area 2---------------------------------- */
 .marquee-wrap2 {
-   rotate: 3deg;
-   margin: 50px -20px;
    position: relative;
    z-index: 1;
-
-   &.bg-gradient {
-      &:after {
-         content: '';
-         position: absolute;
-         inset: 0;
-         background: linear-gradient(to left, $theme-color3, $theme-color);
-      }
-   }
-
-   @include hd {
-      margin: 68px -20px;
-   }
-
-   @include xxl {
-      margin: 40px -20px;
-   }
-
-   @include xl {
-      margin: 30px -20px;
-   }
-
-   @include lg {
-      margin: 30px -10px;
-   }
-
-   @include md {
-      margin: 20px -10px;
-   }
-
-   @include sm {
-      margin: 15px -10px;
-   }
+   margin-bottom: 50px;
 }
 
 .marquee-slider2 {
@@ -122,30 +88,21 @@
    display: flex;
 
    a {
-      font-size: 36px;
-      font-weight: 400;
-      text-transform: uppercase;
-      color: inherit;
-      margin-left: 60px;
-      padding-bottom: 0;
-      line-height: 0.8em;
-      position: relative;
+      font-size: 56px;
+      font-weight: 700;
+      line-height: 66px;
+      letter-spacing: -1.12px;
+      font-family: $title-font;
+
+      &:hover {
+         color: $theme-color2;
+         -webkit-text-stroke-color: transparent;
+      }
 
       @include xs {
-         font-size: 24px;
+         font-size: 35px;
       }
 
-      &:before {
-         content: '';
-         position: absolute;
-         width: 10px;
-         height: 10px;
-         background: $white-color;
-         border-radius: 50%;
-         top: 50%;
-         left: -45px;
-         transform: translate(0, -50%);
-      }
    }
 }
 

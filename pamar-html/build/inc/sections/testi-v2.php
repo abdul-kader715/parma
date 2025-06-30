@@ -18,7 +18,7 @@
         'assets/img/testimonial/testi2-2.jpg',
     );
     $text = array(        
-        "“AI is transforming industries by enabling machines to perform tasks that previously required human intervention, such as recognizing speech, analyzing images, making predictions, and even understanding emotions.”",
+        "Mike and Chris were excellent! Communication before and during the repair was helpful, since we were unsure how extensive it might be once the area was dug out. We would highly recommend both Mike and Chris.",
 
         "“Stay informed about our upcoming events and campaigns. AI is transforming industries by enabling machines to perform tasks that previously required human intervention, there are plenty of ways to get involved and support.”",
 

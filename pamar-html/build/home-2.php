@@ -4,12 +4,12 @@ get_header('v1');
 get_section('hero-v2');
 // get_section('brand-v2', 'overflow-hidden');
 get_section('feature-sec-v2', 'space-top overflow-hidden feature-area-2 bg-black-color7');
-
-
-// get_section('cta-v2', 'overflow-hidden');
-get_section('service-sec-v2', 'space-bottom overflow-hidden');
+get_section('service-sec-v2', 'space overflow-hidden');
 get_section('marquee-sec-v2', 'overflow-hidden');
-get_section('project-sec-v2', 'space overflow-hidden');
+get_section('testi-sec-v2', 'testi-area-2 overflow-hidden');
+// get_section('cta-v2', 'overflow-hidden');
+// get_section('marquee-sec-v2', 'overflow-hidden');
+// get_section('project-sec-v2', 'space overflow-hidden');
 
 
 get_section('why-v2', 'overflow-hidden');

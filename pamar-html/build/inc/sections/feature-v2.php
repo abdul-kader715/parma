@@ -5,9 +5,9 @@
         'Customer Satisfaction',
     );
     $img = array(
-        'assets/img/feature/2-1.png',
-        'assets/img/feature/2-2.png',
-        'assets/img/feature/2-3.png',
+        'assets/img/icon/feature/2-1.png',
+        'assets/img/icon/feature/2-2.png',
+        'assets/img/icon/feature/2-3.png',
     );
     $text = array(
         'Building lasting connections with our clients by prioritizing honesty, reliability, and openness in every engagement, while safeguarding their confidentiality at all times.',

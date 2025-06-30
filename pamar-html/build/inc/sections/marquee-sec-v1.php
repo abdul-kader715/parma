@@ -37,6 +37,5 @@ Marquee Area
                     
                 </div>
             </div>
-    
         </div>
 </div>

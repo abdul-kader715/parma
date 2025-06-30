@@ -186,6 +186,7 @@
    display: flex;
    gap: 42px;
    align-items: center;
+   background: $black-color6;
 
    &:before,
    &:after {
@@ -203,27 +204,13 @@
       bottom: 144px;
    }
 
-   .testi-quote-icon {
-      flex: none;
-   }
+ 
 
    .slider-area {
       overflow: hidden;
    }
 
-   @include lg {
-      display: block;
-
-      .testi-quote-icon {
-         margin-bottom: -30px;
-         margin-left: 50px;
-      }
-
-      &:after,
-      &:before {
-         display: none;
-      }
-   }
+ 
 }
 
 .testi-slider2 {
