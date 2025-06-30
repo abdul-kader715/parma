@@ -127,6 +127,7 @@
          }
       }
    }
+
 }
 
 .slider-area {
@@ -184,9 +185,10 @@
       &:hover {
          background: $theme-color;
          color: $white-color;
+
          svg {
-         stroke: $white-color;
-      }
+            stroke: $white-color;
+         }
       }
    }
 
@@ -207,9 +209,33 @@
       &:hover {
          background: $theme-color;
          color: $white-color;
+
          svg {
-         stroke: $white-color;
+            stroke: $white-color;
+         }
       }
+   }
+
+   &.style4 {
+      background: $white-color;
+      color: $black-color6;
+      --icon-size: 40px;
+      width: 64px;
+      height: 64px;
+      line-height: 60px;
+      border-radius: 40px;
+      font-size: 20px;
+
+      svg {
+         stroke: $black-color6;
+         transition: all .3s ease;
+      }
+
+      
+
+      &:hover {
+         background: $theme-color2;
+
       }
    }
 

@@ -1,10 +1,10 @@
 <!--==============================
 Testimonial Area  
 ==============================-->
-<section class=" <?php echo $klass;?>"> 
+<section class=" <?php echo $klass;?>" data-sec-pos="bottom-half"> 
     <div class="container">
-        <div class="testi-wrap2" data-cue="slideInUp">
-            <div class="price-bg-shape1-1 shape-mockup d-none d-xxl-inline" data-top="0" data-right="0">
+        <div class="testi-wrap2 overflow-hidden" data-cue="slideInUp">
+            <div class="shape-mockup" data-top="0" data-right="0%">
                 <img src="assets/img/shape/bg-shape9.png" alt="img">
             </div>
             <div class="slider-area">
@@ -13,11 +13,8 @@ Testimonial Area
                         <?php get_section('testi-v2', 'swiper-slide');?>
                     </div>
                     <div class="slider-pagination-wrap">
-                        <div class="slider-pagination2"></div>
-                        <div class="icon-box">
-                            <button data-slider-prev="#testiSlide2" class="slider-arrow style-border3 default"><i class="far fa-arrow-left"></i></button>
-                            <button data-slider-next="#testiSlide2" class="slider-arrow style-border3 default"><i class="far fa-arrow-right"></i></button>
-                        </div>
+                            <button data-slider-prev="#testiSlide2" class="slider-arrow style5 "><i class="far fa-arrow-left"></i></button>
+                            <button data-slider-next="#testiSlide2" class="slider-arrow style5 "><i class="far fa-arrow-right"></i></button>
                     </div>
                 </div>
             </div>

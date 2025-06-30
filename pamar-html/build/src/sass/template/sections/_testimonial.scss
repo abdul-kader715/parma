@@ -63,6 +63,7 @@
       max-width: 550px;
       padding-bottom: 25px;
    }
+
    @include md {
       padding-bottom: 0px;
    }
@@ -87,7 +88,7 @@
          transform: scale(1);
          visibility: visible;
          opacity: 1;
-         border: 1px solid $border-color ;
+         border: 1px solid $border-color;
       }
 
       .slider-pagination {
@@ -184,60 +185,31 @@
 .testi-wrap2 {
    position: relative;
    display: flex;
-   gap: 42px;
+   gap: 56px;
    align-items: center;
    background: $black-color6;
+   border-radius: 24px;
+   padding: 32px;
 
-   &:before,
-   &:after {
-      content: '';
-      position: absolute;
-      left: 0;
-      top: 144px;
-      right: 0;
-      background: linear-gradient(to left, transparent, rgba(255, 255, 255, 0.6), transparent);
-      height: 1px;
-   }
 
-   &:after {
-      top: auto;
-      bottom: 144px;
-   }
 
- 
 
    .slider-area {
       overflow: hidden;
    }
 
- 
+
 }
 
 .testi-slider2 {
-   padding: 145px 0 50px;
    position: relative;
 
-   &:before,
-   &:after {
-      content: '';
-      position: absolute;
-      left: 0;
-      top: 0;
-      bottom: 0;
-      background: linear-gradient(to top, transparent, rgba(255, 255, 255, 0.6), transparent);
-      width: 1px;
-   }
 
-   &:before {
-      left: 321px;
-   }
 
    .slider-pagination-wrap {
       display: flex;
       align-items: center;
-      margin-top: 50px;
-      margin-left: 114px;
-      gap: 162px;
+      justify-content: space-between;
 
       .slider-pagination2 {
          font-size: 20px;
@@ -253,35 +225,46 @@
       }
    }
 
-   @include lg {
-      padding: 0;
 
-      &:after,
-      &:before {
-         display: none;
-      }
-   }
 
-   @include sm {
-      .slider-pagination-wrap {
-         flex-wrap: wrap;
-         margin-left: 0;
-         gap: 30px;
-         justify-content: space-between;
-      }
-   }
 }
 
 .testi-card2 {
    display: flex;
    align-items: center;
+   gap: 56px;
 
    .box-thumb {
       flex: none;
-      width: 321px;
-      height: 321px;
-      border-radius: 30px;
+      max-width: 600px;
+      max-height: 482px;
+      border-radius: 24px;
       overflow: hidden;
+      position: relative;
+      z-index: 1;
+
+      &::before {
+         position: absolute;
+         left: 0;
+         top: 0;
+         width: 100%;
+         height: 100%;
+         content: '';
+         background: linear-gradient(0deg, rgba(23, 25, 31, 0.30) 0%, rgba(23, 25, 31, 0.30) 100%);
+      }
+
+      .play-btn {
+         position: absolute;
+         right: 24px;
+         bottom: 24px;
+
+         i {
+            color: rgba(23, 25, 31, 0.30);
+         }
+
+      }
+
+
 
       img {
          width: 100%;
@@ -290,27 +273,34 @@
       }
    }
 
-   .box-content {
-      padding: 50px 0 50px 50px;
+   .testi-card_review {
+      left: -50px;
+      position: relative;
 
-      @include md {
-         padding: 0px 0 0px 50px;
+      i {
+         color: $theme-color2;
+         padding-right: 5px;
       }
+   }
+
+   .box-content {
+
 
       .box-text {
          font-size: 24px;
-         font-weight: 500;
+         font-weight: 700;
          color: $white-color;
          font-family: $title-font;
-         margin-top: -0.5em;
          line-height: 1.666;
+         margin-top: 30px;
+         margin-bottom: 70px;
+
 
          @include ml {
             font-size: 20px;
          }
 
          @include md {
-            margin-top: -0.45em;
             font-size: 18px;
          }
       }
@@ -318,15 +308,30 @@
       .box-title {
          color: $white-color;
          font-size: 20px;
-         font-weight: 500;
-         margin-top: 34px;
+         font-weight: 600;
          margin-bottom: 2px;
       }
 
       .box-desig {
          margin-bottom: -0.3em;
-         font-size: 14px;
+         font-size: 16px;
+         color: $theme-color2;
+      }
+   }
 
+   .testi-card-profile {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+
+      .testi-card-avater {
+         width: 56px;
+         height: 56px;
+         border-radius: 100px;
+         overflow: hidden;
+         img{
+            width: 100%;
+         }
       }
    }
 
@@ -339,9 +344,7 @@
          display: inline-block;
       }
 
-      .box-content {
-         padding: 50px 0 0 0;
-      }
+
    }
 }
 
