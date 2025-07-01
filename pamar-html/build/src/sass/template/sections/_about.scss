@@ -38,6 +38,7 @@
       height: 173px;
       top: 72%;
       left: 72%;
+
       span {
          --rotate-letter: 8.6deg;
          height: 93px;
@@ -93,7 +94,7 @@
       position: absolute;
       left: 50%;
       top: 50%;
-      transform: translate(-50%,-50%);
+      transform: translate(-50%, -50%);
    }
 }
 
@@ -129,16 +130,179 @@
    margin: 0;
 }
 
-.img-box2 {
-   margin-top: 70px;
-   margin-left: -170px;
+.about-area2 {
+   padding-top: 400px;
+}
 
-   @include xl {
-      margin-top: 40px;
-      margin-left: 0px;
+.about-wrap2 {
+
+   .checklist {
+      ul {
+         display: flex;
+         flex-wrap: wrap;
+
+         li {
+            width: 50%;
+
+            @include sm {
+               width: 100%;
+            }
+         }
+      }
+   }
+
+   .link-btn.style6 {
+      border: 1px solid $black-color2;
+
+      &::before {
+         background: transparent;
+      }
+
+      &::after {
+         border: 0;
+         border-right: 1px solid $black-color2;
+      }
    }
 }
 
+.img-box2 {
+
+   .img1 {
+      margin-bottom: 24px;
+
+      img {
+         border-radius: 24px;
+      }
+   }
+
+   .thumb-text {
+      max-width: 312px;
+      max-height: 158px;
+      border-radius: 24px;
+      background: $white-color;
+      padding: 30px 30px;
+      position: relative;
+
+      h2 {
+         color: $black-color;
+         font-size: 48px;
+         font-weight: 700;
+         margin-bottom: 0;
+
+         .counter-marker {
+            margin-left: -5px;
+         }
+      }
+
+      h3 {
+         color: $title-color;
+         font-size: 18px;
+         font-weight: 500;
+         line-height: 28px;
+         text-transform: capitalize;
+         margin-bottom: 0;
+      }
+
+      .shape {
+         position: absolute;
+         left: 50%;
+         top: 56px;
+      }
+
+      h4 {
+         position: absolute;
+         top: 20px;
+         right: 34px;
+         color: $title-color;
+         font-size: 18px;
+         font-weight: 500;
+         text-transform: capitalize;
+         margin-bottom: 0;
+      }
+   }
+
+   .box-avatar {
+      margin-right: -90px;
+      margin-bottom: 24px;
+
+      @include sm {
+         margin-top: 24px;
+      }
+
+      @include xs {
+         margin-right: 0px;
+      }
+   }
+}
+
+.box-avatar {
+   border-radius: 24px;
+   padding: 30px 30px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background: $white-color;
+   max-width: 410px;
+
+   @include xs {
+      flex-direction: column;
+      justify-content:left;
+      padding: 30px 20px;
+   }
+
+   ul {
+      margin: 0;
+      padding: 0;
+
+      li {
+         display: inline-block;
+         margin: 0 -12px;
+
+         a {
+            text-align: center;
+            font-size: 25px;
+            width: 58px;
+            height: 58px;
+            border-radius: 100px;
+            display: block;
+            padding: 2px;
+            background: $white-color;
+         }
+
+         img {
+            width: 100%;
+         }
+
+         &:last-child {
+            a {
+               background: $black-color6;
+               display: flex;
+               align-items: center;
+               justify-content: center;
+            }
+
+         }
+
+         i {
+            color: $white-color;
+         }
+      }
+   }
+
+   .testi-card_review {
+      i {
+         color: $theme-color2;
+      }
+
+      span {
+         color: $black-color6;
+         font-family: $title-font;
+         font-size: 18px;
+         font-weight: 500;
+         text-transform: capitalize;
+      }
+   }
+}
 
 .about-feature-card-wrap {
    margin-left: 15px;

@@ -90,7 +90,9 @@ About Area
                   </div>
                 </div>
             </div>
-            <div class="shape-mockup jump d-none d-xxl-block  " style="bottom: 0%; left: 4%;"><img src="assets/img/shape/bg-shape2.png" alt="shape"></div>
+            <div class="shape-mockup jump d-none d-xxl-block  " style="bottom: 0%; left: 4%;">
+               <img src="assets/img/shape/bg-shape2.png" alt="shape">
+            </div>
         </div>
     </div>
 </div>
