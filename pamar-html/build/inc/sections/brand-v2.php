@@ -5,7 +5,9 @@ Brand Area
 <div class="<?php echo $klass;?> brand-area-2 position-relative z-index-2">
     <div class="container-fluid p-0">
         <div class="brand-wrap2 pt-40 pb-40 text-center">
-            <div class="swiper th-slider" data-cue="slideInUp" id="brandSlider1" data-slider-options='{"breakpoints":{"0":{"slidesPerView":"auto"}},"autoplay":{"delay":0,"disableOnInteraction":false},"noSwiping":"false","speed":6000,"spaceBetween":160}'>
+            <div class="swiper th-slider" data-cue="slideInUp"
+             id="brandSlider1" data-slider-options='{"breakpoints":{"0":{"slidesPerView":"auto"}},
+             "autoplay":{"delay":0,"disableOnInteraction":false},"noSwiping":"false","speed":6000,"spaceBetween":160}'>
                 <div class="swiper-wrapper">
                     <?php
                         $img = array(

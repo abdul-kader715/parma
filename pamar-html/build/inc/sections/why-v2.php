@@ -1,68 +1,44 @@
 <!--==============================
 Why Choose Us Area  
 ==============================-->
-<div class="why-sec-2 overflow-hidden <?php echo $klass;?>">
-    <div class="why-wrap2 space-top bg-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-xxl-4">
-                    <div class="title-area">
-                        <span class="sub-title2 mb-30 text-anim text-white" data-cue="slideInUp">Leading the AI Revolution</span>
-                        <h2 class="sec-title style2 text-anim2 text-white" data-cue="slideInUp">Discover The Future of AI Innovation</h2>
-                    </div>
-                    <div class="why-card-wrap2">
+<div class="why-sec-2 <?php echo $klass;?>">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-xxl-6">
+                <div class="why-wrap2">
+                    <div class="title-area text-left ">
+                        <span class="sub-title2 text-bg-white" data-cue="slideInUp">About Us</span>
+                        <h2 class="sec-title style4 text-anim2 " data-cue="slideInUp"> Why Pamar is Trusted   <br>
+                            <span>Plumbing</span> Partner</h2>
+                        <p class="sec-text2" data-cue="slideInUp">Our skilled team of experts is devoted to
+                                delivering outstanding home services customized to meet your specific requirements.</p>
                         
-                        <div class="why-card" data-cue="slideInUp">
-                            <div class="box-details">
-                                <h4 class="box-title">Vision AI Technology</h4>
-                                <p class="box-text">Our Technology AI Generator website empowers individuals</p>
-                            </div>
-                        </div>
-                        <div class="why-card" data-cue="slideInUp">
-                            <div class="box-details">
-                                <h4 class="box-title">AI for Everyone</h4>
-                                <p class="box-text">Our Technology AI Generator website empowers individuals</p>
-                            </div>
-                        </div>
-                        <div class="why-card" data-cue="slideInUp">
-                            <div class="box-details">
-                                <h4 class="box-title">Mission AI Technology</h4>
-                                <p class="box-text">Our Technology AI Generator website empowers individuals</p>
-                            </div>
-                        </div>
-                        <div class="circle-tag" data-cue="slideInUp">
-                            <span class="circle-title-anime">ROBOR - AI AND AUTOMATION INTEGRATION.</span>
-                            <a href="#" class="icon-btn">
-                                <i class="fal fa-long-arrow-right"></i>
+                    </div>
+                    <div class="btn-group mt-30 mb-50" data-cue="slideInUp">
+                            <a href="about.html" class="link-btn3">
+                                Discover More
                             </a>
+                    </div>
+                    <?php get_section('brand-v3', );?>
+                </div>  
+            </div> 
+            <div class="col-xxl-6">
+                <div class="why-img-box2" data-cue="slideInUp">
+                    <div class="slider-area">
+                        <div class="swiper th-slider " id="whySlide1"
+                                 data-slider-options='{"autoHeight": "true","effect": "fade"}'>
+                            <div class="swiper-wrapper">  
+                                <?php get_section('work-v1', 'swiper-slide');?>
+                            </div>
+                            <div class="box-icon">
+                                <button data-slider-prev="#whySlide1" class="slider-arrow style5 defaul prev"><i class="far fa-arrow-left"></i></button>
+                                <button data-slider-next="#whySlide1" class="slider-arrow style5 defaul next"><i class="far fa-arrow-right"></i></button>
+                            </div>
                         </div>
                     </div>
-                    <div class="why-counter-wrap-2">
-                        <div class="box-icon">
-                            <img src="assets/img/icon/why-icon2-1.svg" alt="img">
-                        </div> 
-                        <div class="why-counter-content">
-                            <h4 class="box-title text-white">Innovate Faster with Our AI Generator Platform</h4>
-                            <p class="box-text text-gray3">From generating complex algorithms to simple AI-driven tools, we offer cutting-edge Enables machines to interpret and analyze visual data such as images, videos, and real-world objects.</p>
-                        </div>
-                        <div class="why-counter-card">
-                            <h2 class="box-number text-white"><span class="counter-number">24</span><span class="counter-marker">+</span></h2>
-                            <h4 class="counter-text text-white">Digital Experience</h4>
-                        </div>
-                    </div>
-                </div> 
-                <div class="col-xxl-8 text-xxl-end text-center">
-                    <div class="why-img-box2" data-cue="slideInUp">
-                        <div class="img1">
-                            <img src="assets/img/normal/why-thumb2-1.png" alt="img">
-                        </div>
-                        <div class="img2 jump">
-                            <img src="assets/img/normal/why-thumb2-2.png" alt="img">
-                        </div>
-                    </div>
+                </div>
 
-                </div>                           
-            </div>
+            </div>                           
         </div>
     </div>
 </div>
