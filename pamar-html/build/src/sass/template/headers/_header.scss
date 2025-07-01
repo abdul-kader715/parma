@@ -661,8 +661,9 @@
       .container-fulid {
          max-width: 1680px;
          margin: 0 auto;
+
          @media (max-width:1690px) {
-            padding:0 10px;
+            padding: 0 10px;
          }
       }
 
@@ -847,19 +848,84 @@
    left: 0;
    right: 0;
    top: 0;
-   --main-container: 1670px;
+   max-width: 1888px;
+   margin: 0 auto;
+   border-radius: 24px;
+
+   @media (max-width:1599px) {
+      background-color: $white-color;
+   }
+
+   @include md {
+      border-radius: 0px;
+   }
+
+   .header-top {
+      padding: 11px 56px;
+      background-color: $theme-color2;
+      border-radius: 0px;
+      margin: 0;
+      max-width: 100%;
+
+      @include md {
+         display: none;
+      }
+
+      &::after {
+         display: none;
+      }
+   }
+
+   .menu-bg {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      background-color: $white-color;
+
+      @media (max-width:1599px) {
+         display: none;
+      }
+
+   }
+
+   .header-links li,
+   .header-links li a {
+      color: $black-color6;
+   }
+
+   .header-links li i {
+      color: $black-color6;
+   }
+
+   .header-links li:not(:last-child):after {
+      background-color: rgba(255, 255, 255, 0.50);
+   }
+
+   .link-btn3:after {
+      background-image: url(../img/icon/phone-icon.png);
+   }
+
+   .header-logo {
+      padding-bottom: 30px;
+   }
+
+   .bg-shape {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+   }
 
    .menu-area {
-      padding: 20px 0;
+      padding: 0 56px;
    }
 
-   .main-menu {
-      border-radius: 30px;
-      background: rgba(255, 255, 255, 0.08);
-      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 0px 10px 2px rgba(102, 102, 102, 0.25);
-      backdrop-filter: blur(5px);
-      padding: 0 30px;
-   }
+   .main-menu {}
 
    .main-menu ul.mega-menu {
       left: -20em !important;
@@ -868,12 +934,20 @@
    .main-menu>ul>li>a {
       padding: 12px 0;
       color: $white-color;
+
+      @media (max-width:1599px) {
+         color: $title-color;
+      }
    }
 
    .main-menu ul li:has(.sub-menu)>a:after,
    .main-menu ul li:has(.mega-menu)>a:after,
    .main-menu ul li.menu-item-has-children>a:after {
       color: $white-color;
+
+      @media (max-width:1599px) {
+         color: $title-color;
+      }
    }
 
    .main-menu>ul>li {
@@ -881,16 +955,34 @@
    }
 
    .sticky-wrapper.sticky {
-      background: $black-color;
+      background: $white-color;
+
+      .main-menu>ul>li>a {
+         color: $title-color;
+      }
+
+      .main-menu ul li:has(.sub-menu)>a:after,
+      .main-menu ul li:has(.mega-menu)>a:after,
+      .main-menu ul li.menu-item-has-children>a:after {
+         color: $title-color;
+      }
    }
 
    @include xxl {
       .menu-area {
-         padding: 20px 0px;
+         padding: 20px 0;
       }
    }
 
    @include ml {
+      .menu-area {
+         padding: 20px;
+      }
+
+      .header-logo {
+         padding: 0px;
+      }
+
       .main-menu ul.mega-menu {
          left: -16rem !important;
       }
@@ -904,7 +996,7 @@
 
    @include md {
       .menu-area {
-         padding: 10px 0;
+         padding: 20px;
       }
 
       .sidebar-btn {

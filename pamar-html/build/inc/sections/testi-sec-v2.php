@@ -13,8 +13,8 @@ Testimonial Area
                         <?php get_section('testi-v2', 'swiper-slide');?>
                     </div>
                     <div class="slider-pagination-wrap">
-                            <button data-slider-prev="#testiSlide2" class="slider-arrow style5 "><i class="far fa-arrow-left"></i></button>
-                            <button data-slider-next="#testiSlide2" class="slider-arrow style5 "><i class="far fa-arrow-right"></i></button>
+                        <button data-slider-prev="#testiSlide2" class="slider-arrow style5 "><i class="far fa-arrow-left"></i></button>
+                        <button data-slider-next="#testiSlide2" class="slider-arrow style5 "><i class="far fa-arrow-right"></i></button>
                     </div>
                 </div>
             </div>
