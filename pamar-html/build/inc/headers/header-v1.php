@@ -57,7 +57,7 @@ get_header('color-scheme');
                     <div class="col-auto d-none d-xxl-block">
                         <div class="header-button">
                             <button type="button" class="icon-btn style6 searchBoxToggler"><i class="far fa-search"></i></button>
-                            <a href="about.html" class="link-btn3">
+                            <a href="tel:+16369729901" class="link-btn3">
                               Request a Free Call
                            </a>
                         </div>

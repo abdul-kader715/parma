@@ -306,7 +306,18 @@
       }
    }
 
-
+   &.style12 {
+      padding: 17px 30px;
+      border-radius: 7px;
+      background: $theme-color;
+      color: $white-color;
+      font-size: 16px;
+      font-weight: 700;
+      min-width: auto;
+      &:hover{
+         background: $theme-color3;
+      }
+   }
 
 
    &.style-border {
@@ -1220,12 +1231,14 @@
       }
 
    }
-    &.style9 {
+
+   &.style9 {
       justify-content: left;
       border-radius: 0;
       min-width: 135px;
+
       span {
-         padding:0;
+         padding: 0;
       }
 
       .icon {

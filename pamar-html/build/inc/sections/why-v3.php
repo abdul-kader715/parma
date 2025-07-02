@@ -2,40 +2,96 @@
 <!--==============================
 Feature Area  
 ==============================-->
-<section class="why-sec3 <?php echo $klass;?>">
-    <div class="container-fluid p-0">
-        <div class="why-wrap3">
-            <div class="why-box3-1">
-                <div class="img1" data-mask-src="assets/img/shape/why-thumb-shape3-1.png"><img src="assets/img/normal/why-thumb3-1.jpg" alt="img"></div>
-                <div class="img2" data-mask-src="assets/img/shape/why-thumb-shape3-2.png"><img src="assets/img/normal/why-thumb3-2.jpg" alt="img"></div>
-            </div>
-            <div class="why-wrap-content" data-bg-src="assets/img/bg/why-bg-3-1.png">
-                <div class="why-content">
-                    <div class="title-area">
-                        <span class="sub-title2 text-gradient text-uppercase mb-30" data-cue="slideInUp">Why Choose Us</span>
-                        <h2 class="sec-title style2 fw-bold text-uppercase text-anim2" data-cue="slideInUp">Empowering Businesses with Cutting-Edge AI Solutions to Drive Innovation.</h2>
-                        <p data-cue="slideInUp">Our AI agency is a cutting-edge technology partner that specializes in delivering artificial intelligence solutions to help businesses streamline operations, improve decision-making, and enhance customer experiences. By leveraging the power of AI,</p>
-                    </div>
-                    <div class="why-feature-wrap3">
-                        <div class="why-feature-card" data-cue="slideInUp">
-                            <h4 class="box-title">Expertise</h4>
-                            <p class="box-text">Our team has extensive experience in building and deploying AI solutions across various industries.</p>
-                        </div>
-                        <div class="why-feature-card" data-cue="slideInUp">
-                            <h4 class="box-title">Customization</h4>
-                            <p class="box-text">We offer tailor-made solution designed to address your unique business challenges. various industries.</p>
-                        </div>
-                        <div class="why-feature-card" data-cue="slideInUp">
-                            <h4 class="box-title">Innovation</h4>
-                            <p class="box-text">We stay ahead of the curve by adopting the latest AI advancements & technology. various industries.</p>
-                        </div>
-                        <div class="why-feature-card" data-cue="slideInUp">
-                            <h4 class="box-title">Scalability</h4>
-                            <p class="box-text">Our solutions are designed to grow with your business, ensuring long-term value. various industries.</p>
-                        </div>
-                    </div>
+<section class="why-sec3 <?php echo $klass;?>" data-bg-src="assets/img/bg/why-bg-3-1.jpg">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xl-6">
+                <div class="title-area text-center mb-60">
+                    <span class="sub-title2 style2 text-bg-white" data-cue="slideInUp">Why Choose Us</span>
+                    <h2 class="sec-title style5 text-anim2 text-white" data-cue="slideInUp">
+                        Here’s What We Can Do for You
+                    </h2>
                 </div>
-            </div>  
+            </div>            
+        </div>
+    </div>
+    <div class="container-fluid p-0">
+        <div class="brand-wrap1">
+            <div class="swiper th-slider" data-cue="slideInUp" id="brandSlider1"
+                data-slider-options='{"breakpoints":{"0":{"slidesPerView":"auto"}},
+                "autoplay":{"delay":0,"disableOnInteraction":false},"noSwiping":"true","speed":8000,"spaceBetween":24}'>
+                    <div class="swiper-wrapper">
+                        <?php
+                            $img = array(
+                                'assets/img/icon/feature/why-3-1.svg',
+                                'assets/img/icon/feature/why-3-2.svg',
+                                'assets/img/icon/feature/why-3-3.svg',
+                                'assets/img/icon/feature/why-3-4.svg',
+                                'assets/img/icon/feature/why-3-1.svg',
+                                'assets/img/icon/feature/why-3-2.svg',
+                                'assets/img/icon/feature/why-3-3.svg',
+                                'assets/img/icon/feature/why-3-4.svg',
+                                'assets/img/icon/feature/why-3-1.svg',
+                                'assets/img/icon/feature/why-3-2.svg',
+                                'assets/img/icon/feature/why-3-3.svg',
+                                'assets/img/icon/feature/why-3-4.svg',
+                                'assets/img/icon/feature/why-3-1.svg',
+                                'assets/img/icon/feature/why-3-2.svg',
+                                'assets/img/icon/feature/why-3-3.svg',
+                                'assets/img/icon/feature/why-3-4.svg',
+                                'assets/img/icon/feature/why-3-1.svg',
+                                'assets/img/icon/feature/why-3-2.svg',
+                                'assets/img/icon/feature/why-3-3.svg',
+                                'assets/img/icon/feature/why-3-4.svg',
+                                'assets/img/icon/feature/why-3-1.svg',
+                                'assets/img/icon/feature/why-3-2.svg',
+                                'assets/img/icon/feature/why-3-3.svg',
+                                'assets/img/icon/feature/why-3-4.svg',
+                            );
+                            $title = array(
+                                'Licensed & Insured Professionals',
+                                '24/7 Emergency Services',
+                                'Upfront & Transparent Pricing',
+                                'Same-Day Service Available',
+                                'Licensed & Insured Professionals',
+                                '24/7 Emergency Services',
+                                'Upfront & Transparent Pricing',
+                                'Same-Day Service Available',
+                                'Licensed & Insured Professionals',
+                                '24/7 Emergency Services',
+                                'Upfront & Transparent Pricing',
+                                'Same-Day Service Available',
+                                'Licensed & Insured Professionals',
+                                '24/7 Emergency Services',
+                                'Upfront & Transparent Pricing',
+                                'Same-Day Service Available',
+                                'Licensed & Insured Professionals',
+                                '24/7 Emergency Services',
+                                'Upfront & Transparent Pricing',
+                                'Same-Day Service Available',
+                                'Licensed & Insured Professionals',
+                                '24/7 Emergency Services',
+                                'Upfront & Transparent Pricing',
+                                'Same-Day Service Available',
+                            );
+                            $arrlength = count($img);
+        
+                            for($x = 0; $x < $arrlength; $x++) {
+                            ?>
+                                <div class="swiper-slide">
+                                    <div class="why-feature-card2" >
+                                        <div class="box-icon">
+                                            <img src="<?php echo $img[$x];?>" alt="">
+                                        </div>
+                                        <div>
+                                            <h4 class="box-title"><?php echo $title[$x];?></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            <?php }; 
+                        ?>
+                    </div>
+            </div>
         </div>
     </div>
 </section>

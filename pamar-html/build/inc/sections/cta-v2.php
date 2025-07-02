@@ -2,27 +2,53 @@
 <!--==============================
 Cta Area  
 ==============================-->
-<section class="cta-area-2 <?php echo $klass;?>" id="contact-sec">
-    <div class="cta-wrap2" data-bg-src="assets/img/bg/cta-bg-2.png" data-overlay="black" data-opacity="7">
-        <div class="cta-thumb2-1" data-cue="slideInLeft">
-            <div class="img">
-                <img src="assets/img/normal/cta-img2-1.jpg" alt="img">
-            </div>
-        </div>
-        <div class="cta-thumb2-2" data-cue="slideInRight">
-            <div class="img">
-                <img src="assets/img/normal/cta-img2-2.jpg" alt="img">
-            </div>
-        </div>
+<section class=" <?php echo $klass;?>" id="contact-sec" 
+>
+<!-- data-mask-src="assets/img/shape/cta-bg-shape.png" data-bg-src="assets/img/normal/cta-thumb3-1-bg.jpg" -->
+    <div class="cta-wrap2">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-12">
-                    <div class="title-area text-center mb-0">
-                        <span class="sub-title2 justify-content-center mb-30 text-anim text-white" data-cue="slideInUp">AI Consulting</span>
-                        <h2 class="sec-title style2 text-anim2 text-white" data-cue="slideInUp">Get 40% off your first month of Artificial Intelligent
-                        support — Please Consulting Us</h2>
-                        <div class="btn-wrap justify-content-center mt-50">
-                            <a href="contact.html" class="th-btn style-border2">Get Started Now <i class="far fa-long-arrow-right ms-2"></i></a>
+            <div class="row">
+                <div class="col-lg-5">
+                   <div class="cta-thumb-info">
+                        <span class="box-title text-white text-center">
+                            Contact Us Today
+                        </span>
+                        <div class="cta-thumb">
+                            <div class="cta-thumb-item">
+                                <div class="box-thumb">
+                                    <i class="fa-solid fa-phone"></i>
+                                </div>
+                                <div class="box-content">
+                                    <span>Call For Inquiry</span>
+                                    <h3>+1 (800) 555-0123</h3>
+                                </div>
+                            </div>
+                            <div class="cta-thumb-item">
+                                <div class="box-thumb">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </div>
+                                <div class="box-content">
+                                    <span>Call For Inquiry</span>
+                                    <h3>appointments@pamar.com</h3>
+                                </div>
+                            </div>
+                        </div>
+                        
+                   </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="cta-thumb2">
+                        <div class="cta-thumb-box">
+                            <span>Los Angeles</span>
+                        </div>
+                        <div class="cta-thumb-box">
+                            <span>Glendale</span>
+                        </div>
+                        <div class="cta-thumb-box">
+                            <span>California</span>
+                        </div>
+                        <div class="cta-thumb-box">
+                            <span>Pasadena</span>
                         </div>
                     </div>
                 </div>

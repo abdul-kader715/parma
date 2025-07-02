@@ -491,87 +491,108 @@
 }
 
 .service-card3 {
-   background: $gray-color5;
-   padding: 40px;
-   text-align: center;
    position: relative;
-   border-radius: 16px;
    overflow: hidden;
    z-index: 1;
+   border-radius: 20px;
+   background: $gray-color7;
 
-   &:after {
-      content: '';
-      position: absolute;
-      width: 232px;
-      height: 232px;
-      border-radius: 50%;
-      top: 30px;
-      left: 50%;
-      transform: translate(-50%, 0);
-      background: linear-gradient(90deg, $theme-color2 0%, $theme-color3 100%);
-      filter: blur(70px);
-      z-index: -1;
-   }
 
-   .service-card-bg-shape {
-      position: absolute;
-      top: 24px;
-      left: 0;
-      right: 0;
-      text-align: center;
-   }
+
+   // .service-card-bg-shape {
+   //    position: absolute;
+   //    top: 24px;
+   //    left: 0;
+   //    right: 0;
+   //    text-align: center;
+   // }
 
    .box-thumb {
-      display: inline-block;
-      border-radius: 10px;
-      overflow: hidden;
+      position: relative;
 
       img {
          transition: 0.4s;
+         width: 100%;
+      }
+   }
+
+   .box-icon {
+      width: 83px;
+      height: 80px;
+      background: $theme-color3;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 0px 20px;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      margin-bottom: -14px;
+
+      img {
+         width: auto;
+      }
+
+      &:after {
+         content: '';
+         position: absolute;
+         width: 14px;
+         height: 14px;
+         bottom: 0;
+         right: -14px;
+         background: $error-color2;
+         z-index: -1;
+         clip-path: polygon(0 0, 0% 100%, 100% 0);
       }
    }
 
    .box-content {
       position: relative;
       z-index: 1;
-      margin-top: 40px;
+      margin-top: 14px;
+      padding: 30px;
+
+      @include sm {
+         padding: 30px 20px;
+      }
    }
 
    .box-title {
-      text-transform: uppercase;
-      font-size: 30px;
-      font-weight: 500;
       line-height: 1.333;
       margin-bottom: 12px;
+      font-family: $body-font;
+      font-size: 20px;
+      font-weight: 700;
+      text-transform: capitalize;
 
       @include xl {
-         font-size: 24px;
+         font-size: 18px;
       }
 
       @include lg {
-         font-size: 20px;
+         font-size: 16px;
       }
    }
 
-   .icon-btn {
-      margin-top: 30px;
+   .box-text {
+      color: $black-color3;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+      text-transform: capitalize;
    }
 
-   &:hover {
-      .box-thumb {
-         img {
-            transform: scale(1.1);
-         }
-      }
+   .th-btn {
+      margin-top: 25px;
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
+      padding: 13px 25px;
+      line-height: 15px;
    }
 
-   @include md {
-      padding: 30px;
 
-      .box-content {
-         margin-top: 30px;
-      }
-   }
+
 
    @include vxs {
       mask-image: none !important;

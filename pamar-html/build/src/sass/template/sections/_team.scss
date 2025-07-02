@@ -349,30 +349,95 @@
 
 /* Team Area 4 ---------------------------------- */
 .team-card.style3 {
-   background: $black-color3;
+   background: $gray-color7;
+   border-radius: 20px;
+
+   .team-img {
+      margin: 10px;
+   }
+
+   &::after {
+      display: none;
+   }
+
+   .team-card-content {
+      position: unset;
+      padding: 30px;
+      padding-top: 20px;
+      max-width: 100%;
+      opacity: 1;
+   }
 
    &:hover {
-      background: transparent;
-      border-color: $border-color;
+      background: $gray-color7;
+   }
+
+   .box-title {
+      font-family: $body-font;
+      font-size: 22px;
+      font-weight: 700;
    }
 
    .box-title a {
       color: $title-color;
+
 
       &:hover {
          color: $theme-color;
       }
    }
 
+   .team-social {
+      position: relative;
+      margin-top: -55px;
+      left: 30px;
+
+      &:hover {
+         .th-social {
+            bottom: 80px;
+            opacity: 1;
+            visibility: visible;
+         }
+      }
+   }
+
+   .play-btn {
+      z-index: 3;
+      border: none;
+      background-color: transparent;
+      padding: 0;
+
+
+      >i {
+         width: var(--icon-size, 50px);
+         height: var(--icon-size, 50px);
+         background: $theme-color;
+         color: $white-color;
+      }
+   }
+
    .th-social a {
       border-color: $border-color;
       color: $title-color;
+      background: $white-color;
 
       &:hover {
          background: $theme-color;
          border-color: $theme-color;
          color: $white-color;
       }
+   }
+
+   .th-social {
+      opacity: 1;
+      flex-direction: column;
+      left: 0px;
+      bottom: 60px;
+      opacity: 0;
+      visibility: hidden;
+      transition: .3s;
+
+      &:hover {}
    }
 }
 

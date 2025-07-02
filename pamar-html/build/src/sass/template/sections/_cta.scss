@@ -70,113 +70,148 @@
 
 //Call to action 2---------------------------------------
 .cta-wrap2 {
-   max-width: 1720px;
-   margin-left: auto;
-   margin-right: auto;
-   border-radius: 50px;
-   padding: 200px 0;
-   border: 1px solid $black-color3;
+
+
+   .cta-thumb2 {
+      max-width: 685px;
+      height: 524px;
+      position: relative;
+   }
+
+   .cta-thumb-box {
+      width: 240px;
+      height: 240px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: $white-color;
+      border-radius: 100%;
+      outline: 2px dotted transparent;
+      outline-offset: -15px;
+      transition: .3s;
+      position: absolute;
+
+      span {
+         color: $title-color;
+         font-size: 24px;
+         font-weight: 700;
+         display: block;
+         transition: .3s;
+      }
+
+      &:hover {
+         outline: 2px dotted $theme-color;
+
+         span {
+            color: $theme-color;
+         }
+      }
+
+      &:nth-child(1) {
+         top: 70px;
+         left: 0;
+      }
+
+      &:nth-child(2) {
+         top: 0px;
+         left: 290px;
+         width: 184px;
+         height: 184px;
+      }
+
+      &:nth-child(3) {
+         top: auto;
+         bottom: 0;
+         left: 220px;
+         width: 184px;
+         height: 184px;
+      }
+
+      &:nth-child(4) {
+         top: auto;
+         bottom: 0;
+         left: auto;
+         right: 0;
+      }
+   }
+
+
+   // &:after {
+   //    content: '';
+   //    position: absolute;
+   //    inset: 0;
+   //    background: $theme-color;
+   //    mix-blend-mode: hue;
+   //    z-index: -1;
+   // }
+
+
+}
+
+.cta-thumb-info {
+   max-width: 470px;
+   background: $black-color10;
+   border-radius: 30px;
    overflow: hidden;
 
-   @include xl {
-      padding: 150px 0;
-   }
-
-   .cta-thumb2-1 {
-      position: absolute;
-      z-index: 1;
-      left: 100px;
-      top: 48px;
-
-      @include xs {
-         left: 50px;
-      }
-
-      .img {
-         overflow: hidden;
-         border-radius: 20px 20px 200px 200px;
-         transform: rotate(-10.84deg);
-         position: relative;
-         width: 329px;
-
-         &:after {
-            content: '';
-            position: absolute;
-            inset: 0;
-            background: $black-color;
-            opacity: 0.4;
-         }
-
-         @include ml {
-            width: 250px;
-         }
-
-         @include lg {
-            width: 200px;
-         }
-
-         @include md {
-            width: 150px;
-         }
-      }
-   }
-
-   .cta-thumb2-2 {
-      position: absolute;
-      z-index: 1;
-      right: 52px;
-      bottom: 70px;
-
-      .img {
-         overflow: hidden;
-         border-radius: 20px 200px 20px 20px;
-         transform: rotate(15.72deg);
-         position: relative;
-         width: 296px;
-
-         &:after {
-            content: '';
-            position: absolute;
-            inset: 0;
-            background: $black-color;
-            opacity: 0.4;
-         }
-
-         @include ml {
-            width: 200px;
-         }
-
-         @include lg {
-            width: 180px;
-         }
-
-         @include md {
-            width: 150px;
-         }
-      }
-   }
-
-   &:after {
-      content: '';
-      position: absolute;
-      inset: 0;
+   .box-title {
+      font-size: 24px;
+      font-weight: 700;
+      display: block;
       background: $theme-color;
-      mix-blend-mode: hue;
+      padding: 22px;
    }
 
-   .sec-title {
-      font-size: 54px;
+   .cta-thumb {
+      padding: 50px;
+      padding-bottom: 160px;
+   }
 
-      @include ml {
-         font-size: 44px;
+   .cta-thumb-item {
+      padding-bottom: 30px;
+      margin-bottom: 30px;
+      border-bottom: 1px solid $border-color5;
+      display: flex;
+      align-items: center;
+      gap: 0 15px;
+
+
+
+      .box-thumb {
+         width: 60px;
+         height: 60px;
+         line-height: 58px;
+         text-align: center;
+         border-radius: 100%;
+         border: 1px dotted $black-color11;
+         display: block;
+         color: $white-color;
+         font-size: 20px;
+         border-radius: 100px;
+         background: $gray-color6;
       }
 
-      @include lg {
-         font-size: 36px;
+      .box-content {
+         span {
+            color: $white-color;
+            font-size: 14px;
+            font-weight: 500;
+         }
+
+         h3 {
+            color: $white-color;
+            font-family: $body-font;
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 0;
+         }
       }
 
-      @include sm {
-         font-size: 34px;
+      &:last-child {
+         padding: 0;
+         border-bottom: 0;
+         margin-bottom: 0;
       }
    }
+
 }

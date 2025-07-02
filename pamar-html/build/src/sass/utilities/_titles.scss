@@ -45,8 +45,21 @@
       @include ml {
          font-size: 40px;
       }
+
       @include sm {
          font-size: 35px;
+      }
+   }
+   &.style5 {
+      font-size: 40px;
+      font-weight: 900;
+
+      @include ml {
+         font-size: 35px;
+      }
+
+      @include sm {
+         font-size: 30px;
       }
    }
 }
@@ -224,6 +237,17 @@
       transition: 0.4s;
    }
 
+   &.style2 {
+      padding: 1px 18px;
+      &:before {
+         background-image: url(../img/icon/title-icon4.svg);
+      }
+   }
+
+   &.border-black-color8 {
+      border: 1px solid $black-color8;
+   }
+
    &.text-bg-color7 {
       background: $black-color7;
    }
@@ -251,18 +275,20 @@
 
    @include sm {
       font-size: 16px;
-       margin-bottom: 20px;
+      margin-bottom: 20px;
    }
 }
 
 .sec-text {
    font-size: 18px;
 }
-.sec-text2{
+
+.sec-text2 {
    color: $black-color3;
    max-width: 670px;
    margin: 0 auto;
 }
+
 .box-title {
    font-size: 24px;
    line-height: 1.417;
@@ -343,7 +369,7 @@
          content: '';
          width: 5px;
          height: 100%;
-         background: $gray-color4 ;
+         background: $gray-color4;
          transform: translate(-50%, -50%);
 
          @include lg {
