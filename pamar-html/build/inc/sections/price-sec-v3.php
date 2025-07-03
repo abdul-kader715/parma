@@ -11,8 +11,8 @@ Price Area
                 </h2>
             </div>
         </div>   
-        <div class="row gx-160 gy-30">
-            <?php get_section('pricing-v3', 'col-md-4'); ?>
+        <div class="row gx-160 gy-30 justify-content-center">
+            <?php get_section('pricing-v3', 'col-xl-4 col-lg-6'); ?>
         </div>   
     </div>
 </section>

@@ -10,11 +10,7 @@
         '50%',
         '30%',
     );
-    $duration = array(
-        'OFF!',
-        'OFF!',
-        'OFF!',
-    );
+    
     $active = array(
         '',
         'active',
@@ -37,7 +33,7 @@
         <li><i class="fa-solid fa-badge-check"></i>Pipe Repair (Copper, PEX, PVC)</li>
         <li><i class="fa-solid fa-badge-check"></i>Garbage Disposal Repair</li>',
         
-         '<li><i class="fa-solid fa-badge-check"></i>Leak Detection & Repair</li>
+        '<li><i class="fa-solid fa-badge-check"></i>Leak Detection & Repair</li>
         <li><i class="fa-solid fa-badge-check"></i>Faucet Repair / Replacement</li>
         <li><i class="fa-solid fa-badge-check"></i>Toilet Repair / Installation</li>
         <li><i class="fa-solid fa-badge-check"></i>Shower & Bathtub Repairs</li>
@@ -51,18 +47,17 @@
 
         <div class="<?php echo $klass;?>">
             <div class="price-card style3 <?php echo $active[$x];?>">
-                <div class="card-bg-img" data-mask-src="<?php echo $img[$x];?>"></div>
-                <h3 class="box-title"><?php echo $title[$x];?></h3>
-                <h4 class="price-card_price"><?php echo $price[$x];?><span class="duration"><?php echo $duration[$x];?></span>
-                </h4>
-                
+                <div class="box-content">
+                    <h3 class="box-title"><?php echo $title[$x];?></h3>
+                    <h4 class="price-card_price"><?php echo $price[$x];?> OFF!</h4>
+                </div>
                 <div class="checklist">
                     <ul>
                         <?php echo $list[$x];?>
                     </ul>
                 </div>
                 <div class="btn-wrap">
-                    <a href="contact.html" class="th-btn btn-sm btn-radius-0 style-border3 w-100">Choose Plan</a>
+                    <a href="contact.html" class="th-btn style12">Grab This Offer</a>
                 </div>
             </div>
         </div>

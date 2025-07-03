@@ -12,6 +12,8 @@ get_section('process-sec-v2', 'process2 space-top bg-gray-color8 pb-160 overflow
 get_section('contact-info-v2', 'space  overflow-hidden');
 get_section('testi-sec-v3', 'space overflow-hidden');
 get_section('price-sec-v3', 'space overflow-hidden');
+get_section('faq-sec-v2', 'faqsec2 space-botton overflow-hidden position-relative');
+get_section('blog-sec-v3', 'space overflow-hidden');
 
 get_section('about-v3', 'space bg-black overflow-hidden');
 get_section('feature-sec-v3', 'space overflow-hidden');
