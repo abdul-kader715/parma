@@ -1,35 +1,74 @@
 <!--==============================
 Contact Info Area  
 ==============================-->
-<div class="<?php echo $klass;?>">
+<div class="<?php echo $klass;?>" data-bg-src="assets/img/bg/info-bg-3-1.jpg">
     <div class="container">
-        <div class="row gx-0">
-            <div class="col-lg-4">
-                <div class="contact-feature">
-                    <div class="contact-feature_icon">
-                        <img src="assets/img/icon/contact_2_1.svg" alt="icon">
+        <div class="row justify-content-center">
+            <div class="col-xl-6">
+                <div class="title-area text-center mb-60">
+                    <span class="sub-title2 style2 text-bg-white" data-cue="slideInUp">Our Information</span>
+                    <h2 class="sec-title style5 text-anim2 " data-cue="slideInUp">
+                        Here’s About Our Company Info
+                    </h2>
+                </div>
+            </div>            
+        </div>
+        <div class="row gy-30">
+            <div class="col-lg-3 col-md-6">
+                <div class="contact-info2">
+                    <div class="box-icon">
+                        <i class="fal fa-clock"></i>
                     </div>
-                    <span class="contact-feature_subtitle">OUR OFFICE LOCATION</span>
-                    <h3 class="box-title">Santa Rosa, United States</h3>
+                    <div class="box-content bg-mask" data-mask-src="assets/img/shape/info-thum3-1.png">
+                        <h3 class="box-title">Service Hours</h3>
+                        <p class="box-text">
+                            Mon-Fri: 8:00 - 18:00
+                            <span class="text-red">Emergency Services: 24/7</span>
+                        </p>
+                    </div>
+                    
                 </div>
             </div>
-            <div class="col-lg-4">
-                <div class="contact-feature bg-theme">
-                    <div class="contact-feature_icon">
-                        <img src="assets/img/icon/contact_2_2.svg" alt="icon">
+            <div class="col-lg-3 col-md-6">
+                <div class="contact-info2">
+                    <div class="box-icon">
+                        <i class="fal fa-phone"></i>
                     </div>
-                    <span class="contact-feature_subtitle">Have A Question?</span>
-                    <h3 class="box-title"><a href="tel:+254621421536">+2546 214 21536</a></h3>
+                    <div class="box-content bg-mask" data-mask-src="assets/img/shape/info-thum3-1.png">
+                        <h3 class="box-title">Call Us</h3>
+                        <p class="box-text">
+                            <a href="tel:+919175513773">+1 (800) 555-0123</a>
+                            <a href="tel:+919175513773">+1 (800) 555-0123</a>
+                        </p>
+                    </div>
+                    
                 </div>
             </div>
-            <div class="col-lg-4">
-                <div class="contact-feature">
-                    <div class="contact-feature_icon">
-                        <img src="assets/img/icon/contact_2_3.svg" alt="icon">
+            <div class="col-lg-3 col-md-6">
+                <div class="contact-info2">
+                    <div class="box-icon">
+                        <i class="fal fa-envelope"></i>
                     </div>
-                    <div class="contact-feature_content">
-                        <span class="contact-feature_subtitle">Email Us On</span>
-                        <h3 class="box-title"><a href="mailto:info@pamar.com">info@pamar.com</a></h3>
+                    <div class="box-content bg-mask" data-mask-src="assets/img/shape/info-thum3-1.png">
+                        <h3 class="box-title">EMAIL US</h3>
+                        <p class="box-text">
+                            <a href="mailto:help24/7.info@pamar.com">info@pamar.com</a>
+                            <a href="mailto:help24/7.info@pamar.com">appointments@pamar.com</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-3 col-md-6">
+                <div class="contact-info2">
+                    <div class="box-icon">
+                        <i class="fal fa-map-marker-alt"></i>
+                    </div>
+                    <div class="box-content bg-mask" data-mask-src="assets/img/shape/info-thum3-1.png">
+                        <h3 class="box-title">VISIT US</h3>
+                        <p class="box-text">
+                            56, Building- Avenue-96
+                            New York
+                        </p>
                     </div>
                 </div>
             </div>

@@ -1,44 +1,49 @@
 <?php 
     $title = array(
-        'Personal',
-        'Enterprise Plan',
+        'Weekly Services',
+        'Monthly Services',
+        'Weekly Services',
     );
-    $subtitle = array(
-        'Basic Features Included',
-        'Advanced Features Included',
-    );
+ 
     $price = array(
-        '$129',
-        '$169',
+        '30%',
+        '50%',
+        '30%',
     );
     $duration = array(
-        '/Per month',
-        '/Per month',
+        'OFF!',
+        'OFF!',
+        'OFF!',
     );
     $active = array(
         '',
         'active',
+        '',
     );
-    $img = array(
-        'assets/img/bg/pricing-card-bg.png',
-        'assets/img/bg/pricing-card-bg.png',
-    );
-    $text = array(
-        'Each package is designed to address specific business needs, providing clients with tailored solutions for success.',
-        'Each package is designed to address specific business needs, providing clients with tailored solutions for success.',
-    );
-    $list = array(
-        '<li><i class="fas fa-circle-check"></i> Digital transformation roadmap</li>
-        <li><i class="fas fa-circle-check"></i> Innovation advisory sessions</li>
-        <li><i class="fas fa-circle-check"></i> Technology integration strategy</li>
-        <li><i class="fas fa-circle-check"></i> Monthly progress meetings</li>
-        <li class="unavailable"><i class="fas fa-circle-check"></i> Priority email and phone support</li>',
+    
 
-        '<li><i class="fas fa-circle-check"></i> Digital transformation roadmap</li>
-        <li><i class="fas fa-circle-check"></i> Innovation advisory sessions</li>
-        <li><i class="fas fa-circle-check"></i> Technology integration strategy</li>
-        <li><i class="fas fa-circle-check"></i> Monthly progress meetings</li>
-        <li><i class="fas fa-circle-check"></i> Priority email and phone support</li>',
+    $list = array(
+        '<li><i class="fa-solid fa-badge-check"></i>Leak Detection & Repair</li>
+        <li><i class="fa-solid fa-badge-check"></i>Faucet Repair / Replacement</li>
+        <li><i class="fa-solid fa-badge-check"></i>Toilet Repair / Installation</li>
+        <li><i class="fa-solid fa-badge-check"></i>Shower & Bathtub Repairs</li>
+        <li><i class="fa-solid fa-badge-check"></i>Pipe Repair (Copper, PEX, PVC)</li>
+        <li><i class="fa-solid fa-badge-check"></i>Garbage Disposal Repair</li>',
+
+         '<li><i class="fa-solid fa-badge-check"></i>Leak Detection & Repair</li>
+        <li><i class="fa-solid fa-badge-check"></i>Faucet Repair / Replacement</li>
+        <li><i class="fa-solid fa-badge-check"></i>Toilet Repair / Installation</li>
+        <li><i class="fa-solid fa-badge-check"></i>Shower & Bathtub Repairs</li>
+        <li><i class="fa-solid fa-badge-check"></i>Pipe Repair (Copper, PEX, PVC)</li>
+        <li><i class="fa-solid fa-badge-check"></i>Garbage Disposal Repair</li>',
+        
+         '<li><i class="fa-solid fa-badge-check"></i>Leak Detection & Repair</li>
+        <li><i class="fa-solid fa-badge-check"></i>Faucet Repair / Replacement</li>
+        <li><i class="fa-solid fa-badge-check"></i>Toilet Repair / Installation</li>
+        <li><i class="fa-solid fa-badge-check"></i>Shower & Bathtub Repairs</li>
+        <li><i class="fa-solid fa-badge-check"></i>Pipe Repair (Copper, PEX, PVC)</li>
+        <li><i class="fa-solid fa-badge-check"></i>Garbage Disposal Repair</li>',
+
     );
     
     $arrlength = count($title);
@@ -48,10 +53,9 @@
             <div class="price-card style3 <?php echo $active[$x];?>">
                 <div class="card-bg-img" data-mask-src="<?php echo $img[$x];?>"></div>
                 <h3 class="box-title"><?php echo $title[$x];?></h3>
-                <p class="box-subtitle"><?php echo $subtitle[$x];?></p>
                 <h4 class="price-card_price"><?php echo $price[$x];?><span class="duration"><?php echo $duration[$x];?></span>
                 </h4>
-                <p class="box-text"><?php echo $text[$x];?></p>
+                
                 <div class="checklist">
                     <ul>
                         <?php echo $list[$x];?>

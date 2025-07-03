@@ -45,9 +45,11 @@
 .pb-40 {
   padding-bottom: 40px;
 }
+
 .pb-60 {
   padding-bottom: 60px;
 }
+
 .pt-60 {
   padding-top: 60px;
 }
@@ -55,6 +57,7 @@
 .pb-80 {
   padding-bottom: 80px;
 }
+
 .pt-80 {
   padding-top: 80px;
 }
@@ -62,9 +65,18 @@
 .pb-95 {
   padding-bottom: 95px;
 }
+
 .pt-95 {
   padding-top: 95px;
 }
+
 .pl-130 {
-  padding-left:130px;
+  padding-left: 130px;
+}
+
+.pb-160 {
+  padding-bottom: 160px;
+  @include lg {
+    padding-bottom: 120px;
+  }
 }

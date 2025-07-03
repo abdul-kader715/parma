@@ -88,6 +88,12 @@
     margin-bottom: 60px;
   }
 }
+.mb-100{
+  margin-bottom: 100px;
+   @include lg {
+    margin-bottom: 80px;
+  }
+}
 .mt-n1 {
   margin-top: -.25rem;
 }

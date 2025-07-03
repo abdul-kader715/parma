@@ -6,21 +6,26 @@
   padding-left: calc(var(--bs-gutter-x)/ 2);
   margin-top: var(--bs-gutter-y);
 }
+
 @media (min-width: 1300px) {
   .row {
     --bs-gutter-x: 24px;
   }
 }
+
 .gy-30 {
   --bs-gutter-y: 30px;
 }
+
 .g-0 {
   --bs-gutter-y: 0;
   --bs-gutter-x: 0;
 }
+
 .gx-0 {
   --bs-gutter-x: 0;
 }
+
 .gy-40 {
   --bs-gutter-y: 40px;
 }
@@ -28,9 +33,11 @@
 .gy-50 {
   --bs-gutter-y: 50px;
 }
+
 .gy-60 {
   --bs-gutter-y: 60px;
 }
+
 .gy-80 {
   --bs-gutter-y: 80px;
 }
@@ -38,24 +45,36 @@
 .gx-10 {
   --bs-gutter-x: 10px;
 }
+
 .gy-10 {
   --bs-gutter-y: 10px;
 }
+
 @media (min-width: $xxl) {
   .gx-100 {
     --bs-gutter-x: 100px;
   }
+ .gx-160 {
+    --bs-gutter-x: 160px;
+  }
+  .gx-90 {
+    --bs-gutter-x: 90px;
+  }
 }
+
 @media (min-width: $xl) {
   .gx-60 {
     --bs-gutter-x: 60px;
   }
+
   .gx-70 {
     --bs-gutter-x: 70px;
   }
+
   .gx-80 {
     --bs-gutter-x: 80px;
   }
+ 
 }
 
 @media (min-width: $ml) {
@@ -75,8 +94,9 @@
 @include md {
   .gy-50 {
     --bs-gutter-y: 40px;
-  } 
+  }
+
   .gy-80 {
     --bs-gutter-y: 60px;
-  }  
+  }
 }
