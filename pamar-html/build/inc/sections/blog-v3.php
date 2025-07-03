@@ -19,6 +19,9 @@
 		'March 15',
 		'March 18',
 		'March 22',
+		'March 15',
+		'March 18',
+		'March 22',
 	);
 	$arrlength = count($title);
 
@@ -37,7 +40,7 @@
 						<a href="blog.html"><i class="fa-solid fa-tags"></i>Oil Change</a>
 					</div>
 					<h3 class="box-title"><a href="blog-details.html"><?php echo $title[$x];?></a></h3>
-					<a href="blog-details.html" class="th-btn style-gradient3">Read More <i class="fal fa-long-arrow-right ms-2"></i></a>
+					<a href="blog-details.html" class="th-btn style12">Read More<i class="fa-solid fa-arrow-right ms-2"></i></a>
 				</div>
 			</div>
 		</div>
