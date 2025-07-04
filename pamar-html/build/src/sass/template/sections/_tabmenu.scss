@@ -2,16 +2,41 @@
 .tab-menu1 {
     gap: 10px;
     justify-content: center;
+
     .tab-btn {
         font-size: 14px;
         padding: 4px 12px;
         background-color: $smoke-color2;
         border: 1px solid $border-color;
         border-radius: 6px;
+
         &.active {
             background-color: $theme-color;
             border-color: $theme-color;
             color: $white-color;
+        }
+    }
+}
+
+.tab-menu2 {
+    gap: 16px;
+    justify-content: center;
+
+    .tab-btn {
+        font-size: 14px;
+        padding: 18px 42px;
+        padding-top:14px;
+        background-color: $smoke-color2;
+        border-radius: 0px 0px 16px 16px;
+        background: $smoke-color;
+        color: $title-color;
+        font-family: $title-font;
+        font-size: 18px;
+        font-weight: 500;
+        border: 0;
+
+        &.active {
+            background-color: $theme-color2;
         }
     }
 }
