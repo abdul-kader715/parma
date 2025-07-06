@@ -181,6 +181,8 @@
    }
 }
 
+.testi-area-2 {}
+
 /* Testimonial card 2 ---------------------------------- */
 .testi-wrap2 {
    position: relative;
@@ -191,13 +193,32 @@
    border-radius: 24px;
    padding: 32px;
 
-
+   @include md {
+      padding: 32px 20px;
+   }
 
 
    .slider-area {
       overflow: hidden;
    }
 
+   .slider-arrow {
+      left: -30px;
+      background: $white-color;
+
+      @include lg {
+         display: none;
+      }
+
+      &:hover {
+         background: $theme-color2;
+      }
+
+      &:last-child {
+         left: auto;
+         right: -30px;
+      }
+   }
 
 }
 
@@ -234,6 +255,13 @@
    align-items: center;
    gap: 56px;
 
+   @include lg {
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      gap: 0;
+   }
+
    .box-thumb {
       flex: none;
       max-width: 600px;
@@ -242,6 +270,11 @@
       overflow: hidden;
       position: relative;
       z-index: 1;
+
+      @include lg {
+         margin-bottom: 30px;
+      }
+
 
       &::before {
          position: absolute;
@@ -302,6 +335,8 @@
 
          @include md {
             font-size: 18px;
+            margin-top: 20px;
+            margin-bottom: 30px;
          }
       }
 
@@ -367,7 +402,7 @@
       padding-bottom: 30px;
    }
 
-  
+
 
    .box-text {
       color: $black-color3;

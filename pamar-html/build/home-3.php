@@ -9,7 +9,7 @@ get_section('cta-v3', ' space-bottom position-relative z-index-2');
 get_section('service-sec-v3', 'space overflow-hidden');
 get_section('why-v3', 'space overflow-hidden position-relative z-index-2');
 get_section('team-sec-v3', 'space  overflow-hidden');
-get_section('process-sec-v2', 'process2 space-top bg-gray-color8 pb-160 overflow-hidden position-relative');
+get_section('process-sec-v3', 'process2 space-top bg-gray-color8 pb-160 overflow-hidden position-relative');
 get_section('contact-info-v2', 'space  overflow-hidden');
 get_section('testi-sec-v3', 'space overflow-hidden');
 get_section('price-sec-v3', 'space overflow-hidden');

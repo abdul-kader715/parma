@@ -1,77 +1,94 @@
 <!--==============================
 Process Area  
 ==============================-->
-<section class="position-relative <?php echo $klass;?>" data-bg-src="assets/img/bg/poss-bg-3-1.jpg">
+<section class="position-relative <?php echo $klass;?>" >
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-xl-7">
-                <div class="title-area text-center mb-100">
-                    <span class="sub-title2 style2 border-black-color8" data-cue="slideInUp">4 Step Process</span>
-                    <h2 class="sec-title style5 text-anim2 " data-cue="slideInUp">
-                        Easier than You Can Think!
-                    </h2>
+            <div class="col-xxl-6">
+                    <div class="img1">
+                        <img src="assets/img/process/process_thum2_1.jpg" alt="">
+                    </div>
+            </div> 
+            <div class="col-xxl-6">
+                <div class="title-area">
+                      <span class="sub-title2 text-bg-white" data-cue="slideInUp">Our Work Process</span>
+                    <h2 class="sec-title style4 text-anim2 " data-cue="slideInUp">Fixing Your Plumbing Issues in Just <span>5 Steps</span> </h2>
+                        
                 </div>
             </div>            
         </div>
-    </div>
-    <div class="container-fluid">
-        <div class="process-wrap2">
-            <div class="row gx-90 gy-80">
-                    <?php
+
+  <div class="row justify-content-end xl-justify-content-start">
+        <div class="col-xxl-9 col-xl-10">
+            <div class="slider-area process-slider">
+                <div class="swiper th-slider" id="processSlider" data-slider-options='{"paginationType":"progressbar",
+                    "breakpoints":{"0":{"slidesPerView":1},"767":{"slidesPerView":"2"},"1200":{"slidesPerView":"2"},
+                    "1300":{"slidesPerView":"2"},"1600":{"slidesPerView":"2"}}}'>
+                    <div class="swiper-wrapper">
+                        <?php
                         $title = array(
-                            'Schedule Appointment',
-                            'Diagnosis & Estimate',
-                            'Repair or Installation',
+                            'Contact Us',
+                            'Inspection & Diagnosis',
+                            'Services & Repairs',
                             'Final Inspection',
+                            'Services & Repairs',
                         );
                         $num = array(
-                            'Step 01',
-                            'Step 02',
-                            'Step 03',
-                            'Step 04',
+                            '01',
+                            '02',
+                            '03',
+                            '04',
+                            '05',
                         );
-                        $icon = array(
-                            'assets/img/icon/process-icon2-1.svg',
-                            'assets/img/icon/process-icon2-2.svg',
-                            'assets/img/icon/process-icon2-3.svg',
-                            'assets/img/icon/process-icon2-4.svg',
-                        );
+                        
                         $text = array(
-                            'Call us, email us, or book online choose a convenient',
-                            'Our licensed plumber arrives on time, inspects the issue',
-                            'We complete the job using high-quality tools and parts',
-                            'We test the repair, walk you through the results',
+                            'Starting your journey with Pamar is seamless and straightforward.
+                                If you encounter a leak, a blocked drain, or any plumbing crisis, 
+                            simply contact us to take the first step towards a solution.',
+                            'When you contact Pamar, our skilled plumbers will arrive swiftly to evaluate
+                                your plumbing problem with expertise and attention. 
+                                Equipped with state-of-the-art diagnostic equipment.',
+                            'At Pamar, we focus on delivering swift and accurate plumbing solutions. After our
+                                skilled plumbers evaluate the problem, we spring into action using top-notch tools and techniques.',
+                            'At Pamar, we focus on delivering swift and accurate plumbing solutions. 
+                            After our skilled plumbers evaluate the problem,
+                                we spring into action using top-notch tools and techniques.',
+                                'At Pamar, we focus on delivering swift and accurate plumbing solutions. 
+                            After our skilled plumbers evaluate the problem,
+                                we spring into action using top-notch tools and techniques.',
                         );
                         $arrlength = count($title);
 
                         for($x = 0; $x < $arrlength; $x++) {
                         ?>
-                           <div class="col col-xl-3 col-md-6 col-12">
-                            <div class="process-card2 text-center"  data-cue="slideInUp">
-                                <div class="process-icon">
-                                    <img src="<?php echo $icon[$x];?>" alt="icon">
-                                </div>
-                                <span class="box-number"><?php echo $num[$x];?></span>                                
-                                <div class="box-content">
-                                    <h3 class="box-title"><?php echo $title[$x];?></h3>
-                                    <p class="box-text"><?php echo $text[$x];?></p>
+                            <div class="swiper-slide">
+                                <div class="process-card3">
+                                    <span class="box-number"><?php echo $num[$x];?></span>                                
+                                    <div class="box-content">
+                                        <h3 class="box-title"><?php echo $title[$x];?></h3>
+                                        <p class="box-text"><?php echo $text[$x];?></p>
+                                    </div>
+                                    <div class="shape-mockup" style="top: 0%; right:0%">
+                                        <img src="assets/img/shape/bg-shape8.png" alt="shape">
+                                    </div>
                                 </div>
                             </div>
-                           </div> 
                         <?php }; 
                     ?>
-            </div>
+                    </div>
+                        <div class="slider-pagination-wrap">
+                            <div class="slider-pagination2"></div>
+                            <div class="slider-pagination"></div>
+                        </div>
+                    </div>
+                </div>
         </div>
     </div>
-    <div class="shape-mockup d-none d-xxl-block " style="top: 0%; left:0%">
-            <img src="assets/img/shape/process-shape3-1.png" alt="shape">
     </div>
-    <div class="shape-mockup d-none d-xxl-block " style="top: 0%; right:0%">
-           <img src="assets/img/shape/process-shape3-2.png" alt="shape">
-    </div>
+
 </section>
 
-
+ 
 
 
 

@@ -149,6 +149,10 @@ textarea {
    &.style3 {
       margin-bottom: 0;
 
+      @include sm {
+         width: 100%;
+      }
+
       textarea,
       input {
          background: $smoke-color;
@@ -201,7 +205,8 @@ textarea {
          &::before {
             width: 48px;
          }
-          &::after {
+
+         &::after {
             left: 5px;
          }
       }

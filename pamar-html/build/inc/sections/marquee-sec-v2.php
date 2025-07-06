@@ -26,6 +26,7 @@ Marquee Area
                             'assets/img/icon/marquee2-2.svg',
                             'assets/img/icon/marquee2-3.svg',
                             'assets/img/icon/marquee2-1.svg',
+                            'assets/img/icon/marquee2-3.svg',
                         );
                    
                    
