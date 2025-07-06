@@ -246,9 +246,11 @@
       @include ml {
          padding: 315px 0 150px;
       }
-       @include md {
+
+      @include md {
          padding: 200px 0 100px;
       }
+
       @include xs {
          padding: 150px 0 50px;
       }
@@ -275,6 +277,7 @@
          font-size: 60px;
          line-height: 70px;
       }
+
       @include xs {
          font-size: 40px;
          line-height: 60px;
@@ -525,11 +528,139 @@
 
 /* Hero 3 --------------------------------------*/
 .hero-3 {
-   .hero-particle {
+   .hero-style3 {
+      padding: 210px 0 189px;
+   }
+
+   .sub-title.style5 {
+      background: transparent;
+      color: $white-color;
+      font-family: $title-font;
+      font-size: 20px;
+      font-weight: 900;
+      text-transform: uppercase;
+      padding: 0;
+   }
+
+   .hero-title {
+      font-size: 100px;
+      font-weight: 900;
+      text-transform: uppercase;
+   }
+
+   .hero-text {
+      color: $title-color;
+      font-size: 32px;
+      font-weight: 900;
+      text-transform: uppercase;
+      padding: 10px;
+      padding-bottom: 8px;
+      background: $theme-color2;
+      display: inline-block;
+   }
+
+   .checklist {
+
+      li {
+         color: $white-color;
+         font-size: 18px;
+         font-weight: 500;
+
+         &:before {
+            content: "\f00c";
+            position: absolute;
+            font-family: "Font Awesome 6 Pro";
+            background: transparent;
+            clip-path: none;
+         }
+      }
+   }
+
+   .th-btn {
+      margin-top: 50px;
+      background: $theme-color3;
+      text-transform: uppercase;
+
+      &:hover {
+         background: $theme-color2;
+         color: $title-color;
+      }
+   }
+
+   .box-img {
       position: absolute;
-      inset: 0;
-      z-index: -1;
-      pointer-events: none;
+      right: 0;
+      bottom: 0;
+   }
+
+   .slider-arrow.style-border4 {
+      left: 120px;
+      border-radius: 30px;
+      border: 1px solid rgba(255, 255, 255, 0.10);
+      background: rgba(255, 255, 255, 0.06);
+      backdrop-filter: blur(50px);
+      color: $white-color;
+
+      &:hover {
+         background: $theme-color3;
+      }
+
+      @media (max-width:1699px) {
+         left: 20px;
+      }
+   }
+
+   .slider-arrow.style-border4.slider-next {
+      right: 120px;
+      left: auto;
+
+      @media (max-width:1699px) {
+         right: 20px;
+      }
+   }
+}
+
+.hero-info {
+   position: absolute;
+   right: 0;
+   bottom: 0;
+   padding: 50px;
+   padding-left: 140px;
+   padding-right: 380px;
+   display: flex;
+   align-items: center;
+   gap: 30px;
+
+
+   .hero-info-bg {
+      width: 100%;
+      height: 100%;
+      z-index: -11;
+      img {
+         width: 100%;
+         height: 100%;
+      }
+   }
+
+   .box-title {
+      color: $title-color;
+      font-family: $body-font;
+      font-size: 22px;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-bottom: 0;
+
+      span {
+         color: $theme-color3;
+      }
+   }
+
+   .box-text {
+      color: $black-color3;
+      font-size: 16px;
+      font-weight: 400;
+      margin-bottom: 0;
+      max-width: 329px;
    }
 }
 

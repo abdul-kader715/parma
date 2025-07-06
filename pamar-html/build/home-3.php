@@ -1,6 +1,6 @@
 <?php include_once('inc/functions.php');
 get_header('script','Home Three');
-get_header('v2');
+get_header('v3');
 get_section('hero-v3');
 
 get_section('offer-sec-v1', 'space overflow-hidden');

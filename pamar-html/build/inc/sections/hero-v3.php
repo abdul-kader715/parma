@@ -1,42 +1,101 @@
 <!--==============================
 Hero Area
 ==============================-->
-<div class="th-hero-wrapper hero-3" id="hero" data-bg-src="assets/img/hero/hero-bg3.png">
-    <div class="hero-particle" id="hero-particle1"></div>
-    <div class="container">
-        <div class="row">
-            <div class="col-xxl-12">
-                <div class="hero-wrap3">
-                    <div class="hero-style3">
-                        <h1 class="hero-title text-anim2" data-cue="slideInUp" data-delay="100">
-                            The Intelligence <span class="hero-text-thumb"><img src="assets/img/hero/hero_thumb_3_1.jpg" alt="img"></span> Behind Your Growth                 
-                        </h1>
-                        <div class="hero-content-wrap">
-                            <p class="hero-text text-anim2" data-cue="slideInUp" data-delay="300">AI technology services aim to provide intelligent solutions that help businesses improve efficiency,</p>
-                            <div class="btn-wrap" data-cue="slideInUp" data-delay="400">
-                                <a href="contact.html" class="th-btn style-gradient">Get Started Now <i class="far fa-long-arrow-right ms-2"></i></a>
+<div class="th-hero-wrapper hero-3 " id="hero" data-bg-src="assets/img/hero/hero_thumb_3_1.jpg" >
+    <div class="swiper th-slider" id="heroSlider3" data-slider-options='{"effect":"fade", "autoHeight": "true"}'>
+        <div class="swiper-wrapper">
+            <?php
+                $title = array(
+                    'Professional Residential',
+                    'Professional Residential',
+                    'Professional Residential',
+                );
+             
+                $sub = array(
+                    'Plumbing',
+                    'Plumbing',
+                    'Plumbing',
+                );
+                $sub2 = array(
+                    'Quality You Can Trust',
+                    'Quality You Can Trust',
+                    'Quality You Can Trust',
+                );
+                $list = array(
+                   '<li> 24 -Hours Emergency Services</li>
+                    <li> Uniformed, Licensed Plumbers</li>
+                    <li> Free Estimates</li>
+                    ',
+
+                   '<li> 24 -Hours Emergency Services</li>
+                    <li> Uniformed, Licensed Plumbers</li>
+                    <li> Free Estimates</li>
+                    ',
+
+                   '<li> 24 -Hours Emergency Services</li>
+                    <li> Uniformed, Licensed Plumbers</li>
+                    <li> Free Estimates</li>
+                    ',
+                );
+            
+                $img = array(
+                    'assets/img/hero/hero_bg_3_1.png',
+                    'assets/img/hero/hero_bg_3_2.png',
+                    'assets/img/hero/hero_bg_3_3.png',
+                );
+                
+
+                $arrlength = count($title);
+
+                for($x = 0; $x < $arrlength; $x++) {
+                ?>
+                    <div class="swiper-slide" >
+                        <div class="hero-inner">
+                            <div class="container">
+                                <div class="hero-style3">
+                                    <span class="sub-title style5" data-ani="slideinup" data-ani-delay="0.2s"> <?php echo $title[$x];?></span>
+                                    <h1 class="hero-title text-white">
+                                        <span class="title1" data-ani="slideinup" data-ani-delay="0.4s"><?php echo $sub[$x];?></span>
+                                    </h1>
+                                    <h3 class="hero-text" data-ani="slideinup" data-ani-delay="0.5s"><?php echo $sub2[$x];?></h3>
+                                    <div class="checklist" data-ani="slideinup" data-ani-delay="0.6s">
+                                        <ul>
+                                            <?php echo $list[$x];?>
+                                        </ul>
+                                    </div>
+                                    <div data-ani="slideinup" data-ani-delay="0.7s">
+                                        <a href="contact.html" class="th-btn style12">
+                                          Request an appointment
+                                       </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box-img">
+                                <img src="<?php echo $img[$x];?>" alt="">
                             </div>
                         </div>
                     </div>
-                    <div class="hero-play-wrap" data-cue="slideInUp" data-delay="300">
-                        <div class="hero-play-text">Award Winning AI Agency</div>
-                        <div class="hero-play-arrow"><img src="assets/img/hero/hero-play-arrow3.svg" alt="img"></div>
-                        <div class="circle-tag">
-                            <span class="circle-title-anime">ROBOR - AI AND AUTOMATION INTEGRATION.</span>
-                            <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn popup-video">
-                                <i class="fa-sharp fa-solid fa-play"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>           
-        </div>        
-    </div>  
+                <?php }; 
+            ?>
+        </div>
+        <button data-slider-prev="#heroSlider3" class="slider-arrow style-border4 slider-prev"><i class="fa-solid fa-angle-left"></i></button>
+        <button data-slider-next="#heroSlider3" class="slider-arrow style-border4 slider-next"><i class="fa-solid fa-angle-right"></i></button>
+    </div> 
+    <div class="hero-info ">
+            <div class="box-icon">
+                <img src="assets/img/icon/phone-icon-template.svg" alt="">
+            </div>  
+            <div class="box-content">
+                <h3 class="box-title">Emergency <span>Plumbing</span></h3>
+                <p class='box-text'>We’re Open 24/7/365 – Because Plumbing Emergencies Can’t Wait!</p>
+            </div>     
+            <div class="shape-mockup" data-top="0" data-right="0">
+                <img src="assets/img/shape/bg-shape10.png" alt="">
+            </div>   
+            <div class="shape-mockup hero-info-bg" data-top="0" data-right="0">
+                <img src="assets/img/shape/hero-thumb3-1-shape.png" alt="">
+            </div>   
+     </div> 
 </div>
 <!--======== / Hero Section ========-->
 
-<div class="container">
-    <div class="hero-thumb3" data-mask-src="assets/img/hero/hero-thumb3-mask.png" data-cue="slideInUp" data-delay="500">
-        <img src="assets/img/hero/hero_thumb_3_2.jpg" alt="img">
-    </div>
-</div>
