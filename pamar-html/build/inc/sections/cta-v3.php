@@ -2,7 +2,7 @@
 <!--==============================
 Cta Area  
 ==============================-->
-<section class="<?php echo $klass;?>" id="cta-sec">
+<section class="<?php echo $klass;?>" id="cta-sec" >
     <div class="container">
          <div class="cta-wrap3">
             <div class="row gx-0">

@@ -2,9 +2,7 @@
 <!--==============================
 Cta Area  
 ==============================-->
-<section class=" <?php echo $klass;?>" id="contact-sec" 
->
-<!-- data-mask-src="assets/img/shape/cta-bg-shape.png" data-bg-src="assets/img/normal/cta-thumb3-1-bg.jpg" -->
+<section class=" <?php echo $klass;?>" id="contact-sec" data-bg-src="assets/img/normal/cta-thumb3-1-bg.jpg">
     <div class="cta-wrap2">
         <div class="container">
             <div class="row">
