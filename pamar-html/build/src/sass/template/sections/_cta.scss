@@ -76,6 +76,18 @@
       max-width: 685px;
       height: 524px;
       position: relative;
+
+      @include md {
+         display: flex;
+         gap: 20px;
+         flex-wrap: wrap;
+         max-width: 100%;
+         height: 100%;
+         padding-bottom: 120px;
+      }
+       @include xs {
+         justify-content: center;
+      }
    }
 
    .cta-thumb-box {
@@ -90,6 +102,13 @@
       outline-offset: -15px;
       transition: .3s;
       position: absolute;
+
+      @include md {
+         position: unset;
+         width: 48%;
+         width: 200px;
+         height: 200px;
+      }
 
       span {
          color: $title-color;
@@ -117,6 +136,15 @@
          left: 290px;
          width: 184px;
          height: 184px;
+
+         @include ml {
+            left: 300px;
+         }
+
+         @include md {
+            width: 200px;
+            height: 200px;
+         }
       }
 
       &:nth-child(3) {
@@ -125,6 +153,19 @@
          left: 220px;
          width: 184px;
          height: 184px;
+
+         @include ml {
+            left: 150px;
+         }
+
+         @include lg {
+            left: 50px;
+         }
+
+         @include md {
+            width: 200px;
+            height: 200px;
+         }
       }
 
       &:nth-child(4) {
@@ -155,6 +196,11 @@
    overflow: hidden;
    margin-top: 250px;
 
+   @include md {
+      margin-top: 0;
+      margin-bottom: 30px;
+   }
+
    .box-title {
       font-size: 24px;
       font-weight: 700;
@@ -165,7 +211,16 @@
 
    .cta-thumb {
       padding: 50px;
-      padding-bottom: 160px;
+      padding-bottom: 190px;
+
+      @include lg {
+         padding: 30px 20px;
+         padding-bottom: 190px;
+      }
+
+      @include md {
+         padding-bottom: 30px;
+      }
    }
 
    .cta-thumb-item {
@@ -176,7 +231,11 @@
       align-items: center;
       gap: 0 15px;
 
-
+      @include xs {
+         flex-direction: column;
+         align-items: flex-start;
+         gap: 15px;
+      }
 
       .box-thumb {
          width: 60px;
@@ -190,6 +249,10 @@
          font-size: 20px;
          border-radius: 100px;
          background: $gray-color6;
+
+         @include xs {
+            font-size: 16px;
+         }
       }
 
       .box-content {
@@ -205,6 +268,10 @@
             font-size: 20px;
             font-weight: 700;
             margin-bottom: 0;
+
+            @include xs {
+               font-size: 16px;
+            }
          }
       }
 
@@ -216,10 +283,12 @@
    }
 
 }
-.cta-area-2{
+
+.cta-area-2 {
    position: relative;
    z-index: 1;
-   &::before{
+
+   &::before {
       position: absolute;
       left: 0;
       top: 0;

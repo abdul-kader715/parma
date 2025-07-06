@@ -1,14 +1,13 @@
 <!--==============================
 About Area  
 ==============================-->
-<div class="overflow-hidden <?php echo $klass;?>" id="about-sec">
-    <!-- <div class="shape-mockup about-bg-shape3-1" data-top="0" data-left="0">
-        <img src="assets/img/shape/wave1.png" alt="img">
-    </div> -->
- 
+<div class="about-sec3 <?php echo $klass;?>" id="about-sec">
+    <div class="about-thumb1-1-shape bg-mask" data-mask-src="assets/img/shape/about-bg-shape3-1.png">
+      <img src="assets/img/shape/about-bg-shape3-2.png" alt="">
+    </div>
     <div class="container">
         <div class="about-wrap3">
-        <div class="row gx-80">
+        <div class="row gx-80 gy-50">
             <div class="col-xl-7">
                 <div class="about-left">
                     <div class="title-area mb-40">
@@ -53,6 +52,9 @@ About Area
                 <div class="img-box3">
                     <div class="img1" data-mask-src="assets/img/shape/about-thumb3-1-shape.jpg">
                         <img src="assets/img/normal/about-thumb3-1.jpg" alt="About">
+                        <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn style2 popup-video">
+                                <i class="fa-sharp-duotone fa-solid fa-play"></i>
+                     </a>
                     </div>
                     <div class="img2">
                         <img src="assets/img/shape/about-shape3-2.png" alt="">
@@ -62,4 +64,6 @@ About Area
         </div>
         </div>
     </div>
+
+    <div class="round-bg-shape shape-mockup d-none d-xxl-block " style="bottom: 0%; right:40%"></div>
 </div>

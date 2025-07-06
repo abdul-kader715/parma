@@ -66,3 +66,56 @@
       }
    }
 }
+
+
+
+/* Brand 3 ---------------------------------- */
+
+.brand-area-3 {
+   margin-top: -290px;
+
+   @include md {
+      margin-top: 0px;
+   }
+
+   .container-fluid {
+      max-width: 1840px;
+      margin: 0 auto;
+   }
+}
+
+.brand-wrap3 {
+   border-radius: 30px;
+   border: 1px solid #E1E7F0;
+   background: $white-color;
+   padding: 0 80px;
+
+   @include ml {
+      padding: 0 20px;
+      border-radius: 00px;
+   }
+
+   .swiper-wrapper {
+      transition-timing-function: linear;
+   }
+
+   .swiper-slide {
+      width: auto;
+   }
+
+   .brand-box {
+      display: grid;
+      align-content: center;
+      text-align: center;
+      justify-content: center;
+      transition: 0.4s ease-in-out;
+      min-height: 60px;
+
+      img {
+         transition: filter 0.3s;
+         filter: none;
+      }
+
+
+   }
+}

@@ -171,7 +171,8 @@
             top: 50%;
             transform: translate(-50%, -50%);
             z-index: 111;
-            img{
+
+            img {
                 width: 32px;
             }
         }
@@ -205,153 +206,166 @@
             border-color: $theme-color2;
         }
 
-       
+
     }
 
 }
 
-.project-slider2{
+.project-slider2 {
 
-    .swiper-slide{
-        &.swiper-slide-active{
-             width: 648px !important;
+    .swiper-slide {
+        &.swiper-slide-active {
+            width: 648px !important;
             height: 541px;
         }
-        
+
     }
 }
 
 /* Project 3 -------------------------------*/
 .project-slider3 {
-    .swiper-slide {
-        &.swiper-slide-active {
-            .project-card3 {
-                margin-bottom: 0;
+    position: absolute;
+    right: 260px;
+    bottom: -1px;
+    left: auto;
+    max-width: 620px;
 
-                .box-img {
-                    height: 480px;
-
-                    &:after {
-                        opacity: 0.3;
-                    }
-
-                    .icon-btn {
-                        opacity: 1;
-                        top: 20px;
-                    }
-                }
-
-                .box-content {
-                    bottom: 0;
-                    opacity: 1;
-                    visibility: visible;
-                }
-            }
-        }
+    @media (max-width:1799px) {
+        max-width: 720px;
+        right: 150px;
     }
 
-    @include hd {
-        max-width: 1700px;
-        margin-left: auto;
-        margin-right: auto;
+    @include md {
+        position: unset;
+        margin: 0 auto;
     }
 
-    @include sm {
-        margin-left: 30px;
-        margin-right: 30px;
+    &::before {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        content: '';
+        background: $white-color;
+        border-radius: 30px 30px 0 0;
     }
 
-    @include xs {
-        margin-left: 15px;
-        margin-right: 15px;
+}
+
+
+.project-wrap3 {
+    max-width: 1840px;
+    margin: 40px auto;
+    position: relative;
+    min-height: 661px;
+    z-index: 1;
+
+    @include md {
+        max-width: 100%;
+        min-height: 100%;
+    }
+
+    .slider-arrow.style-border4 {
+        left: 117px;
+    }
+
+    .slider-arrow.style-border4.slider-next {
+        right: 117px;
+        left: auto;
+    }
+
+}
+
+.project-bg-shape3 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+
+    @include md {
+        display: none;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 }
 
 .project-card3 {
-    position: relative;
-    margin-bottom: 80px;
-    transition: 0.4s;
+    padding: 50px;
+    border-radius: 30px 30px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 620px;
+    min-height: 330px;
+    background: $white-color;
 
-    .box-img {
-        position: relative;
-        height: 400px;
-        transition: 0.4s;
-
-        img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-
-        &:after {
-            content: '';
-            position: absolute;
-            inset: 0;
-            background: $black-color;
-            opacity: 0;
-            transition: 0.4s;
-        }
-
-        .icon-btn {
-            position: absolute;
-            top: 0px;
-            right: 20px;
-            opacity: 0;
-        }
+    @include md {
+        border-radius: 30px;
     }
 
-    .box-content {
-        position: absolute;
-        bottom: -40px;
-        left: 0;
-        right: 0;
-        padding: 30px;
-        transition: 0.4s;
-        opacity: 0;
-        visibility: hidden;
+    @include sm {
+        padding: 50px 20px;
+    }
+
+    .box-tag {
+        color: $white-color;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding: 10px 15px;
+        border-radius: 30px;
+        background: $theme-color;
+         @include sm {
+            padding: 8px 15px;
+        }
     }
 
     .box-subtitle {
-        display: inline-flex;
-        border: 1px solid rgba($color: #ffffff, $alpha: 0.2);
-        border-radius: 20px;
-        padding: 0 9px;
-        font-size: 14px;
-        font-weight: 500;
-        font-family: $title-font;
-        letter-spacing: 0.02em;
-        align-items: center;
-        justify-content: center;
-        gap: 7px;
-        margin-bottom: 20px;
-
-        &:before {
-            content: '';
-            position: relative;
-            display: inline-block;
-            height: 6px;
-            width: 6px;
-            background: $title-color;
-            border-radius: 50%;
-        }
-
-        &.text-white {
-            &:before {
-                background: $white-color;
-            }
-        }
+        color: $black-color3;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        max-width: 511px;
     }
 
     .box-title {
         font-size: 24px;
         font-weight: 700;
         margin-bottom: -0.25em;
+        color: $title-color;
+        font-size: 36px;
+        font-weight: 900;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+        @include sm {
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
 
         a {
             &:hover {
-                text-shadow: -0.3px -0.3px 0 $white-color, 0.3px 0.3px $white-color;
-                color: $white-color;
+                color: $theme-color;
             }
+        }
+    }
+
+    .th-btn {
+        margin-top: 30px;
+        background: $theme-color3;
+        text-transform: uppercase;
+
+        &:hover {
+            background: $theme-color2;
+            color: $title-color;
         }
     }
 }
