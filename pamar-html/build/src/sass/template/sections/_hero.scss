@@ -530,6 +530,22 @@
 .hero-3 {
    .hero-style3 {
       padding: 210px 0 189px;
+
+      @include lg {
+         padding: 180px 0 250px;
+      }
+
+      @include md {
+         padding: 150px 0 250px;
+      }
+
+      @include sm {
+         padding: 100px 0 250px;
+      }
+
+      @include xs {
+         padding: 100px 0 100px;
+      }
    }
 
    .sub-title.style5 {
@@ -540,12 +556,20 @@
       font-weight: 900;
       text-transform: uppercase;
       padding: 0;
+
+      @include md {
+         font-size: 18px;
+      }
    }
 
    .hero-title {
       font-size: 100px;
       font-weight: 900;
       text-transform: uppercase;
+
+      @include md {
+         font-size: 80px;
+      }
    }
 
    .hero-text {
@@ -591,6 +615,19 @@
       position: absolute;
       right: 0;
       bottom: 0;
+      z-index: -11;
+
+      @include ml {
+         right: -200px;
+      }
+
+      @include lg {
+         right: -300px;
+      }
+
+      @include md {
+         display: none;
+      }
    }
 
    .slider-arrow.style-border4 {
@@ -631,11 +668,19 @@
    align-items: center;
    gap: 30px;
 
+   @include lg {
+      padding: 40px 100px;
+   }
+
+   @include xs {
+      display: none;
+   }
 
    .hero-info-bg {
       width: 100%;
       height: 100%;
       z-index: -11;
+
       img {
          width: 100%;
          height: 100%;
