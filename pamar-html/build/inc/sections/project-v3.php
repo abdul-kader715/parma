@@ -6,7 +6,7 @@
     );
     $subtitle = array(
         'Yes, we offer warranties on both parts and labor. Specific terms vary by service—ask for details during your estimate.',
-        'Yes, we offer warranties on both parts and labor. Specific terms vary by service—ask for details during your estimate.',
+        'Both parts and labor are backed by warranties. The terms can differ depending  to inquire when we give you your estimate',
         'Yes, we offer warranties on both parts and labor. Specific terms vary by service—ask for details during your estimate.',
     );
       $tag = array(

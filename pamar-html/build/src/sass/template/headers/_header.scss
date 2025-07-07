@@ -1063,18 +1063,85 @@
 
 /* Header 3 ---------------------------------- */
 .header-layout3 {
-   background: $title-color;
+   background: $black-color10;
+   padding-bottom: 200px;
 
    .header-top {
-      background-color: transparent;
-      border-bottom: 1px solid rgba($color: #57585F, $alpha: 0.5);
+      max-width: 1208px;
+      margin: 0 auto;
+      background: transparent;
+      border-radius: 0px;
+      overflow: visible;
+      padding: 15px 60px;
+      position: relative;
+      z-index: 111;
+      right: -60px;
+
+      &::after {
+         display: none;
+      }
+
+      .shape {
+         position: absolute;
+         left: 0;
+         top: 0;
+         width: 100%;
+         height: 100%;
+         z-index: -1;
+
+         &::before {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            content: '';
+            background: $black-color6;
+         }
+      }
+   }
+
+   .header-links li:nth-child(2) {
+      margin: 0;
+      margin-right: 10px;
+
+      &:after {
+         display: none;
+      }
+   }
+
+   .header-links {
+      &.style2 {
+
+         li {
+            margin: 0;
+            border-radius: 100px;
+            background: rgba(255, 255, 255, 0.12);
+            padding: 3px 12px;
+            padding-bottom: 5px;
+            font-weight: 600;
+
+            &:after {
+               display: none;
+            }
+         }
+
+         li:not(:last-child) {
+            margin-right: 15px;
+         }
+      }
+   }
+
+
+   .social-links a::after {
+      display: none;
    }
 
    .header-links li,
    .header-links span,
    .header-links p,
    .header-links a {
-      color: $light-color;
+      color: $white-color;
    }
 
    .header-links a {
@@ -1083,8 +1150,81 @@
       }
    }
 
+   .header-logo {
+      position: relative;
+      padding: 25px 148px 35px 100px;
+      margin-top: -114px;
+   }
+
+
+   .logo-shape {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+
+      &::before {
+         position: absolute;
+         left: 0;
+         top: 0;
+         width: 100%;
+         height: 100%;
+         content: '';
+         background: $theme-color;
+      }
+   }
+
+   .main-menu-wrap3 {
+      max-width: 1164px;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      bottom: 0;
+      left: 53%;
+      transform: translateX(-50%);
+      padding: 0 60px 0 40px;
+   }
+
+   .header-search {
+      position: unset;
+
+      .icon-btn.style6 {
+         width: 200px;
+         font-size: 16px;
+         font-weight: 600;
+         height: 100%;
+         right: 50px;
+
+         span {
+            padding-right: 30px;
+         }
+      }
+   }
+
+   .header-bg-shape {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+
+      &::before {
+         position: absolute;
+         left: 0;
+         top: 0;
+         width: 100%;
+         height: 100%;
+         content: '';
+         background: $white-color;
+      }
+   }
+
+
+
    .main-menu a {
-      color: $white-color;
 
       &:hover {
          color: $theme-color;
@@ -1092,8 +1232,7 @@
    }
 
    .main-menu>ul>li>a {
-      padding: 41.5px 0;
-      color: $white-color;
+      padding: 15px 0;
 
       &:hover {
          color: $theme-color;
@@ -1102,9 +1241,7 @@
 
    .main-menu ul li:has(.sub-menu)>a:after,
    .main-menu ul li:has(.mega-menu)>a:after,
-   .main-menu ul li.menu-item-has-children>a:after {
-      color: $white-color;
-   }
+   .main-menu ul li.menu-item-has-children>a:after {}
 
    .main-menu ul li:has(.sub-menu)>a:hover:after,
    .main-menu ul li:has(.mega-menu)>a:hover:after,
@@ -1114,18 +1251,38 @@
 
    .main-menu ul.sub-menu {
       background: $black-color2;
-      box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.05);
    }
 
-   .menu-area {
-      padding: 0 12px 0 112px;
-   }
+
+
+
+   .menu-area {}
 
    .header-button {
-      gap: 30px;
+      position: relative;
+      top: -55px;
+      z-index: -11;
 
       .th-btn {
-         padding: 19px 32px;
+         padding: 25px 66px 25px 100px;
+         color: #FFF;
+         font-size: 16px;
+         font-weight: 700;
+         text-transform: uppercase;
+         border-radius: 0;
+         display: inline-flex;
+         align-items: center;
+         background: $theme-color;
+
+         i {
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            border-radius: 50px;
+            background: $white-color;
+            text-align: center;
+            color: $theme-color3;
+         }
       }
    }
 
