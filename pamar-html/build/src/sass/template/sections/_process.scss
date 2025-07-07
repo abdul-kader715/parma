@@ -408,6 +408,23 @@
    }
 
 }
+.slider-area.process-slider{
+   .swiper-wrapper{
+      padding-top: 125px;
+      .swiper-slide{
+         .process-card3.shape-mockup-wrap{
+            position: relative;
+            transition: all 2s ease-in-out;
+            top: 0;
+         }
+         &.swiper-slide-active{
+            .process-card3.shape-mockup-wrap{
+               top: -125px;
+            }
+         }
+      }
+   }
+}
 
 .process-card3 {
    position: relative;
@@ -415,7 +432,7 @@
    background: $title-color;
    overflow: hidden;
    padding: 85px 55px;
-   margin-top: 125px;
+   // margin-top: 125px;
 
    @include ml {
       margin: 0;

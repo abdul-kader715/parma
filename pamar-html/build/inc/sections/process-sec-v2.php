@@ -21,7 +21,7 @@ Process Area
   <div class="row justify-content-end xl-justify-content-start">
         <div class="col-xxl-9 col-xl-10">
             <div class="slider-area process-slider">
-                <div class="swiper th-slider" id="processSlider" data-slider-options='{"paginationType":"progressbar",
+                <div class="swiper th-slider" id="processSlider" data-slider-options='{"paginationType":"progressbar", "speed" : "1500",
                     "breakpoints":{"0":{"slidesPerView":1},"767":{"slidesPerView":"2"},"1200":{"slidesPerView":"2"},
                     "1300":{"slidesPerView":"2"},"1600":{"slidesPerView":"2"}}}'>
                     <div class="swiper-wrapper">
