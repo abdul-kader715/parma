@@ -119,3 +119,19 @@
 
    }
 }
+
+// brand-wrap4
+.brand-wrap4 {
+   .brand-box {
+
+      img {
+          filter: grayscale(0) brightness(100%);
+      }
+
+      &:hover {
+         img {
+            filter: grayscale(0) brightness(100%);
+         }
+      }
+   }
+}

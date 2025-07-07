@@ -5,6 +5,11 @@
         'Residential',
         'Residential',
         'Residential',
+        'Residential',
+        'Residential',
+        'Residential',
+        'Residential',
+        'Residential',
     );
     $title = array(
         'Fixture installation and repair',
@@ -12,8 +17,18 @@
         'Fixture installation and repair',
         'Fixture installation and repair',
         'Fixture installation and repair',
+        'Fixture installation and repair',
+        'Fixture installation and repair',
+        'Fixture installation and repair',
+        'Fixture installation and repair',
+        'Fixture installation and repair',
     );
     $img = array(
+        'assets/img/project/project2-1.jpg',
+        'assets/img/project/project2-2.jpg',
+        'assets/img/project/project2-3.jpg',
+        'assets/img/project/project2-4.jpg',
+        'assets/img/project/project2-2.jpg',
         'assets/img/project/project2-1.jpg',
         'assets/img/project/project2-2.jpg',
         'assets/img/project/project2-3.jpg',

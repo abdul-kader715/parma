@@ -147,6 +147,7 @@
     }
 }
 
+
 /* Project 2 -------------------------------*/
 .project-card {
 
@@ -156,6 +157,7 @@
 
         .box-img {
             position: relative;
+            height: 541px !important;
         }
 
         .popup-image {
@@ -171,9 +173,18 @@
             top: 50%;
             transform: translate(-50%, -50%);
             z-index: 111;
+            opacity: 0;
+            visibility: hidden;
+            transition: all .3s;
 
             img {
                 width: 32px;
+            }
+        }
+
+        @media (max-width: 575px) {
+            .box-img img {
+                min-height: auto;
             }
         }
 
@@ -182,9 +193,10 @@
             background: $white-color;
             padding: 20px;
             bottom: 0;
-            opacity: 1;
-            visibility: visible;
             margin: 24px;
+            opacity: 0;
+            visibility: hidden;
+            transition: all .3s;
         }
 
         .box-subtitle {
@@ -212,13 +224,71 @@
 }
 
 .project-slider2 {
+    position: relative;
+    margin-left: -300px;
+
+    @include lg {
+        margin-left: 0px;
+    }
 
     .swiper-slide {
-        &.swiper-slide-active {
-            width: 648px !important;
-            height: 541px;
+        width: 312px !important;
+        height: 541px !important;
+        border-radius: 32px;
+
+        @include lg {
+            width: 548px !important;
+            height: 541px !important;
+            border-radius: 32px;
         }
 
+        @include md {
+            width: 100% !important;
+            height: 100% !important;
+            border-radius: 32px;
+        }
+
+
+    }
+
+    .swiper-slide.swiper-slide-active {
+        width: 648px !important;
+        height: 541px !important;
+        border-radius: 32px;
+
+        @include lg {
+            width: 548px !important;
+            height: 541px !important;
+            border-radius: 32px;
+        }
+
+        @include md {
+            width: 100% !important;
+            height: 100% !important;
+            border-radius: 32px;
+        }
+
+        .project-card {
+
+            &.style2 {
+                .popup-image {
+                    opacity: 1;
+                    visibility: visible;
+                }
+
+                .box-img {
+                    &::after {
+                        opacity: 1;
+                    }
+                }
+
+                .box-content {
+                    opacity: 1;
+                    visibility: visible;
+                }
+            }
+
+        }
     }
 }
 
@@ -323,7 +393,8 @@
         padding: 10px 15px;
         border-radius: 30px;
         background: $theme-color;
-         @include sm {
+
+        @include sm {
             padding: 8px 15px;
         }
     }

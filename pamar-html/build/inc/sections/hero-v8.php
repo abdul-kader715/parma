@@ -75,7 +75,7 @@ Hero Area
         </div>
     </div> 
     <div class="scroll-down">
-        <a href="#service-sec" class="scroll-wrap">Scroll Down<span><img src="assets/img/icon/down-arrow.svg" alt=""></span></a>
+        <a href="#about-sec" class="scroll-wrap">Scroll Down<span><img src="assets/img/icon/down-arrow.svg" alt=""></span></a>
     </div> 
 </div>
 <!--======== / Hero Section ========-->

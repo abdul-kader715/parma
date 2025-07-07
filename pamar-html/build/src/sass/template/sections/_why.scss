@@ -429,7 +429,9 @@
 /* Why Choose Us Area 2---------------------------------- */
 .why-wrap2 {
    max-width: 560px;
-
+   @include ml {
+      padding-top: 24px;
+   }
 }
 
 .why-card-wrap2 {

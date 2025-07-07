@@ -58,7 +58,7 @@
                 <h3 class="box-title"><a href="service.html"><?php echo $title[$x];?></a></h3>
                 <p class="box-text"><?php echo $text[$x];?></p>
             </div>
-            <div class="service-card style">
+            <div class="service-card style1">
                <div class="d-flex justify-content-between">
                   <div class="box-icon">
                     <div class="color-masking">

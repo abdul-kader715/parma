@@ -7,7 +7,7 @@ Why Choose Us Area
             <div class="col-xxl-6">
                 <div class="why-wrap2">
                     <div class="title-area text-left ">
-                        <span class="sub-title2 text-bg-white" data-cue="slideInUp">About Us</span>
+                        <span class="sub-title2 text-bg-white" data-cue="slideInUp">Why Choose Us</span>
                         <h2 class="sec-title style4 text-anim2 " data-cue="slideInUp"> Why Pamar is Trusted   <br>
                             <span>Plumbing</span> Partner</h2>
                         <p class="sec-text2" data-cue="slideInUp">Our skilled team of experts is devoted to
@@ -19,7 +19,7 @@ Why Choose Us Area
                                 Discover More
                             </a>
                     </div>
-                    <?php get_section('brand-v3', );?>
+                    <?php get_section('brand-v4', );?>
                 </div>  
             </div> 
             <div class="col-xxl-6">

@@ -79,10 +79,10 @@ get_header('color-scheme');
                     </div>
                     <div class="col-auto">
                         <div class="main-menu-wrap3 align-items-center justify-content-between">
-                            <nav class="main-menu d-none d-lg-inline-block">
+                            <nav class="main-menu d-none d-xl-inline-block">
                                     <?php get_header('menu'); ?>
                             </nav>
-                            <div class="header-button d-flex d-lg-none">
+                            <div class="header-sidbtn d-flex d-xl-none">
                                 <div class="sidebar-btn">
                                     <button type="button" class="simple-icon th-menu-toggle">
                                         <span class="dots"></span>
@@ -91,10 +91,10 @@ get_header('color-scheme');
                                     </button>
                                 </div>
                             </div>
-                            <div class="header-search d-none d-lg-inline-block">
+                            <div class="header-search d-none d-xl-inline-block">
                                 <button type="button" class="icon-btn style6 searchBoxToggler"><span>Search Here....</span><i class="far fa-search"></i></button>
                             </div>
-                            <div class="header-bg-shape bg-mask" data-mask-src="assets/img/shape/header-top-shape3-1.png">
+                            <div class="header-bg-shape bg-mask" data-mask-src="assets/img/shape/header-shape3-2.png">
                             </div>
                         </div>
                     </div>

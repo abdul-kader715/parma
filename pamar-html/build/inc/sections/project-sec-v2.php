@@ -37,7 +37,18 @@ Project Area
         <div class="tab-content">
             <div class="tab-pane fade show active" id="nav-one" role="tabpanel" aria-labelledby="nav-one-tab">
                 <div class="slider-area project-slider2">
-                    <div class="swiper th-slider" id="projectSlider1" data-slider-options='{"autoHeight":true,"breakpoints":{"0":{"slidesPerView":1},"767":{"slidesPerView":"2"},"1200":{"slidesPerView":"3"},"1300":{"slidesPerView":"4"},"1600":{"slidesPerView":"4"}}}'>
+                    <div class="swiper th-slider" id="projectSlider1" data-slider-options='{
+                                "autoHeight": true,
+                                "centeredSlides": true,
+                                "spaceBetween": 24,
+                                "breakpoints": {
+                                            "0": { "slidesPerView": 1, "centeredSlides": false },
+                                            "991": { "slidesPerView": 1, "centeredSlides": false },
+                                            "1200": { "slidesPerView": 2, "centeredSlides": false },
+                                            "1300": { "slidesPerView": 4, "centeredSlides": true },
+                                            "1600": { "slidesPerView": 4, "centeredSlides": true }
+                                        }
+                            }'>
                         <div class="swiper-wrapper">
                             <?php get_section('project-v2', 'swiper-slide'); ?>
                         </div>
@@ -47,7 +58,18 @@ Project Area
 
             <div class="tab-pane fade" id="nav-two" role="tabpanel" aria-labelledby="nav-two-tab">
                 <div class="slider-area project-slider2">
-                    <div class="swiper th-slider" id="projectSlider2" data-slider-options='{"autoHeight":true,"breakpoints":{"0":{"slidesPerView":1},"767":{"slidesPerView":"2"},"1200":{"slidesPerView":"3"},"1300":{"slidesPerView":"4"},"1600":{"slidesPerView":"4"}}}'>
+                    <div class="swiper th-slider" id="projectSlider1" data-slider-options='{
+                                "autoHeight": true,
+                                "centeredSlides": true,
+                                "spaceBetween": 24,
+                                "breakpoints": {
+                                            "0": { "slidesPerView": 1, "centeredSlides": false },
+                                            "991": { "slidesPerView": 1, "centeredSlides": false },
+                                            "1200": { "slidesPerView": 2, "centeredSlides": false },
+                                            "1300": { "slidesPerView": 4, "centeredSlides": true },
+                                            "1600": { "slidesPerView": 4, "centeredSlides": true }
+                                        }
+                            }'>
                         <div class="swiper-wrapper">
                             <?php get_section('project-v2', 'swiper-slide'); ?>
                         </div>
@@ -57,7 +79,18 @@ Project Area
 
             <div class="tab-pane fade" id="nav-three" role="tabpanel" aria-labelledby="nav-three-tab">
                 <div class="slider-area project-slider2">
-                    <div class="swiper th-slider" id="projectSlider3" data-slider-options='{"autoHeight":true,"breakpoints":{"0":{"slidesPerView":1},"767":{"slidesPerView":"2"},"1200":{"slidesPerView":"3"},"1300":{"slidesPerView":"4"},"1600":{"slidesPerView":"4"}}}'>
+                    <div class="swiper th-slider" id="projectSlider1" data-slider-options='{
+                                "autoHeight": true,
+                                "centeredSlides": true,
+                                "spaceBetween": 24,
+                                "breakpoints": {
+                                            "0": { "slidesPerView": 1, "centeredSlides": false },
+                                            "991": { "slidesPerView": 1, "centeredSlides": false },
+                                            "1200": { "slidesPerView": 2, "centeredSlides": false },
+                                            "1300": { "slidesPerView": 4, "centeredSlides": true },
+                                            "1600": { "slidesPerView": 4, "centeredSlides": true }
+                                        }
+                            }'>
                         <div class="swiper-wrapper">
                             <?php get_section('project-v2', 'swiper-slide'); ?>
                         </div>
@@ -67,7 +100,18 @@ Project Area
 
             <div class="tab-pane fade" id="nav-four" role="tabpanel" aria-labelledby="nav-four-tab">
                 <div class="slider-area project-slider2">
-                    <div class="swiper th-slider" id="projectSlider4" data-slider-options='{"autoHeight":true,"breakpoints":{"0":{"slidesPerView":1},"767":{"slidesPerView":"2"},"1200":{"slidesPerView":"3"},"1300":{"slidesPerView":"4"},"1600":{"slidesPerView":"4"}}}'>
+                    <div class="swiper th-slider" id="projectSlider1" data-slider-options='{
+                                "autoHeight": true,
+                                "centeredSlides": true,
+                                "spaceBetween": 24,
+                                "breakpoints": {
+                                            "0": { "slidesPerView": 1, "centeredSlides": false },
+                                            "991": { "slidesPerView": 1, "centeredSlides": false },
+                                            "1200": { "slidesPerView": 2, "centeredSlides": false },
+                                            "1300": { "slidesPerView": 4, "centeredSlides": true },
+                                            "1600": { "slidesPerView": 4, "centeredSlides": true }
+                                        }
+                            }'>
                         <div class="swiper-wrapper">
                             <?php get_section('project-v2', 'swiper-slide'); ?>
                         </div>
@@ -77,7 +121,18 @@ Project Area
 
             <div class="tab-pane fade" id="nav-five" role="tabpanel" aria-labelledby="nav-five-tab">
                 <div class="slider-area project-slider2">
-                    <div class="swiper th-slider" id="projectSlider5" data-slider-options='{"autoHeight":true,"breakpoints":{"0":{"slidesPerView":1},"767":{"slidesPerView":"2"},"1200":{"slidesPerView":"3"},"1300":{"slidesPerView":"4"},"1600":{"slidesPerView":"4"}}}'>
+                    <div class="swiper th-slider" id="projectSlider1" data-slider-options='{
+                                "autoHeight": true,
+                                "centeredSlides": true,
+                                "spaceBetween": 24,
+                                "breakpoints": {
+                                            "0": { "slidesPerView": 1, "centeredSlides": false },
+                                            "991": { "slidesPerView": 1, "centeredSlides": false },
+                                            "1200": { "slidesPerView": 2, "centeredSlides": false },
+                                            "1300": { "slidesPerView": 4, "centeredSlides": true },
+                                            "1600": { "slidesPerView": 4, "centeredSlides": true }
+                                        }
+                            }'>
                         <div class="swiper-wrapper">
                             <?php get_section('project-v2', 'swiper-slide'); ?>
                         </div>
@@ -87,7 +142,18 @@ Project Area
 
             <div class="tab-pane fade" id="nav-six" role="tabpanel" aria-labelledby="nav-six-tab">
                 <div class="slider-area project-slider2">
-                    <div class="swiper th-slider" id="projectSlider6" data-slider-options='{"autoHeight":true,"breakpoints":{"0":{"slidesPerView":1},"767":{"slidesPerView":"2"},"1200":{"slidesPerView":"3"},"1300":{"slidesPerView":"4"},"1600":{"slidesPerView":"4"}}}'>
+                    <div class="swiper th-slider" id="projectSlider1" data-slider-options='{
+                                "autoHeight": true,
+                                "centeredSlides": true,
+                                "spaceBetween": 24,
+                                "breakpoints": {
+                                            "0": { "slidesPerView": 1, "centeredSlides": false },
+                                            "991": { "slidesPerView": 1, "centeredSlides": false },
+                                            "1200": { "slidesPerView": 2, "centeredSlides": false },
+                                            "1300": { "slidesPerView": 4, "centeredSlides": true },
+                                            "1600": { "slidesPerView": 4, "centeredSlides": true }
+                                        }
+                            }'>
                         <div class="swiper-wrapper">
                             <?php get_section('project-v2', 'swiper-slide'); ?>
                         </div>
