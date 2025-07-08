@@ -154,10 +154,11 @@
     &.style2 {
         position: relative;
         border-radius: 32px;
-
+        transition: all .3s;
         .box-img {
             position: relative;
             height: 541px !important;
+            transition: all .3s;
         }
 
         .popup-image {
@@ -235,7 +236,8 @@
         width: 312px !important;
         height: 541px !important;
         border-radius: 32px;
-
+        transition: all .3s;
+position: relative;
         @include lg {
             width: 548px !important;
             height: 541px !important;
@@ -255,7 +257,8 @@
         width: 648px !important;
         height: 541px !important;
         border-radius: 32px;
-
+        transition: all .3s;
+        position: relative;
         @include lg {
             width: 548px !important;
             height: 541px !important;

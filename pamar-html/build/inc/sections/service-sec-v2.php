@@ -8,9 +8,9 @@ Service Area
             <div class="row justify-content-between align-items-center">
                 <div class="col-xxl-6 col-xl-8">
                     <div class="title-area text-left">
-                        <span class="sub-title2" data-cue="slideInUp">Pamar services</span>
+                        <span class="sub-title2 bg-black-color7" data-cue="slideInUp">Pamar services</span>
                         <h2 class="sec-title style4 text-anim2 " data-cue="slideInUp">Plumbing <span>Services</span>
-                         <br>You Can Trust</h2>
+                         You <br> Can Trust</h2>
                     </div>
                 </div>
                 <div class="col-xl-auto">

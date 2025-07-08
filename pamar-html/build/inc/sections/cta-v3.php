@@ -31,7 +31,10 @@ Cta Area
                 </div>
                
             </div>
-            <div class="shape-mockup cta-bg-shape3-1" data-bottom="0" data-left="0">
+            <div class="cta-bg-shape3-1" >
+                <img src="assets/img/shape/cta_overlay_shape.png" alt="img">
+            </div>
+            <div class="cta-bg-shape3-2" >
                 <img src="assets/img/shape/cta_overlay_shape.png" alt="img">
             </div>
         </div>

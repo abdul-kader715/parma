@@ -32,14 +32,20 @@
                      <h3 class="box-title"><a href="team-details.html"><?php echo $title[$x];?></a></h3>
                     <span class="box-subtitle"><?php echo $subtitle[$x];?></span>  
                   </div>
-                     <a class="icon-btn style2 style-border2" href="team-details.html"><i class="fa-solid fa-plus"></i></a>            
+                  <div class="team-social">
+                    <button class="icon-btn style2 style-border2" tabindex="0">
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
+                    <div class="th-social style12">
+                        <a href="http://facebook.com" tabindex="0"><i class="fab fa-facebook-f"></i></a>
+                        <a href="http://twitter.com" tabindex="0"><i class="fab fa-twitter"></i></a>
+                        <a href="http://instagram.com" tabindex="0"><i class="fab fa-instagram"></i></a>
+                        <a target="_blank" href="https://whatsapp.com/"><i class="fab fa-whatsapp"></i></a>
+                    </div>
                 </div>
-                <!-- <div class="th-social">
-                    <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                    <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                    <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
-                    <a target="_blank" href="https://whatsapp.com/"><i class="fab fa-whatsapp"></i></a>
-                </div> -->
+                     
+                </div>
+                
             </div>
         </div>
         

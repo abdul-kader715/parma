@@ -294,7 +294,12 @@
          i {
             color: rgba(23, 25, 31, 0.30);
          }
-
+         &:hover{
+            
+            i{
+               color: $white-color;
+            }
+         }
       }
 
 

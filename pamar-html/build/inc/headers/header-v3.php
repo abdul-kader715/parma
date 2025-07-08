@@ -67,7 +67,7 @@ get_header('color-scheme');
         <!-- Main Menu Area -->
         <div class="menu-area">
             <div class="container-fluid p-0">
-                <div class="row align-items-center justify-content-between">
+                <div class="row g-0 align-items-center justify-content-between">
                     <div class="col-auto">
                         <div class="header-logo">
                             <a href="<?php echo indexURL;?>">

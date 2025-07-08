@@ -11,19 +11,19 @@ Process Area
             </div> 
             <div class="col-xxl-6">
                 <div class="title-area">
-                      <span class="sub-title2 text-bg-white" data-cue="slideInUp">Our Work Process</span>
+                      <span class="sub-title2 bg-black-color7" data-cue="slideInUp">Our Work Process</span>
                     <h2 class="sec-title style4 text-anim2 " data-cue="slideInUp">Fixing Your Plumbing Issues in Just <span>5 Steps</span> </h2>
                         
                 </div>
             </div>            
         </div>
 
-  <div class="row justify-content-end xl-justify-content-start">
+  <div class="row justify-content-xxl-end justify-content-start">
         <div class="col-xxl-9 col-xl-10">
             <div class="slider-area process-slider">
                 <div class="swiper th-slider" id="processSlider" data-slider-options='{"paginationType":"progressbar", "speed" : "1500",
-                    "breakpoints":{"0":{"slidesPerView":1},"767":{"slidesPerView":"2"},"1200":{"slidesPerView":"2"},
-                    "1300":{"slidesPerView":"2"},"1600":{"slidesPerView":"2"}}}'>
+                    "breakpoints":{"0":{"slidesPerView":1},"767":{"slidesPerView":"1"},"1200":{"slidesPerView":"1"},
+                    "1400":{"slidesPerView":"1"},"1600":{"slidesPerView":"2"}}}'>
                     <div class="swiper-wrapper">
                         <?php
                         $title = array(

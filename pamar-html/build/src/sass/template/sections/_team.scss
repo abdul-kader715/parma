@@ -92,6 +92,7 @@
       transition: 0.4s;
       max-width: 200px;
       opacity: 0;
+      z-index: 11;
    }
 
    .box-title {
@@ -100,11 +101,11 @@
       margin-bottom: 0px;
       position: relative;
       z-index: 9;
-      transition: 0.4s;
+      
 
       a {
          color: $white-color;
-
+         transition: 0.4s;
          &:hover {
             color: $theme-color;
          }
@@ -273,6 +274,42 @@
 
       .team-img {}
    }
+
+    .team-social {
+      position: relative;
+
+      &:hover {
+         .th-social {
+            bottom: 70px;
+            opacity: 1;
+            visibility: visible;
+         }
+      }
+   }
+
+ 
+
+   .th-social a {
+      border-color: $border-color;
+      color: $title-color;
+      background: $white-color;
+
+      &:hover {
+         background: $theme-color;
+         border-color: $theme-color;
+         color: $white-color;
+      }
+   }
+
+   .th-social {
+      opacity: 1;
+      flex-direction: column;
+      left: 0px;
+      bottom: 60px;
+      opacity: 0;
+      visibility: hidden;
+      transition: .3s;
+   }
 }
 
 .team-slider2 {
@@ -413,6 +450,7 @@
          height: var(--icon-size, 50px);
          background: $theme-color;
          color: $white-color;
+         line-height: 50px;
       }
    }
 

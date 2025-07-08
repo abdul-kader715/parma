@@ -3,11 +3,11 @@ Project Area
 ==============================-->
 <section class="position-relative <?php echo $klass;?>" id="project-sec">
     <div class="container">
-        <div class="title-area text-xl-start text-center z-index-n1">
+        <div class="title-area text-xl-start text-center ">
             <div class="row justify-content-between align-items-center">
                 <div class="col-xl-auto">
                     <div class="title-area text-left">
-                        <span class="sub-title2" data-cue="slideInUp">Pamar services</span>
+                        <span class="sub-title2 bg-black-color7" data-cue="slideInUp">Pamar services</span>
                         <h2 class="sec-title style4 text-anim2 " data-cue="slideInUp">Exclusive Recent
                              <span>Projects</span></h2>
                     </div>
@@ -15,7 +15,7 @@ Project Area
                 
                 <div class="col-xl-auto">
                    <div class="btn-group mt-30 mb-50" data-cue="slideInUp">
-                        <a href="about.html" class="link-btn3">
+                        <a href="project.html" class="link-btn3">
                             Discover More
                         </a>
                     </div>
@@ -41,6 +41,7 @@ Project Area
                                 "autoHeight": true,
                                 "centeredSlides": true,
                                 "spaceBetween": 24,
+                                "speed" : "1500",
                                 "breakpoints": {
                                             "0": { "slidesPerView": 1, "centeredSlides": false },
                                             "991": { "slidesPerView": 1, "centeredSlides": false },
@@ -61,6 +62,7 @@ Project Area
                     <div class="swiper th-slider" id="projectSlider1" data-slider-options='{
                                 "autoHeight": true,
                                 "centeredSlides": true,
+                                "speed" : "1500",
                                 "spaceBetween": 24,
                                 "breakpoints": {
                                             "0": { "slidesPerView": 1, "centeredSlides": false },
@@ -83,6 +85,7 @@ Project Area
                                 "autoHeight": true,
                                 "centeredSlides": true,
                                 "spaceBetween": 24,
+                                "speed" : "1500",
                                 "breakpoints": {
                                             "0": { "slidesPerView": 1, "centeredSlides": false },
                                             "991": { "slidesPerView": 1, "centeredSlides": false },
@@ -104,6 +107,7 @@ Project Area
                                 "autoHeight": true,
                                 "centeredSlides": true,
                                 "spaceBetween": 24,
+                                "speed" : "1500",
                                 "breakpoints": {
                                             "0": { "slidesPerView": 1, "centeredSlides": false },
                                             "991": { "slidesPerView": 1, "centeredSlides": false },
@@ -125,6 +129,7 @@ Project Area
                                 "autoHeight": true,
                                 "centeredSlides": true,
                                 "spaceBetween": 24,
+                                "speed" : "1500",
                                 "breakpoints": {
                                             "0": { "slidesPerView": 1, "centeredSlides": false },
                                             "991": { "slidesPerView": 1, "centeredSlides": false },
@@ -146,6 +151,7 @@ Project Area
                                 "autoHeight": true,
                                 "centeredSlides": true,
                                 "spaceBetween": 24,
+                                "speed" : "1500",
                                 "breakpoints": {
                                             "0": { "slidesPerView": 1, "centeredSlides": false },
                                             "991": { "slidesPerView": 1, "centeredSlides": false },

@@ -423,6 +423,46 @@
       &.char40 {
          transform: rotate(calc(var(--rotate-letter) * 40));
       }
+      &.char41 {
+         transform: rotate(calc(var(--rotate-letter) * 41));
+      }
+
+      &.char42 {
+         transform: rotate(calc(var(--rotate-letter) * 42));
+      }
+
+      &.char43 {
+         transform: rotate(calc(var(--rotate-letter) * 43));
+      }
+
+      &.char44 {
+         transform: rotate(calc(var(--rotate-letter) * 44));
+      }
+
+      &.char45 {
+         transform: rotate(calc(var(--rotate-letter) * 45));
+      }
+
+      &.char46 {
+         transform: rotate(calc(var(--rotate-letter) * 46));
+      }
+      &.char47 {
+         transform: rotate(calc(var(--rotate-letter) * 47));
+      }
+
+      &.char48 {
+         transform: rotate(calc(var(--rotate-letter) * 48));
+      }
+
+      &.char49 {
+         transform: rotate(calc(var(--rotate-letter) * 49));
+      }
+
+      &.char50 {
+         transform: rotate(calc(var(--rotate-letter) * 50));
+      }
+
+     
    }
 }
 
@@ -645,8 +685,8 @@
       background: $white-color;
       max-width: 492px;
       position: absolute;
-      left: 16px;
-      bottom: 16px;
+      left: 21px;
+      bottom: 21px;
       padding: 48px;
       padding-right: 65px;
 

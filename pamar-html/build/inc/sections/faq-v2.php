@@ -6,18 +6,16 @@ Faq Area
         <div class=" accordion" id="faqAccordion">
             <?php 
                 $title = array( 
-                    '01. What is Business consulting?',
-                    '02. Why should I hire a business consultant?',
-                    '03. What services do you offer?',
-                    '04. How can consultants benefit my business?',
-                    '05. How do you ensure data security?',
-                    '06. How do you tailor your approach?',
-                    '07. How do you ensure confidentiality?',
-                    '08. What are your fees and payment terms?',
+                    'Do you offer emergency plumbing services?',
+                    'Do you offer warranties on your work?',
+                    'How often should I get my drains cleaned?',
+                    'Are your plumbers licensed and insured?',
+                    'How do I know if I have a hidden leak?',
+                    'Can you install tankless water heaters?',
+                    'What areas do you serve?',
+                    'How much does a plumbing service cost?',
                 );
-
-            
-
+               
                 $arrlength = count($title);
                 for ($x = 0; $x < $arrlength; $x++) { 
 
@@ -33,21 +31,20 @@ Faq Area
                     }
                     
             ?>
-                
-                <div class="accordion-card style2">
-                    <div class="accordion-header" id="collapse-item-<?php echo $x + 1; ?>">
-                        <button class="accordion-button <?php echo $collapse_class; ?>" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-<?php echo $x + 1; ?>" aria-expanded="<?php echo $arealabel; ?>" aria-controls="collapse-<?php echo $x + 1; ?>">
-                            <?php echo $title[$x]; ?>
-                        </button>
-                    </div>
-                    <div id="collapse-<?php echo $x + 1; ?>" class="accordion-collapse collapse <?php echo $show_class; ?>" aria-labelledby="collapse-item-<?php echo $x + 1; ?>" data-bs-parent="#faqAccordion">
-                        <div class="accordion-body">
-                            <p class="faq-text">
-                                At Pamar consultant, we redefine consultancy through a dynamic fusion of innovation, expertise, and strategic vision. Our dedicated team is committed to delivering tailored solutions that transcend traditional consulting boundaries.
-                            </p>
-                        </div>
+            <div class="accordion-card style2">
+                <div class="accordion-header" id="collapse-item-<?php echo $x + 1; ?>">
+                    <button class="accordion-button <?php echo $collapse_class; ?>" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-<?php echo $x + 1; ?>" aria-expanded="<?php echo $arealabel; ?>" aria-controls="collapse-<?php echo $x + 1; ?>">
+                        <?php echo $title[$x]; ?>
+                    </button>
+                </div>
+                <div id="collapse-<?php echo $x + 1; ?>" class="accordion-collapse collapse <?php echo $show_class; ?>" aria-labelledby="collapse-item-<?php echo $x + 1; ?>" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        <p class="faq-text">
+                            At Pamar consultant, we redefine consultancy through a dynamic fusion of innovation, expertise, and strategic vision. Our dedicated team is committed to delivering tailored solutions that transcend traditional consulting boundaries.
+                        </p>
                     </div>
                 </div>
+            </div>
             <?php } ?>
         </div>
 

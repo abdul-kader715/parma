@@ -126,11 +126,13 @@
 
       img {
           filter: grayscale(0) brightness(100%);
+         transition: 0.4s ease-in-out;
       }
 
       &:hover {
          img {
             filter: grayscale(0) brightness(100%);
+            transform: scale(-1) rotate(180deg);
          }
       }
    }
