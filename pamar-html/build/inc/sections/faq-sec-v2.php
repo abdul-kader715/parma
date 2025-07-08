@@ -16,7 +16,7 @@ Faq Area
                 </div>
             </div>            
         </div> 
-        <div class="row space-extra-bottom"> 
+        <div class="row gy-30"> 
             <div class="col-xl-6">
                 <div class="accordion" id="faqAccordion1">
                     <?php 
@@ -139,7 +139,12 @@ Faq Area
             </div>
         </div>
     </div>
-    <!-- <div class="price-bg-shape1-1 shape-mockup d-none d-xxl-inline" data-bottom="0" data-left="26%">
-            <img src="assets/img/normal/faq-thumb1-1.png" alt="img">
-      </div> -->
+        <div class="faq-bg-shape3-1 bg-mask" data-mask-src="assets/img/shape/faq-bg-shape3-1.png">
+        </div>
+        <div class="faq-bg-shape3-2 bg-mask" data-mask-src="assets/img/shape/faq-bg-shape3-2.png">
+            <img src="assets/img/bg/faq-bg-3-1.png" alt="img">
+        </div>
+        <div class="faq-img3-1 d-none d-xxl-inline" >
+            <img src="assets/img/normal/faq-thumb3-1.png" alt="img">
+        </div>
 </div>

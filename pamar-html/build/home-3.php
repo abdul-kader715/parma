@@ -15,9 +15,9 @@ get_section('project-sec-v3', ' overflow-hidden');
 get_section('contact-info-v2', 'space  overflow-hidden');
 get_section('appointment-sec-v1', 'appointment-area overflow-hidden');
 get_section('testi-sec-v3', 'space overflow-hidden');
-get_section('price-sec-v3', 'space overflow-hidden');
-get_section('cta-v3', ' space-bottom position-relative z-index-2');
-get_section('faq-sec-v2', 'faqsec2 space-botton overflow-hidden position-relative');
+get_section('price-sec-v3', 'space-top');
+get_section('cta-v3', 'cta-area-3 position-relative ');
+get_section('faq-sec-v2', 'faq-area-2 space-bottom  position-relative');
 get_section('blog-sec-v3', 'space overflow-hidden');
 
 
