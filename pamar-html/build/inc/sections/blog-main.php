@@ -23,9 +23,8 @@ Blog Area
                         </h2>
                         <p class="blog-text">With transparent pricing, fast response times, and 24/7 emergency availability, we’re always here when you need us. Our customer-first approach means we treat every job with care, cleanliness, and professionalism. When you choose us, you're choosing plumbing done with integrity, efficiency, and peace of mind.</p>                        
                         <a href="blog-details.html" class="link-btn">
-                           <span>Read More</span>
-                           <div class="icon"><img src="assets/img/icon/arrow-right-white.svg" alt="">
-                           </div>
+                            Read More
+                           <span class="after-bg"></span>
                         </a>
                     </div>
                 </div>
@@ -46,9 +45,8 @@ Blog Area
                         </h2>
                         <p class="blog-text">With transparent pricing, fast response times, and 24/7 emergency availability, we’re always here when you need us. Our customer-first approach means we treat every job with care, cleanliness, and professionalism. When you choose us, you're choosing plumbing done with integrity, efficiency, and peace of mind.</p>                        
                         <a href="blog-details.html" class="link-btn">
-                           <span>Read More</span>
-                           <div class="icon"><img src="assets/img/icon/arrow-right-white.svg" alt="">
-                           </div>
+                            Read More
+                           <span class="after-bg"></span>
                         </a>
                     </div>
                 </div>
@@ -67,9 +65,8 @@ Blog Area
                         </h2>
                         <p class="blog-text">With transparent pricing, fast response times, and 24/7 emergency availability, we’re always here when you need us. Our customer-first approach means we treat every job with care, cleanliness, and professionalism. When you choose us, you're choosing plumbing done with integrity, efficiency, and peace of mind.</p>                        
                         <a href="blog-details.html" class="link-btn">
-                           <span>Read More</span>
-                           <div class="icon"><img src="assets/img/icon/arrow-right-white.svg" alt="">
-                           </div>
+                            Read More
+                           <span class="after-bg"></span>
                         </a>
                     </div>
                 </div>
@@ -92,9 +89,8 @@ Blog Area
                         </h2>
                         <p class="blog-text">With transparent pricing, fast response times, and 24/7 emergency availability, we’re always here when you need us. Our customer-first approach means we treat every job with care, cleanliness, and professionalism. When you choose us, you're choosing plumbing done with integrity, efficiency, and peace of mind.</p>                        
                         <a href="blog-details.html" class="link-btn">
-                           <span>Read More</span>
-                           <div class="icon"><img src="assets/img/icon/arrow-right-white.svg" alt="">
-                           </div>
+                            Read More
+                           <span class="after-bg"></span>
                         </a>
                     </div>
                 </div>
@@ -107,7 +103,7 @@ Blog Area
 						get_widget('search');
 						get_widget('categories');
 						get_widget('recent-post');
-                  get_widget('instagram-feeds');
+                        get_widget('instagram-feeds');
 						get_widget('tagcloud');
 						
 					?>

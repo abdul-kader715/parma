@@ -18,9 +18,9 @@
             <i class="fal fa-pencil"></i>
         </div>
         <div class="col-12 form-group mb-0">
-            <button class="th-btn style6"><span>Sent Message</span>
-             <strong class="icon"><img src="assets/img/icon/arrow-right.svg" alt="">
-            </strong>
+            <button class="th-btn style4 active">
+                Sent Message
+                <span class="after-bg"></span>
          </button>
         </div>
     </div>

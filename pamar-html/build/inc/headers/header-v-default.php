@@ -64,7 +64,7 @@ get_section('sidemenu-v2');
                     <div class="col-auto d-xl-block d-none">
                         <div class="header-button">
                            <button type="button" class="icon-btn style6 searchBoxToggler"><i class="far fa-search"></i></button>
-                            <a class="th-btn style3"
+                            <a class="th-btn style6"
                              href="tel:+16369729901"><img src="assets/img/icon/phone.svg" alt="">Call Us: +163-6547-9874</a>
                           <button type="button" class="icon-btn style6 sideMenuInfo"><i class="fa-solid fa-bars"></i></button>
                         </div>

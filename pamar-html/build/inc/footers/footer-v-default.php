@@ -14,11 +14,10 @@
 				</div>
 				<div class="col-xl-auto">
 					<div class="fadeinright wow" data-wow-duration="1.5s" data-wow-delay="0.3s">
-                  <a href="contact.html" class="th-btn">
-                     <span>Free Consultation</span>
-                     <div class="icon"><img src="assets/img/icon/arrow-right.svg" alt="">
-                  </div>
-                  </a>
+						<a href="contact.html" class="th-btn style5">
+							Free Consultation
+							<span class="after-bg"></span>
+						</a>
 					</div>
 				</div>
 			</div>	

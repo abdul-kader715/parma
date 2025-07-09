@@ -2,122 +2,197 @@
 .th-btn {
    position: relative;
    z-index: 2;
+   overflow: hidden;
    vertical-align: middle;
    display: inline-flex;
    border: none;
    text-align: center;
-   background-color: $theme-color2;
-   color: $black-color2;
+   color: $white-color;
    font-family: $body-font;
    font-size: 16px;
    font-weight: 500;
    line-height: 1;
-   min-width: 170px;
-   border-radius: 48px;
+   padding: 22px 24px;
+   min-width: 125px;
+   border-radius: 50px;
+   -ms-flex-pack: center;
    justify-content: center;
-   overflow: hidden;
-   transition: all 0.5s ease-in-out;
+   align-items: center;
+   gap: 18px;
+   background: transparent;
+   transition: 0.4s;
 
-   i {
-      transition: 0.2s;
-      color: $white-color;
+   &::after {
+      content: '';
+      position: relative;
+      background-image: url(../img/icon/arrow-right.svg);
+      background-size: 100% 100%;
+      width: 16px;
+      height: 16px;
+      -webkit-transition: 0.4s;
+      transition: 0.4s;
+      left: 5px;
    }
 
-   span {
-      padding: 22px 16px 22px 24px;
-   }
-
-   .icon {
-      width: 56px;
-      line-height: 56px;
-      background: $white-color;
-      display: block;
-      transition: all 0.5s ease-in-out;
-   }
-
-   &:focus,
-   &:hover,
-   &:active {
+   &:before {
+      content: "";
+      position: absolute;
+      width: calc(100% - 48px);
+      height: 100%;
       background: $theme-color;
+      left: 0;
+      top: 0;
+      z-index: -1;
+      transition: 0.4s;
+   }
+
+   .after-bg {
+      width: 48px;
+      height: 100%;
+      position: absolute;
+      right: 0;
+      top: 0;
+      background: $theme-color2;
+      transition: 0.4s;
+   }
+
+   &:hover {
       color: $white-color;
 
-      i {
-         color: $white-color;
+      &:before {
+         opacity: 0.8;
       }
-
    }
+
+
 
    &.style2 {
-      background: $white-color;
+      border: 1px solid $white-color;
+      background: transparent;
+      padding: 20px 24px;
 
-      &:after {
-         background: $theme-color;
+      &::after {
+         background-image: url(../img/icon/arrow-right-white.svg);
+         left: 7px;
       }
 
-      &:focus,
-      &:hover,
-      &:active {
-         color: $title-color;
+      .after-bg {
+         width: 1px;
+         right: 43px;
+         top: 0;
+         background: $white-color;
+      }
 
-         i {
-            color: $title-color;
+      &:before {
+         background: transparent;
+      }
+
+      &:hover {
+         border: 1px solid $theme-color;
+
+         .after-bg {
+            background: $theme-color;
          }
       }
+
+
    }
 
    &.style3 {
-      color: $white-color;
-      background: $theme-color;
-      display: flex;
-      padding: 16px 24px;
-      justify-content: center;
-      align-items: center;
-      gap: 10px;
+      background: transparent;
+      color: $title-color;
+
+      &:before {
+         background: transparent;
+         border: 1px solid $border-color;
+         border-radius: 50px 0 0 50px;
+      }
+
+      .after-bg {
+         background: $border-color;
+      }
 
       &:hover {
-         background: $theme-color2;
+         &:before {
+            border: 1px solid $theme-color;
+         }
+
+         .after-bg {
+            background: $theme-color2;
+         }
       }
+
    }
 
    &.style4 {
-      background: $theme-color;
+      background: transparent;
+      color: $title-color;
+      padding: 20px 24px;
 
-      &:after {
-         background: $black-color3;
+      &:before {
+         background: transparent;
+         border: 1px solid $border-color;
+         border-radius: 50px 0 0 50px;
       }
-   }
 
-   &.style5 {
-      background: $white-color;
+      .after-bg {
+         background: $border-color;
+      }
 
-      &:after {
-         background: $title-color;
+      &.active {
+         color: $white-color;
+
+         &:before {
+            border: 1px solid $theme-color;
+            background: $theme-color;
+         }
+
+         .after-bg {
+            background: $theme-color2;
+         }
       }
 
       &:hover {
-         color: $title-color;
+         color: $white-color;
+
+         &:before {
+            border: 1px solid $theme-color;
+            background: $theme-color;
+         }
+
+         .after-bg {
+            background: $theme-color2;
+         }
+      }
+
+   }
+
+   &.style5 {
+      color: $title-color;
+      padding: 20px 24px;
+
+      &:before {
+         background: $theme-color2;
+      }
+
+      .after-bg {
+         background: $white-color;
+      }
+
+      &:hover {
+         color: $white-color;
       }
    }
 
    &.style6 {
-      padding: 0;
-      background: $theme-color;
-      color: $white-color;
+      padding: 16px 24px;
 
-      span {
-         padding: 22px 17px 20px 25px;
+      &::after {
+         display: none;
       }
 
-      .icon {
-         width: 56px;
-         line-height: 56px;
-         background: $theme-color2;
-         display: block;
-         position: relative;
-      }
-
-      &:hover {
-         background: $theme-color;
+      &::before {
+         width: 100%;
       }
    }
 
@@ -314,7 +389,8 @@
       font-size: 16px;
       font-weight: 700;
       min-width: auto;
-      &:hover{
+
+      &:hover {
          background: $theme-color3;
       }
    }
@@ -509,15 +585,19 @@
       font-size: 16px;
       padding: 20px;
       border: 1px solid $gray-color5;
+      color: $title-color;
       background: transparent;
 
-      &:after {
-         background: $black-color;
+      &::before {
+         display: none;
       }
 
-      &:hover {
-         color: $black-color2;
+      &::after {
+         background-image: url(../img/icon/right-arrow-theme1.svg);
+         left: -2px;
       }
+
+
    }
 }
 
@@ -990,91 +1070,133 @@
 .link-btn {
    position: relative;
    z-index: 2;
+   overflow: hidden;
    vertical-align: middle;
    display: inline-flex;
    border: none;
    text-align: center;
-   background: transparent;
-   color: $black-color2;
+   color: $title-color;
    font-family: $body-font;
    font-size: 16px;
    font-weight: 500;
    line-height: 1;
-   min-width: 170px;
-   border-radius: 48px;
+   padding: 15px 24px;
+   min-width: 125px;
+   border-radius: 50px;
+   -ms-flex-pack: center;
    justify-content: center;
-   overflow: hidden;
-   transition: all 0.5s ease-in-out;
+   align-items: center;
+   gap: 18px;
+   background: transparent;
+   transition: 0.4s;
 
    &::after {
+      content: '';
+      position: relative;
+      background-image: url(../img/icon/arrow-right-white.svg);
+      background-size: 100% 100%;
+      width: 16px;
+      height: 16px;
+      -webkit-transition: 0.4s;
+      transition: 0.4s;
+      left: 5px;
+   }
+
+   &:before {
+      content: "";
       position: absolute;
+      width: calc(100% - 48px);
+      height: 100%;
+      background: transparent;
       left: 0;
       top: 0;
-      height: 100%;
-      content: '';
-      width: calc(100% - 48px);
-      transition: all 0.5s ease-in-out;
-      border: 1px solid $black-color2;
-      border-right: 0;
-      border-top-left-radius: 48px;
-      border-bottom-left-radius: 48px;
-      background: transparent;
       z-index: -1;
+      transition: 0.4s;
+      border: 1px solid $title-color;
+      border-radius: 50px 0 0 50px;
    }
 
-   &::before {
+   .after-bg {
+      width: 48px;
+      height: 100%;
       position: absolute;
       right: 0;
       top: 0;
-      height: 100%;
-      content: '';
-      background: $black-color2;
-      width: 48px;
-      transition: all 0.5s ease-in-out;
-      z-index: -1;
+      background: $title-color;
+      transition: 0.4s;
    }
 
-   span {
-      padding: 16px 65px 16px 25px
-   }
-
-   .icon {
-      width: 48px;
-      line-height: 46px;
-      display: block;
-      transition: all 0.5s ease-in-out;
-      position: absolute;
-      right: 0;
-      top: 0;
-      height: 100%;
-      filter: brightness(100%);
-      transition: filter 0.5s ease-in-out;
-   }
-
-
-   &:focus,
-   &:hover,
-   &:active {
+   &:hover {
       color: $white-color;
 
-      i {
-         color: $white-color;
-      }
-
-      &::after {
-         border: 1px solid $theme-color;
+      &:before {
          background: $theme-color;
+         border: 1px solid $theme-color;
       }
 
-      &::before {
+      .after-bg {
          background: $theme-color2;
       }
 
-      .icon {
-         filter: brightness(0%);
+      &::after {
+         background-image: url(../img/icon/arrow-right.svg);
       }
-
    }
+
+
+   // &::before {
+   //    position: absolute;
+   //    right: 0;
+   //    top: 0;
+   //    height: 100%;
+   //    content: '';
+   //    background: $black-color2;
+   //    width: 48px;
+   //    transition: all 0.5s ease-in-out;
+   //    z-index: -1;
+   // }
+
+   // span {
+   //    padding: 16px 65px 16px 25px
+   // }
+
+   // .icon {
+   //    width: 48px;
+   //    line-height: 46px;
+   //    display: block;
+   //    transition: all 0.5s ease-in-out;
+   //    position: absolute;
+   //    right: 0;
+   //    top: 0;
+   //    height: 100%;
+   //    filter: brightness(100%);
+   //    transition: filter 0.5s ease-in-out;
+   // }
+
+
+   // &:focus,
+   // &:hover,
+   // &:active {
+   //    color: $white-color;
+
+   //    i {
+   //       color: $white-color;
+   //    }
+
+   //    &::after {
+   //       border: 1px solid $theme-color;
+   //       background: $theme-color;
+   //    }
+
+   //    &::before {
+   //       background: $theme-color2;
+   //    }
+
+   //    .icon {
+   //       filter: brightness(0%);
+   //    }
+
+   // }
 
    &.style2 {
 
@@ -1288,19 +1410,21 @@
    .icon {
       display: inline-block;
       transition: all 0.5s ease-in-out;
-   }
-
-   svg {
-      fill: $title-color;
+      position: relative;
+      background-image: url(../img/icon/arrow-right.svg);
+      background-size: 100% 100%;
+      width: 16px;
+      height: 16px;
       transition: all 0.5s ease-in-out;
    }
+
+
 
    &:hover {
       margin-left: 0px;
 
-
-      svg {
-         fill: $theme-color;
+      .icon {
+         background-image: url(../img/icon/right-arrow-theme1.svg);
       }
    }
 }

@@ -53,11 +53,9 @@ About Area
                      </div>
                   
                     <div class="btn-wrap mt-40">
-                        <a href="about.html" class="th-btn style7 style9">
-                           <span>Discover More</span>
-                           <div class="icon">
-                              <img src="assets/img/icon/arrow-right-white.svg" alt="">
-                           </div>
+                        <a href="about.html" class="th-btn">
+                           Discover More
+                           <span class="after-bg"></span>
                          </a>
                         <div class="about-grid style2">
                             <div class="thumb">

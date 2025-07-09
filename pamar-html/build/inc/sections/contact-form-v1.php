@@ -37,10 +37,9 @@ Contact Area
                </div>
             </div>
             <div class="form-btn col-12">
-                <button class="th-btn style11 p-0">
-                     <span>Request A Quote</span>
-                     <strong class="icon"><img src="assets/img/icon/arrow-right.svg" alt="">
-                     </strong>
+                <button class="th-btn style5 ">
+                     Request A Quote
+                     <span class="after-bg"></span>
                 </button>
             </div>
         </div>

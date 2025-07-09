@@ -73,10 +73,9 @@
 					<span class="box-tag"><?php echo $tag[$x];?></span>
 					<h3 class="box-title"><a href="blog-details.html"><?php echo $title[$x];?></a></h3>
 					<a href="blog-details.html" class="link-btn">
-                  <span>Read More</span>
-                  <div class="icon"><img src="assets/img/icon/arrow-right-white.svg" alt="">
-                  </div>
-               </a>
+                            Read More
+                           <span class="after-bg"></span>
+                    </a>
 				</div>
 			</div>
 		</div>

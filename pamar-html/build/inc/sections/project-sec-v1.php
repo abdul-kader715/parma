@@ -15,12 +15,10 @@ Project Area
                     <h2 class="sec-title style2 text-anim2 mb-0" data-cue="slideInLeft">Projects</h2>
                 </div>
                 <div class="col-xxl-3 col-xl-4">
-                    <div class="mt-30 xxl-text-end xl-text-end" data-cue="slideInLeft">
-                      <a href="about.html" class="th-btn style7 style10">
-                           <span>View All Projects</span>
-                           <div class="icon">
-                              <img src="assets/img/icon/arrow-right-white.svg" alt="">
-                           </div>
+                    <div class="mt-30 text-xl-end text-xxl-end" data-cue="slideInLeft">
+                     <a href="project.html" class="th-btn style3">
+                           View All Projects
+                           <span class="after-bg"></span>
                      </a>
                     </div>
                 </div>

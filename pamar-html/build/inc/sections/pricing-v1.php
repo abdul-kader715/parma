@@ -12,6 +12,13 @@
         'Popular',
         '',
     );
+
+     $active = array(
+        '',
+        'active',
+        '',
+    );
+
      $image = array(
         'assets/img/price/price_1_1.jpg',
         'assets/img/price/price_1_2.jpg',
@@ -60,7 +67,7 @@
     for($x = 0; $x < $arrlength; $x++) { ?>
 
         <div class="<?php echo $klass;?>" data-cue="slideInUp">
-            <div class="price-card">
+            <div class="price-card <?php echo $active[$x];?>">
                <div class="box-top">
                   <div class="box-content">
                      <h3 class="box-title"><?php echo $title[$x];?></h3>
@@ -79,10 +86,9 @@
                         </ul>
                      </div>
                      <div class="btn-wrap">
-                        <a href="contact.html" class="link-btn style5">
-                           <span>Choose Package</span>
-                           <div class="icon"><img src="assets/img/icon/arrow-right-white.svg" alt="">
-                           </div>
+                        <a href="contact.html" class="th-btn style4">
+                           Choose Package
+                           <span class="after-bg"></span>
                         </a>
                      </div>
                </div>    

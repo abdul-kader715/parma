@@ -34,7 +34,17 @@
    }
 
    &.active {
-      background: $title-color;
+      .th-btn.style4{
+         color: $white-color;
+          &:before {
+            border: 1px solid $theme-color;
+            background: $theme-color;
+         }
+
+         .after-bg {
+            background: $theme-color2;
+         }
+      }
    }
 
    .box-top {
