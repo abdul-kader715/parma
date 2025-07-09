@@ -20,14 +20,14 @@ Cta Area
                         <h2 class="sec-title style4 text-anim2 " data-cue="slideInUp">Having a <span>Plumbing</span><br> Problem? We’ll Fixed it Today!</h2>
                         <p class="sec-text2" data-cue="slideInUp">Whereby is the super simple way to connect over. No apps, downloads, or long meeting links.</p>
                         <div class="btn-group" data-cue="slideInUp">
-                           <a href="about.html" class="link-btn3">
-                              Request A Quote
-                           </a>
-                           <a href="contact.html" class="link-btn style6">
-                              <span>Book A Visiting</span>
-                              <div class="icon"><img src="assets/img/icon/arrow-right-white.svg" alt="">
-                              </div>
-                           </a>
+                           <a href="about.html" class="th-btn style7 style10">
+                                Request a Quote
+                                <span class="after-bg"></span>
+                            </a>
+                            <a href="contact.html" class="th-btn style8 style11 style12">
+                                Book A Visiting
+                                <span class="after-bg"></span>
+                            </a>
                         </div>
                     </div>
                 </div>

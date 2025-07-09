@@ -92,6 +92,7 @@
                      </ul>
                   </div>
                   <div class="btn-wrap">
+                    
                     <a href="contact.html" class="link-btn3">Choose Plan</a>
                 </div>
                </div>

@@ -12,10 +12,9 @@ Faq Area
                      <h2 class="sec-title style4 text-anim2" data-cue="slideInUp">Your <span>Questions </span><br> Answered</h2>
                      <p class="sec-text2" data-cue="slideInUp">In case you missed anything and had some more questions.</p>
                      <div class="btn-group " data-cue="slideInUp">
-                        <a href="contact.html" class="link-btn style6">
-                           <span>Ask More Question</span>
-                           <div class="icon"><img src="assets/img/icon/arrow-right-white.svg" alt="">
-                           </div>
+                        <a href="contact.html" class="th-btn style8 style11 style12">
+                                Ask More Question
+                                <span class="after-bg"></span>
                         </a>
                      </div>
                   </div>  

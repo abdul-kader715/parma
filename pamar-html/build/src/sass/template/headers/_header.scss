@@ -1322,7 +1322,12 @@
          display: inline-flex;
          align-items: center;
          background: $theme-color;
-
+         &::before{
+            display: none;
+         }
+          &::after{
+            display: none;
+         }
          @media (max-width:1799px) {
             padding: 25px 20px 25px 100px;
          }

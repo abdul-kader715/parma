@@ -35,6 +35,14 @@
         font-weight: 500;
         border: 0;
 
+        &::before {
+            display: none;
+        }
+
+        &::after {
+            display: none;
+        }
+
         &.active {
             background-color: $theme-color2;
         }
@@ -50,13 +58,21 @@
         padding: 10px 20px;
         padding-top: 12px;
         background-color: $smoke-color2;
-        border-radius:16px 16px 0px 0px;
+        border-radius: 16px 16px 0px 0px;
         background: $smoke-color;
         color: $title-color;
         font-family: $body-font;
         font-size: 16px;
         font-weight: 400;
         border: 0;
+
+        &::before {
+            display: none;
+        }
+
+        &::after {
+            display: none;
+        }
 
         &.active {
             background-color: $theme-color2;

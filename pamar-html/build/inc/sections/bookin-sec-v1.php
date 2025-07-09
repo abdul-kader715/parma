@@ -34,7 +34,7 @@ Booking Area
     </div>
     <div class="shape-mockup" data-top="40%" data-right="10%">
         <div class="circle-tag d-none d-xxl-block">
-            <span class="circle-title-anime">** Quality services ** Quick Result ** Safe plumbing services </span>
+            <span class="circle-title-anime"> Quality services ** Quick Result ** Safe plumbing services </span>
             <div class="icon">
                 <img src="assets/img/icon/logo-icon.png" alt="">
             </div>

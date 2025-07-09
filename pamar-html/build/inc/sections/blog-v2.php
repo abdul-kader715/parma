@@ -55,12 +55,12 @@
 				</div>
 				<div class="blog-content">
                <a href="blog.html" class="blog-tag"><?php echo $subtitle[$x];?></a>
-					<h3 class="box-title"><a href="blog-details.html"><?php echo $title[$x];?></a></h3>
-					<a href="blog-details.html" class="link-btn style7">
-                  <span>Read More</span>
-                  <div class="icon"><img src="assets/img/icon/arrow-right-white.svg" alt="">
-                  </div>
-               </a>
+				<h3 class="box-title"><a href="blog-details.html"><?php echo $title[$x];?></a></h3>
+				
+				<a href="blog-details.html" class="th-btn style13">
+						Read More
+				  <span class="after-bg"></span>
+				</a>
 				</div>
 			</div>
 		</div>

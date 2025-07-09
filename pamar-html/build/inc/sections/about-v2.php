@@ -24,15 +24,15 @@ About Area
                         </ul>
                     </div>
                     <div class="btn-group mt-30" data-cue="slideInUp">
-                           <a href="about.html" class="link-btn3">
-                              Request A Quote
-                           </a>
-                           <a href="contact.html" class="link-btn style6">
-                              <span>Book A Visiting</span>
-                              <div class="icon"><img src="assets/img/icon/arrow-right.svg" alt="">
-                              </div>
-                           </a>
-                        </div>
+                           <a href="about.html" class="th-btn style7 style10">
+                                Request a Quote
+                                <span class="after-bg"></span>
+                            </a>
+                            <a href="contact.html" class="th-btn style8 style11">
+                                Book A Visiting
+                                <span class="after-bg"></span>
+                            </a>
+                    </div>
                 </div>
                 <div class="col-xxl-6 col-xl-6">
                     <div class="row">

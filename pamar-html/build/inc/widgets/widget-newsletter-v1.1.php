@@ -5,9 +5,8 @@
         <div class="form-group style-dark">
             <input class="form-control" type="email" placeholder="Enter your email address" required="">
         </div>
-         <button type="submit" class="th-btn">
-            <span>Subscribe Now</span>
-               <div class="icon"><img src="assets/img/icon/arrow-right.svg" alt="">
+         <button type="submit" class="th-btn style7">
+            Subscribe Now <span class="after-bg"></span>
             </div>
          </button>
     </form>

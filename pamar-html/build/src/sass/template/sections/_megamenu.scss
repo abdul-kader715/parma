@@ -29,12 +29,14 @@
 
         @include ml {
             left: -23rem !important;
-            
+
         }
+
         @include lg {
             left: -18rem !important;
-            
+
         }
+
         li {
             flex: 1 1 100%;
             width: 100%;
@@ -44,6 +46,7 @@
         a {
             font-size: 16px;
             line-height: 30px;
+
             &:hover {
                 color: $theme-color;
             }
@@ -98,6 +101,7 @@
                 font-weight: 700;
                 color: $title-color;
                 border-color: $theme-color;
+
                 &::after,
                 &::before {
                     content: "";
@@ -119,12 +123,15 @@
                 }
             }
         }
+
         @include xl {
             width: 1060px;
         }
+
         @include lg {
             width: 900px;
         }
+
         @include md {
             padding: 10px 0 !important;
         }
@@ -190,6 +197,13 @@
                 font-size: 14px;
                 color: $white-color;
                 width: max-content;
+
+                &::before {
+                    width: 100%;
+                }
+                &::after {
+                    display: none;
+                }
             }
         }
 
@@ -243,7 +257,7 @@
             }
         }
     }
-    
+
     @include md {
         .mega-menu-title a {
             padding: 0;

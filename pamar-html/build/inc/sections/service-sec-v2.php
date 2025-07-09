@@ -14,11 +14,10 @@ Service Area
                     </div>
                 </div>
                 <div class="col-xl-auto">
-                    <a href="contact.html" class="link-btn style8">
-                        <span>View All Services</span>
-                        <div class="icon"><img src="assets/img/icon/arrow-right.svg" alt="">
-                        </div>
-                    </a>
+                    <a href="service.html" class="th-btn style9">
+                        View All Services
+                        <span class="after-bg"></span>
+                     </a>
                 </div>
             </div>
             <div class="service-list-wrap">
@@ -27,4 +26,3 @@ Service Area
         </div>
     </div>
 </section>
-

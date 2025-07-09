@@ -31,8 +31,12 @@ Why Choose Us Area
                                 <?php get_section('work-v1', 'swiper-slide');?>
                             </div>
                             <div class="box-icon">
-                                <button data-slider-prev="#whySlide1" class="slider-arrow style5 defaul prev"><i class="far fa-arrow-left"></i></button>
-                                <button data-slider-next="#whySlide1" class="slider-arrow style5 defaul next"><i class="far fa-arrow-right"></i></button>
+                                <button data-slider-prev="#whySlide1" class="slider-arrow style3-1 style5 defaul prev">
+                                    <img src="assets/img/icon/arrow-left3.svg" alt="">
+                                </button>
+                                <button data-slider-next="#whySlide1" class="slider-arrow style3-1 style5 defaul next">
+                                    <img src="assets/img/icon/arrow-right3.svg" alt="">
+                                </button>
                             </div>
                         </div>
                     </div>

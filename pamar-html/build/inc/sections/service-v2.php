@@ -36,9 +36,7 @@
                 <h3 class="box-title"><a href="service.html"><?php echo $title[$x];?></a></h3>
                 <p class="box-text"><?php echo $text[$x];?></p>
                 <a href="service-details.html" class="link-btn style9">
-                    <span>View Details</span>
-                    <div class="icon"><img src="assets/img/icon/arrow-right.svg" alt="">
-                    </div>
+                    View Details
                 </a>
             </div>
             

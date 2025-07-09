@@ -197,203 +197,168 @@
    }
 
    &.style7 {
-      position: relative;
-      z-index: 2;
-      vertical-align: middle;
-      display: inline-flex;
-      border: none;
-      text-align: center;
-      background: transparent;
-      color: $white-color;
-      font-family: $body-font;
-      font-size: 16px;
-      font-weight: 500;
-      line-height: 1;
-      min-width: 215px;
-      border-radius: 48px;
-      justify-content: center;
-      overflow: hidden;
-      transition: all 0.5s ease-in-out;
-
-      &::after {
-         position: absolute;
-         left: 0;
-         top: 0;
-         height: 100%;
-         content: '';
-         width: calc(100% - 64px);
-         transition: all 0.5s ease-in-out;
-         border: 1px solid $theme-color;
-         border-right: 0;
-         border-top-left-radius: 48px;
-         border-bottom-left-radius: 48px;
-         background: $theme-color;
-         z-index: -1;
-      }
 
       &::before {
-         position: absolute;
-         right: 0;
-         top: 0;
-         height: 100%;
-         content: '';
          background: $theme-color2;
-         width: 64px;
-         transition: all 0.5s ease-in-out;
-         z-index: -1;
       }
 
-      span {
-         padding: 24px 70px 24px 20px;
-
-         @media (max-width:767px) {
-            padding: 20px 70px 20px 20px;
-         }
+      .after-bg {
+         background: $white-color;
       }
 
-      .icon {
-         width: 64px;
-         line-height: 64px;
-         display: block;
-         transition: all 0.5s ease-in-out;
-         position: absolute;
-         right: 0;
-         top: 0;
-         height: 100%;
-         filter: brightness(100%);
-         transition: filter 0.5s ease-in-out;
-         background: transparent;
 
-         @media (max-width:767px) {
-            line-height: 54px;
-         }
-      }
-
-      .icon {
-         filter: brightness(0);
-      }
-
-      &:hover {
-         &::before {
-            background: $theme-color2;
-         }
-
-         &::after {
-            border: 1px solid $white-color;
-            background: transparent;
-            border-right: 0;
-         }
-      }
-
-      &.style9 {
-         &:hover {
-            color: $title-color;
-
-            &::before {
-               background: $theme-color2;
-            }
-
-            &::after {
-               border: 1px solid $theme-color;
-               background: transparent;
-               border-right: 0;
-            }
-         }
-      }
-
-      &.style10 {
-         color: $title-color;
-
-         span {
-            padding: 24px 75px 24px 20px;
-
-            @media (max-width:767px) {
-               padding: 20px 70px 20px 20px;
-            }
-         }
-
-         &:after {
-            background: transparent;
-            border: 1px solid $border-color;
-         }
-
-         &::before {
-            background: $border-color;
-         }
-
-         &:hover {
-            color: $white-color;
-
-            &:after {
-               background: $theme-color2;
-               border: 1px solid $theme-color2;
-            }
-         }
-      }
    }
 
    &.style8 {
       border: 1px solid $white-color;
-
-      span {
-         padding: 23px 70px 23px 20px;
-
-         @media (max-width:767px) {
-            padding: 19px 70px 19px 20px;
-         }
-      }
-
-      .icon {
-         filter: brightness(100%);
-         line-height: 59px;
-      }
+      background: transparent;
+      padding: 20px 24px;
 
       &::after {
-         border: 0px;
-         background: transparent;
-         border-right: 0;
+         background-image: url(../img/icon/arrow-right-white.svg);
+         left: 7px;
       }
 
-      &::before {
+      .after-bg {
+         width: 1px;
+         right: 43px;
+         top: 0;
+         background: $white-color;
+      }
+
+      &:before {
          background: transparent;
-         border-left: 1px solid $white-color;
       }
 
       &:hover {
-         border: 1px solid transparent;
+         border: 1px solid $theme-color2;
 
-         &::before {
+         .after-bg {
             background: $theme-color2;
-            border-left: 1px solid $theme-color2;
+         }
+      }
+   }
+
+   &.style9 {
+      background: transparent;
+      color: $title-color;
+
+      &:before {
+         background: transparent;
+         border: 1px solid $border-color;
+         border-radius: 50px 0 0 50px;
+      }
+
+      .after-bg {
+         background: $border-color;
+      }
+
+      &:hover {
+         &:before {
+            border: 1px solid $theme-color2;
          }
 
-         &::after {
-            border: 0;
-            background: $theme-color;
-
+         .after-bg {
+            background: $theme-color2;
          }
+      }
+
+   }
+
+   &.style10 {
+      color: $title-color;
+
+      &::after {
+         background-image: url(../img/icon/arrow-right-white.svg);
+      }
+
+      .after-bg {
+         background: $title-color;
       }
    }
 
    &.style11 {
+      color: $title-color;
+      border: 1px solid $title-color;
+      background: transparent;
+      padding: 20px 24px;
+
+      &::after {
+         background-image: url(../img/icon/arrow-right.svg);
+      }
+
+      &:before {
+         background: transparent;
+      }
+
+      .after-bg {
+         width: 1px;
+         right: 43px;
+         top: 0;
+         background: $title-color;
+      }
+
       &:hover {
-         background: $theme-color2;
+         border: 1px solid $theme-color2;
+
+         .after-bg {
+            background: $theme-color2;
+         }
       }
    }
 
    &.style12 {
-      padding: 17px 30px;
-      border-radius: 7px;
-      background: $theme-color;
-      color: $white-color;
-      font-size: 16px;
-      font-weight: 700;
-      min-width: auto;
+
+      &::after {
+         background-image: url(../img/icon/arrow-right-white.svg);
+      }
+
+      .after-bg {
+         width: 48px;
+         right: 0;
+         top: 0;
+         background: $title-color;
+      }
+
+      &:hover {}
+   }
+
+   &.style13 {
+      padding: 16px 24px;
+      color: $title-color;
+
+      &::after {
+         background-image: url(../img/icon/arrow-right-white.svg);
+      }
+
+      .after-bg {
+         width: 48px;
+         right: 0;
+         top: 0;
+         background: $title-color;
+      }
+
+      &:before {
+         background: transparent;
+         border: 1px solid $title-color;
+         border-radius: 50px 0 0 50px;
+      }
+
+
 
       &:hover {
-         background: $theme-color3;
+         .after-bg {
+            background: $title-color;
+         }
+
+         &:before {
+            background: $theme-color2;
+            border: 1px solid $theme-color2;
+         }
+
       }
    }
+
 
 
    &.style-border {
@@ -1358,36 +1323,39 @@
       justify-content: left;
       border-radius: 0;
       min-width: 135px;
+      padding: 0;
+      border: 0;
 
-      span {
-         padding: 0;
-      }
-
-      .icon {
-         line-height: 0;
+      &::after {
+         content: '';
+         position: relative;
+         background-image: url(../img/icon/arrow-right.svg);
+         background-size: 100% 100%;
+         width: 16px;
+         height: 16px;
+         -webkit-transition: 0.4s;
+         transition: 0.4s;
+         left: 0px;
       }
 
       &::before {
-         background: transparent;
-      }
-
-      &::after {
-         border: 1px solid transparent;
+         border: 0;
       }
 
       &:hover {
          color: $theme-color2;
+         background: transparent;
 
-
+         &::before {
+            border: 0;
+            background: transparent;
+         }
 
          &::after {
-            background: transparent;
-            border: 1px solid transparent;
-         }
-
-         .icon {
             filter: brightness(0) saturate(100%) invert(81%) sepia(42%) saturate(746%) hue-rotate(343deg) brightness(101%) contrast(100%);
          }
+
+
       }
 
    }

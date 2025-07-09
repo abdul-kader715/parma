@@ -218,6 +218,23 @@
       }
    }
 
+   &.style3-1 {
+      img {
+         filter: none;
+         transition: filter 0.3s ease;
+         transition: all .3s ease;
+      }
+
+      &:hover {
+         background: $theme-color;
+         color: $white-color;
+
+         img {
+            filter: none;
+         }
+      }
+   }
+
    &.style4 {
       background: $white-color;
       color: $black-color6;

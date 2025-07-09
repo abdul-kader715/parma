@@ -294,43 +294,7 @@
       }
    }
 
-   .th-btn.style7 {
-      color: $title-color;
-
-      &::after {
-         border: 1px solid $theme-color2;
-         background: $theme-color2;
-      }
-
-      &::before {
-         background: $white-color;
-      }
-
-      &.style8 {
-         color: $white-color;
-
-         &::after {
-            border: 0;
-            background: transparent;
-         }
-
-         &::before {
-            background: transparent;
-         }
-
-         &:hover {
-            color: $white-color;
-
-            &::after {
-               background: $theme-color2;
-            }
-
-            &::before {
-               background: $title-color;
-            }
-         }
-      }
-   }
+ 
 
    .scroll-down {
       transform: rotate(90deg);
