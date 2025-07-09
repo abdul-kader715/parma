@@ -40,7 +40,7 @@
 						<a href="blog.html"><i class="fa-solid fa-tags"></i>Oil Change</a>
 					</div>
 					<h3 class="box-title"><a href="blog-details.html"><?php echo $title[$x];?></a></h3>
-					<a href="blog-details.html" class="th-btn style12">Read More<i class="fa-solid fa-arrow-right ms-2"></i></a>
+					<a href="blog-details.html" class="th-btn style15">Read More<i class="fa-solid fa-arrow-right ms-2"></i></a>
 				</div>
 			</div>
 		</div>

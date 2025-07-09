@@ -57,7 +57,7 @@
                     </ul>
                 </div>
                 <div class="btn-wrap">
-                    <a href="contact.html" class="th-btn style12">Grab This Offer</a>
+                    <a href="contact.html" class="th-btn style16">Grab This Offer</a>
                 </div>
             </div>
         </div>

@@ -64,7 +64,7 @@ Hero Area
                                         </ul>
                                     </div>
                                     <div data-ani="slideinup" data-ani-delay="0.7s">
-                                        <a href="contact.html" class="th-btn style12">
+                                        <a href="contact.html" class="th-btn style14">
                                           Request an appointment
                                        </a>
                                     </div>

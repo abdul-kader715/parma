@@ -23,5 +23,5 @@ get_section('blog-sec-v3', 'space overflow-hidden');
 
 
 
-get_footer('v2', 'space-top');
+get_footer('v2', '');
 ?>

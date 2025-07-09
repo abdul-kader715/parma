@@ -22,7 +22,7 @@ offer Area
                             </div>
                         </div>
                         <div class="col-xl-auto">
-                            <a href="contact.html" class="th-btn style12">Visit Us</a>
+                            <a href="contact.html" class="th-btn style15">Visit Us</a>
                         </div>
                     </div>
                     <div class="row gy-30">

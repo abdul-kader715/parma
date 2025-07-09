@@ -25,7 +25,7 @@
                     <span class="box-tag"><?php echo $tag[$x];?></span>
                     <h3 class="box-title "><a href="project-details.html"><?php echo $title[$x];?></a></h3>
                     <p class="box-subtitle"><?php echo $subtitle[$x];?></p>
-                    <a href="project-details.html" class="th-btn style12">View Project</a>
+                    <a href="project-details.html" class="th-btn style14">View Project</a>
                 </div>
             </div>
         </div>

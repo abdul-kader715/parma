@@ -120,6 +120,12 @@
    &.style3 {
       a {
          --icon-size: 40px;
+         @include equal-size(var(--icon-size, 48px));
+         line-height: var(--icon-size, 48px);
+         border: 1px solid #D8DBDC;
+         &:hover {
+            border: 1px solid $theme-color;
+         }
       }
    }
 
@@ -240,9 +246,7 @@
       }
    }
 
-   &.style12{
-
-   }
+   &.style12 {}
 }
 
 .bg-mask {

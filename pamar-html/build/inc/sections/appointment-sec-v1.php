@@ -61,7 +61,7 @@ Appointment Area
                                     <input type="time" class="form-control" name="time" id="time" placeholder="Time of visit">
                                 </div>
                                 <div class="form-btn style4 col-12">
-                                    <button class="th-btn style12">Make an Appointment</button>
+                                    <button class="th-btn style14">Make an Appointment</button>
                                 </div>
                             </div>
                             <p class="form-messages mb-0 mt-3"></p>

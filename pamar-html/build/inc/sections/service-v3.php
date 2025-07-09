@@ -55,7 +55,7 @@
                 <div class="box-content">
                     <h3 class="box-title"><a href="service.html"><?php echo $title[$x];?></a></h3>
                     <p class="box-text"><?php echo $text[$x];?></p>
-                    <a class="th-btn style12" href="service-details.html">get a Quote</a>
+                    <a class="th-btn style15" href="service-details.html">get a Quote</a>
                 </div>
             </div>
         </div>

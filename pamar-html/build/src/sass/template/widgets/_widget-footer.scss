@@ -465,3 +465,44 @@
       margin-bottom: 25px;
    }
 }
+
+.footer-widget {
+
+   &.style3 {
+      .widget_title::before {
+         content: "";
+         position: absolute;
+         left: 0;
+         width: 3px;
+         height: 15px;
+         top: 50%;
+         transform: translateY(-50%);
+         background: $white-color;
+      }
+
+      a {
+         padding-left: 29px;
+         position: relative;
+         color: $white-color;
+      }
+
+      li {
+         position: relative;
+
+         &::before {
+            position: absolute;
+            content: url(../img/icon/arrow-right-white4.svg);
+            transition: 0.4s;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+         }
+
+         &:hover {
+            &::before {
+               content: url(../img/icon/arrow-right-theme4.svg);
+            }
+         }
+      }
+   }
+}
