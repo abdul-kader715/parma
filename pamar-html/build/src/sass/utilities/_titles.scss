@@ -50,6 +50,7 @@
          font-size: 35px;
       }
    }
+
    &.style5 {
       font-size: 40px;
       font-weight: 900;
@@ -60,6 +61,23 @@
 
       @include sm {
          font-size: 30px;
+      }
+   }
+
+   &.style6 {
+      font-size: 56px;
+      font-weight: 700;
+
+      @include ml {
+         font-size: 40px;
+      }
+
+      @include sm {
+         font-size: 35px;
+      }
+
+      span {
+         color: $theme-color;
       }
    }
 }
@@ -239,6 +257,7 @@
 
    &.style2 {
       padding: 1px 18px;
+
       &:before {
          background-image: url(../img/icon/title-icon4.svg);
       }

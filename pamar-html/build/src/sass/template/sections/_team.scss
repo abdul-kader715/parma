@@ -767,3 +767,66 @@
       padding: 30px;
    }
 }
+
+// team-area-4
+.team-area-4{
+   .joinbtn{
+      margin-top: -40px;
+      @include sm{
+         margin-top: 150px;
+      }
+      .circle-btn{
+         background: $white-color;
+      }
+   }
+}
+
+.team-slider6{
+   
+   .slider-pagination-wrap {
+      display: flex;
+      align-items: end;
+      gap: 20px;
+      position: relative;
+      margin-top: 30px;
+
+      .slider-pagination2 {
+         flex: none;
+
+         .current-slide {
+            font-size: 56px;
+            font-weight: 500;
+            font-family: $title-font;
+            color: $title-color;
+
+            @include sm {
+               font-size: 30px;
+            }
+         }
+
+         .divider,
+         .total-slides {
+            font-size: 20px;
+            font-weight: 400;
+            font-family: $title-font;
+            color: $title-color;
+         }
+      }
+
+      .slider-pagination {
+         height: 3px;
+         margin-top: 0;
+         bottom: 10px;
+
+         &.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+            height: 3px;
+            background: $theme-color;
+            border-radius: 5px;
+         }
+      }
+
+      .icon-box {
+         flex: none;
+      }
+   }
+}

@@ -30,6 +30,7 @@
    border-radius: 24px;
    border: 1px solid $gray-color4;
    padding: 34px;
+   transition: all .3s;
 
    @include lg {
       padding: 30px 20px;
@@ -37,6 +38,11 @@
 
    .box-icon {
       margin-bottom: 34px;
+      transition: all .3s;
+   }
+
+   .box-icon img {
+      transition: all .3s;
    }
 
    .box-number {
@@ -44,6 +50,7 @@
       font-weight: 700;
       font-family: $title-font;
       color: $black-color3;
+      transition: all .3s;
 
       @include xs {
          font-size: 30px;
@@ -59,12 +66,55 @@
       font-weight: 700;
       color: $title-color;
       margin-bottom: 8px;
+      transition: all .3s;
    }
 
    .box-text {
       max-width: 244px;
       color: $black-color3;
+      transition: all .3s;
    }
+
+
+   &.style4 {
+      background: $white-color;
+      position: relative;
+      border: 1px solid $border-color;
+      &:hover {
+         background: $theme-color;
+         border: 1px solid $theme-color;
+         .box-icon img {
+            filter: brightness(0) invert(1);
+         }
+
+         .box-title {
+            color: $white-color;
+         }
+
+         .box-text {
+            color: $white-color;
+         }
+
+         .skill-feature_title {
+            color: $white-color;
+
+            span {
+               color: $theme-color2;
+            }
+         }
+
+         .progress {
+            .progress-bar {
+               background: $theme-color2;
+            }
+
+            .progress-value {
+               background: $white-color;
+            }
+         }
+      }
+   }
+
 }
 
 .skill-feature_title {
@@ -73,18 +123,25 @@
    font-size: 16px;
    font-weight: 500;
    margin-bottom: 2px;
+   transition: all .3s;
 
    span {
       color: $theme-color;
       padding-left: 12px;
+      transition: all .3s;
    }
 }
 
 .progress {
    height: 3px;
 
+   .progress-bar {
+      transition: all .3s;
+   }
+
    .progress-value {
       background: $border-color;
+      transition: all .3s;
    }
 }
 
@@ -423,6 +480,7 @@
       &.char40 {
          transform: rotate(calc(var(--rotate-letter) * 40));
       }
+
       &.char41 {
          transform: rotate(calc(var(--rotate-letter) * 41));
       }
@@ -446,6 +504,7 @@
       &.char46 {
          transform: rotate(calc(var(--rotate-letter) * 46));
       }
+
       &.char47 {
          transform: rotate(calc(var(--rotate-letter) * 47));
       }
@@ -461,10 +520,11 @@
       &.char50 {
          transform: rotate(calc(var(--rotate-letter) * 50));
       }
-      
+
       &.char51 {
          transform: rotate(calc(var(--rotate-letter) * 51));
       }
+
       &.char52 {
          transform: rotate(calc(var(--rotate-letter) * 52));
       }
@@ -480,9 +540,11 @@
       &.char55 {
          transform: rotate(calc(var(--rotate-letter) * 55));
       }
+
       &.char56 {
          transform: rotate(calc(var(--rotate-letter) * 56));
       }
+
       &.char57 {
          transform: rotate(calc(var(--rotate-letter) * 57));
       }
@@ -498,13 +560,14 @@
       &.cha60 {
          transform: rotate(calc(var(--rotate-letter) *60));
       }
-     
+
    }
 }
 
 /* Why Choose Us Area 2---------------------------------- */
 .why-wrap2 {
    max-width: 560px;
+
    @include ml {
       padding-top: 24px;
    }
@@ -924,7 +987,7 @@
       height: 64px;
       background: $white-color;
       border-radius: 100px;
-      display:flex;
+      display: flex;
       align-items: center;
       justify-content: center;
       transition: .3s;
@@ -964,6 +1027,26 @@
       .box-title {
          color: $title-color;
       }
+   }
+
+}
+
+
+// why-sec-4
+
+.why-sec-4 {
+   margin-bottom: -250px;
+   @include ml{
+      margin-bottom: -150px;
+   }
+    @include sm{
+      margin-bottom: -50px;
+   }
+
+   .title-area .sec-text {
+      max-width: 490px;
+      margin-left: 0;
+      color: $black-color3;
    }
 
 }

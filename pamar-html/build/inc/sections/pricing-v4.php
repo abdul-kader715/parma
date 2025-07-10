@@ -1,91 +1,106 @@
 <?php 
-    $title = array(
-        'Startup',
-        'Small Business Plan',
-        'Professional Plan',
-        'Enterprise Plan',
+    $titleMonth = array(
+        'Starter Package',
+        'Residential Package',
+        'Business Package',
+    ); 
+    $subtitleMonth = array(
+        'Starter Package',
+        'Residential Package',
+        'Business Package',
     );
-    $subtitle = array(
-        'Essential Features Included',
-        'Premium Features Included',
-        'Advanced Features Included',
-        'Premium Features Included',
+    $priceMonth = array(
+        '$245',
+        '$375',
+        '$535',
     );
-    $price = array(
-        'Free',
-        '$129',
-        '$169',
-        '$199',
+    $durationMonth = array(
+        '/Per Package',
+        '/Per Package',
+        '/Per Package',
     );
-    $duration = array(
-        'Free forever',
-        '/Per month',
-        '/Per month',
-        '/Per month',
+     $pricebgimg = array(
+        'assets/img/price/price-thumb2-1.jpg',
+        'assets/img/price/price-thumb2-2.jpg',
+        'assets/img/price/price-thumb2-3.jpg',
     );
-    $active = array(
-        '',
+     $active = array(
         '',
         'active',
         '',
     );
-    $bgimg = array(
+    $subtitle = array(
         '',
-        '',
-        '<div class="card-bg-img" data-mask-src="assets/img/bg/pricing-card-bg.png"></div>',
+        'Popular',
         '',
     );
-    $text = array(
-        'Each package is designed to address specific business needs, providing clients with tailored solutions for success.',
-        'Each package is designed to address specific business needs, providing clients with tailored solutions for success.',
-        'Each package is designed to address specific business needs, providing clients with tailored solutions for success.',
-        'Each package is designed to address specific business needs, providing clients with tailored solutions for success.',
+    $textMonth = array(
+        'PLUMBING FOR PERSONAL',
+        'PLUMBING FOR PERSONAL',
+        'PLUMBING FOR PERSONAL',
     );
-    $list = array(
-        '<li><i class="fas fa-circle-check"></i> Digital transformation roadmap</li>
-        <li><i class="fas fa-circle-check"></i> Innovation advisory sessions</li>
-        <li><i class="fas fa-circle-check"></i> Technology integration strategy</li>
-        <li class="unavailable"><i class="fas fa-circle-check"></i> Monthly progress meetings</li>
-        <li class="unavailable"><i class="fas fa-circle-check"></i> Priority email and phone support</li>',
+    $listMonth = array(
+        '<li><img src="assets/img/icon/check-icon1-4.svg" alt="img"> Free Consultation</li>
+        <li><img src="assets/img/icon/check-icon1-4.svg" alt="img"> Basic Repair & Adjustments</li>
+        <li><img src="assets/img/icon/check-icon1-4.svg" alt="img"> Standard Documention</li>
+        <li><img src="assets/img/icon/check-icon1-4.svg" alt="img"> Minor Leaking in Pipe</li>
+        <li><img src="assets/img/icon/check-icon1-4.svg" alt="img"> Quality Services on Completed Work</li>
+        <li><img src="assets/img/icon/check-icon1-4.svg" alt="img"> Comprehensive Home Inspection</li>
+        <li><img src="assets/img/icon/check-icon1-4.svg" alt="img"> Emergency Plumbing Services</li>
+        <li><img src="assets/img/icon/check-icon1-4.svg" alt="img"> Systematic Preventive Maintenance</li>
+        <li><img src="assets/img/icon/check-icon1-4.svg" alt="img"> Expert Installation of New Fixtures</li>
+        ',
 
-        '<li><i class="fas fa-circle-check"></i> Digital transformation roadmap</li>
-        <li><i class="fas fa-circle-check"></i> Innovation advisory sessions</li>
-        <li><i class="fas fa-circle-check"></i> Technology integration strategy</li>
-        <li><i class="fas fa-circle-check"></i> Monthly progress meetings</li>
-        <li class="unavailable"><i class="fas fa-circle-check"></i> Priority email and phone support</li>',
+       '<li><img src="assets/img/icon/check-icon1-4.svg" alt="img"> Free Consultation</li>
+        <li><img src="assets/img/icon/check-icon1-4.svg" alt="img"> Basic Repair & Adjustments</li>
+        <li><img src="assets/img/icon/check-icon1-4.svg" alt="img"> Standard Documention</li>
+        <li><img src="assets/img/icon/check-icon1-4.svg" alt="img"> Minor Leaking in Pipe</li>
+        <li><img src="assets/img/icon/check-icon1-4.svg" alt="img"> Quality Services on Completed Work</li>
+        <li><img src="assets/img/icon/check-icon1-4.svg" alt="img"> Comprehensive Home Inspection</li>
+        <li><img src="assets/img/icon/check-icon1-4.svg" alt="img"> Emergency Plumbing Services</li>
+        <li><img src="assets/img/icon/check-icon1-4.svg" alt="img"> Systematic Preventive Maintenance</li>
+        <li><img src="assets/img/icon/check-icon1-4.svg" alt="img"> Expert Installation of New Fixtures</li>
+        ',
 
-        '<li><i class="fas fa-circle-check"></i> Digital transformation roadmap</li>
-        <li><i class="fas fa-circle-check"></i> Innovation advisory sessions</li>
-        <li><i class="fas fa-circle-check"></i> Technology integration strategy</li>
-        <li><i class="fas fa-circle-check"></i> Monthly progress meetings</li>
-        <li><i class="fas fa-circle-check"></i> Priority email and phone support</li>',
+        '<li><img src="assets/img/icon/check-icon1-4.svg" alt="img"> Free Consultation</li>
+        <li><img src="assets/img/icon/check-icon1-4.svg" alt="img"> Basic Repair & Adjustments</li>
+        <li><img src="assets/img/icon/check-icon1-4.svg" alt="img"> Standard Documention</li>
+        <li><img src="assets/img/icon/check-icon1-4.svg" alt="img"> Minor Leaking in Pipe</li>
+        <li><img src="assets/img/icon/check-icon1-4.svg" alt="img"> Quality Services on Completed Work</li>
+        <li><img src="assets/img/icon/check-icon1-4.svg" alt="img"> Comprehensive Home Inspection</li>
+        <li><img src="assets/img/icon/check-icon1-4.svg" alt="img"> Emergency Plumbing Services</li>
+        <li><img src="assets/img/icon/check-icon1-4.svg" alt="img"> Systematic Preventive Maintenance</li>
+        <li><img src="assets/img/icon/check-icon1-4.svg" alt="img"> Expert Installation of New Fixtures</li>
+        ',
 
-        '<li><i class="fas fa-circle-check"></i> Digital transformation roadmap</li>
-        <li><i class="fas fa-circle-check"></i> Innovation advisory sessions</li>
-        <li><i class="fas fa-circle-check"></i> Technology integration strategy</li>
-        <li><i class="fas fa-circle-check"></i> Monthly progress meetings</li>
-        <li><i class="fas fa-circle-check"></i> Priority email and phone support</li>',
     );
-    
-    $arrlength = count($title);
+
+    $arrlength = count($titleMonth);
     for($x = 0; $x < $arrlength; $x++) { ?>
 
-        <div class="<?php echo $klass;?>">
-            <div class="price-card style4 <?php echo $active[$x];?>">
-                <?php echo $bgimg[$x];?>
-                <h3 class="box-title"><?php echo $title[$x];?></h3>
-                <p class="box-subtitle"><?php echo $subtitle[$x];?></p>
-                <h4 class="price-card_price"><?php echo $price[$x];?><span class="duration"><?php echo $duration[$x];?></span>
+        <div class="<?php echo $klass;?>" data-cue="slideInUp">
+            <div class="price-card style2 style4 <?php echo $active[$x];?>">
+               <div class="box-top overflow-hidden position-relative z-index-2 background-image" 
+               data-bg-src="<?php echo $pricebgimg[$x];?>">
+                  <div class="box-content">
+                     <h3 class="box-title text-white mb-0"><?php echo $titleMonth[$x];?></h3>
+                     <p class="box-subtitle text-white"><?php echo $subtitleMonth[$x];?></p>
+                  </div>
+               </div>
+               <h4 class="price-card_price"><?php echo $priceMonth[$x];?>
+                    <span class="duration"><?php echo $durationMonth[$x];?></span>
+                    <span class="activesubtitle"><?php echo $subtitle[$x];?></span>
                 </h4>
-                <p class="box-text"><?php echo $text[$x];?></p>
-                <div class="checklist">
-                    <ul>
-                        <?php echo $list[$x];?>
-                    </ul>
+               <div class="price_card-wrap">
+                  <div class="checklist">
+                     <ul>
+                           <?php echo $listMonth[$x];?>
+                     </ul>
+                  </div>
+                  <div class="btn-wrap">
+                    <a href="contact.html" class="th-btn">Choose Plan <span class="after-bg"></span></a>
                 </div>
-                <div class="btn-wrap">
-                    <a href="contact.html" class="th-btn btn-sm style-border5 btn-radius-8 w-100">Choose Plan</a>
-                </div>
+               </div>
             </div>
         </div>
     <?php }

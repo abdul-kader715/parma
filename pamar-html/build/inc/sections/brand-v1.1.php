@@ -2,31 +2,50 @@
 <!--==============================
 Brand Area  
 ==============================-->
-<div class="<?php echo $klass;?> brand-area-1" data-bg-src="assets/img/bg/dot-bg2.png">
-    <div class="brand-bg-shape1 shape-mockup jump-reverse d-xxl-block d-none" data-left="5%" data-top="1%">
-        <img src="assets/img/shape/bg-shape15.png" alt="img">
-    </div>
+<div class="<?php echo $klass;?>">
     <div class="container">
-        <div class="brand-wrap1 text-center">
-            <h3 class="brand-wrap-title fadeinup wow" data-wow-duration="1.3s" data-wow-delay="0.1s">We Worked With Largest Brands Over <span class="text-theme">1390+</span> Projects</h3>
-            <div class="swiper th-slider fadeinup wow" data-wow-duration="1.3s" data-wow-delay="0.2s" id="brandSlider1" data-slider-options='{"breakpoints":{"0":{"slidesPerView":2},"576":{"slidesPerView":"3"},"768":{"slidesPerView":"3"},"992":{"slidesPerView":"4"},"1200":{"slidesPerView":"5"},"1400":{"slidesPerView":"7", "spaceBetween": "80"}}}'>
+        <div class="row justify-content-center">
+            <div class="col-xl-6">
+                <div class="title-area text-center">
+                    <span class="sub-title2 bg-gray-color " data-cue="slideInUp">Trusted Partners</span>
+                    <h2 class="sec-title style6 text-anim2" data-cue="slideInUp">Our Trusted Partners</h2>
+                </div>
+            </div>
+        </div>  
+    </div>
+    <div class="container-fluid">
+        <div class="brand-wrap5 ">
+            <div class="swiper th-slider" data-cue="slideInUp"
+             id="brandSlider1" data-slider-options='{"breakpoints":{"0":{"slidesPerView":"auto"}},
+             "autoplay":{"delay":0,"disableOnInteraction":false},"noSwiping":"false","speed":6000,"spaceBetween":125}'>
                 <div class="swiper-wrapper">
                     <?php
                         $img = array(
-                            'assets/img/brand/brand1-1.svg',
-                            'assets/img/brand/brand1-2.svg',
-                            'assets/img/brand/brand1-3.svg',
-                            'assets/img/brand/brand1-4.svg',
-                            'assets/img/brand/brand1-5.svg',
-                            'assets/img/brand/brand1-6.svg',
-                            'assets/img/brand/brand1-7.svg',
-                            'assets/img/brand/brand1-1.svg',
-                            'assets/img/brand/brand1-2.svg',
-                            'assets/img/brand/brand1-3.svg',
-                            'assets/img/brand/brand1-4.svg',
-                            'assets/img/brand/brand1-5.svg',
-                            'assets/img/brand/brand1-6.svg',
-                            'assets/img/brand/brand1-7.svg',
+                            'assets/img/brand/brand3-1.svg',
+                            'assets/img/brand/brand3-2.svg',
+                            'assets/img/brand/brand3-3.svg',
+                            'assets/img/brand/brand3-4.svg',
+                            'assets/img/brand/brand3-5.svg',
+                            'assets/img/brand/brand3-6.svg',
+                            'assets/img/brand/brand3-1.svg',
+                            'assets/img/brand/brand3-2.svg',
+                            'assets/img/brand/brand3-3.svg',
+                            'assets/img/brand/brand3-4.svg',
+                            'assets/img/brand/brand3-5.svg',
+                            'assets/img/brand/brand3-6.svg',
+                            'assets/img/brand/brand3-1.svg',
+                            'assets/img/brand/brand3-2.svg',
+                            'assets/img/brand/brand3-3.svg',
+                            'assets/img/brand/brand3-4.svg',
+                            'assets/img/brand/brand3-5.svg',
+                            'assets/img/brand/brand3-6.svg',
+                            'assets/img/brand/brand3-1.svg',
+                            'assets/img/brand/brand3-2.svg',
+                            'assets/img/brand/brand3-3.svg',
+                            'assets/img/brand/brand3-4.svg',
+                            'assets/img/brand/brand3-5.svg',
+                            'assets/img/brand/brand3-6.svg',
+                           
                         );
                         $arrlength = count($img);
     

@@ -125,7 +125,7 @@
    .brand-box {
 
       img {
-          filter: grayscale(0) brightness(100%);
+         filter: grayscale(0) brightness(100%);
          transition: 0.4s ease-in-out;
       }
 
@@ -136,4 +136,32 @@
          }
       }
    }
+}
+
+// brand-wrap5
+.brand-wrap5 {
+   max-width: 1680px;
+   margin: 0 auto;
+
+   .swiper-wrapper {
+      transition-timing-function: linear;
+   }
+
+   .swiper-slide {
+      width: auto;
+   }
+
+   .brand-box {
+      display: grid;
+      align-content: center;
+      text-align: center;
+      justify-content: center;
+      transition: 0.4s ease-in-out;
+      min-height: 60px;
+      img {
+         transition: filter 0.3s;
+         filter: none;
+      }
+   }
+   
 }

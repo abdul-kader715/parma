@@ -35,6 +35,13 @@
       text-align: start;
    }
 
+   &.style2 {
+      .quote-icon {
+         background: $white-color;
+         border: 1px solid #D4D4D4;
+      }
+   }
+
    .quote-icon {
       width: 152px;
       height: 152px;
@@ -294,9 +301,10 @@
          i {
             color: rgba(23, 25, 31, 0.30);
          }
-         &:hover{
-            
-            i{
+
+         &:hover {
+
+            i {
                color: $white-color;
             }
          }

@@ -24,12 +24,16 @@
         'assets/img/price/price-thumb2-2.jpg',
         'assets/img/price/price-thumb2-3.jpg',
     );
-   //  $active = array(
-   //      '',
-   //      'active',
-   //      '',
-   //      '',
-   //  );
+     $active = array(
+        '',
+        'active',
+        '',
+    );
+    $subtitle = array(
+        '',
+        'Popular',
+        '',
+    );
     $textMonth = array(
         'PLUMBING FOR PERSONAL',
         'PLUMBING FOR PERSONAL',
@@ -75,7 +79,7 @@
     for($x = 0; $x < $arrlength; $x++) { ?>
 
         <div class="<?php echo $klass;?>" data-cue="slideInUp">
-            <div class="price-card style2">
+            <div class="price-card style2 <?php echo $active[$x];?>">
                <div class="box-top overflow-hidden position-relative z-index-2 background-image" 
                data-bg-src="<?php echo $pricebgimg[$x];?>">
                   <div class="box-content">
@@ -83,8 +87,10 @@
                      <p class="box-subtitle text-white"><?php echo $subtitleMonth[$x];?></p>
                   </div>
                </div>
-               <h4 class="price-card_price"><?php echo $priceMonth[$x];?><span class="duration"><?php echo $durationMonth[$x];?></span>
-                    </h4>
+               <h4 class="price-card_price"><?php echo $priceMonth[$x];?>
+                    <span class="duration"><?php echo $durationMonth[$x];?></span>
+                    <span class="activesubtitle"><?php echo $subtitle[$x];?></span>
+                </h4>
                <div class="price_card-wrap">
                   <div class="checklist">
                      <ul>

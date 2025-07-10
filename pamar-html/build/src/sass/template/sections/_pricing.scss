@@ -34,9 +34,10 @@
    }
 
    &.active {
-      .th-btn.style4{
+      .th-btn.style4 {
          color: $white-color;
-          &:before {
+
+         &:before {
             border: 1px solid $theme-color;
             background: $theme-color;
          }
@@ -372,6 +373,28 @@
          font-family: $title-font;
          color: $theme-color2;
       }
+
+      
+   }
+    .activesubtitle {
+         border-radius: 16px 0px 0px 0px;
+         background: $theme-color2;
+         position: absolute;
+         right: 0;
+         bottom: 0;
+         color: $black-color;
+         font-size: 18px;
+         font-weight: 400;
+         padding: 8px 24px;
+         opacity: 0;
+         visibility: hidden;
+      }
+
+   &.active {
+      .activesubtitle {
+         opacity: 1;
+         visibility: visible;
+      }
    }
 
    .price_card-wrap {
@@ -429,7 +452,7 @@
 }
 
 
-// price-card
+// price-card 3
 .price-card.style3 {
    padding: 10px;
    background: $theme-color;
@@ -500,6 +523,7 @@
          margin-bottom: -45px;
          width: 100%;
       }
+
       @include xs {
          padding: 30px 20px;
       }
@@ -531,6 +555,31 @@
          background: $theme-color3;
          color: $white-color;
       }
+   }
+
+}
+
+// price-card 4
+.price-card.style4{
+
+   .price-card_price{
+      background: $theme-color;
+   }
+   .price-card_price{
+      color: $white-color;
+      .duration{
+         color: $white-color;
+      }
+   }
+   
+   .activesubtitle{
+      background: $white-color;
+   }
+   .price_card-wrap{
+      background: $gray-color;
+   }
+   .th-btn{
+      padding: 20px 26px;
    }
 
 }

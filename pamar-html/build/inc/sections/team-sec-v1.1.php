@@ -1,7 +1,7 @@
 <!--==============================
 Team Area  
 ==============================-->
-<section class="<?php echo $klass;?> team-area-1">
+<section class="<?php echo $klass;?> ">
     <div class="container">
        <div class="row justify-content-center align-items-center">
             <div class="col-xxl-12">
@@ -15,24 +15,27 @@ Team Area
         </div>
 
         <div class="slider-area ">
-            <div class="swiper th-slider team-slider4" id="teamSlider4" data-slider-options='{"autoHeight": "true","spaceBetween": "24","breakpoints":{"0":{"slidesPerView":1},"767":{"slidesPerView":"1"}, "991":{"slidesPerView":"2"},"1200":{"slidesPerView":"3"},"1300":{"slidesPerView":"3"},"1400":{"slidesPerView":"3"},"1600":{"slidesPerView":"3"},"1930":{"slidesPerView":"3"}}}'>
+            <div class="swiper th-slider team-slider6" id="teamSlider6"  data-slider-options='{ "paginationType":"progressbar", "breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"2"},"1200":{"slidesPerView":"3"},"1400":{"slidesPerView":"3"}}}'>
                 <div class="swiper-wrapper">
-                    <?php get_section('service-v4', 'swiper-slide fadeinup wow'); ?>
+                    <?php get_section('team-v1.1', 'swiper-slide'); ?>
                 </div>
-                
+                <div class="slider-pagination-wrap ">
+                  <div class="slider-pagination2"></div>
+                  <div class="slider-pagination"></div>
+                </div>
             </div>
         </div>
-
-
-        <div class="row gy-4">
-            <div class="col-xl-4 col-lg-4 col-md-6  text-center">
-                <a href="team.html" class="circle-btn th-btn  mt-xl-0 mt-30" data-cue="slideInUp">
-                    Join With Us
-                </a>
+        <div class="joinbtn">
+            <div class="row justify-content-center text-center">
+                <div class="col-xl-4 col-lg-4 col-md-6 ">
+                    <a href="team.html" class="circle-btn th-btn  mt-xl-0" data-cue="slideInUp">
+                        Join With Us
+                    </a>
+                </div>
             </div>
         </div>
     </div>
-    <div class="shape-mockup" data-top="5%" data-left="8%">
+    <div class="shape-mockup d-none d-xxl-block" data-top="12%" data-left="5%">
         <img src="assets/img/shape/bg-shape4-1.png" alt="">
     </div>
 </section>

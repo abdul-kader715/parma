@@ -55,9 +55,9 @@
                 </div>
                 <p class="box-text"><?php echo $text[$x];?></p>
                 <div class="testi-card-profile">
-                    <div class="testi-card-avater">
+                    <!-- <div class="testi-card-avater">
                         <img src="<?php echo $img[$x];?>" alt="img">
-                    </div>
+                    </div> -->
                     <div class="testi-card-profile-detaile">
                         <h3 class="box-title"><?php echo $title[$x];?></h3>
                         <p class="box-desig"><?php echo $desig[$x];?></p>

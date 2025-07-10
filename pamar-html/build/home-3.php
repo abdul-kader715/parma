@@ -20,8 +20,5 @@ get_section('cta-v3', 'cta-area-3 position-relative ');
 get_section('faq-sec-v2', 'faq-area-2 space-bottom  overflow-hidden position-relative');
 get_section('blog-sec-v3', 'space overflow-hidden');
 
-
-
-
 get_footer('v2', 'overflow-hidden');
 ?>
