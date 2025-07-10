@@ -534,6 +534,9 @@
       @include md {
          font-size: 80px;
       }
+      @include sm {
+         font-size: 50px;
+      }
    }
 
    .hero-text {
@@ -545,6 +548,9 @@
       padding-bottom: 8px;
       background: $theme-color2;
       display: inline-block;
+      @include sm {
+         font-size: 18px;
+      }
    }
 
    .checklist {

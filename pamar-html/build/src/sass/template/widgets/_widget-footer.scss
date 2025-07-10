@@ -458,7 +458,6 @@
 
    .th-widget-about .about-text {
       margin-bottom: 20px;
-      ;
    }
 
    .social-box.mb-30 {
@@ -470,6 +469,17 @@
 
    &.style3 {
       .widget_title::before {
+         content: "";
+         position: absolute;
+         left: 0;
+         width: 3px;
+         height: 15px;
+         top: 50%;
+         transform: translateY(-50%);
+         background: $white-color;
+      }
+
+      .widget_title.style3::before {
          content: "";
          position: absolute;
          left: 0;

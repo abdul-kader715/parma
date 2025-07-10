@@ -2,7 +2,7 @@
 get_header('script','Home One');
 get_header('v-default');
 get_section('hero-v8');
-get_section('feature-sec-v1', 'overflow-hidden',);
+get_section('feature-sec-v1', 'feature-area-1 position-relative pt-40',);
 get_section('about-v1', 'space overflow-hidden ');
 get_section('marquee-sec-v1', 'overflow-hidden pb-85');
 get_section('service-sec-v1', 'space bg-smoke overflow-hidden bg-gray-color service-wrap mb-40');

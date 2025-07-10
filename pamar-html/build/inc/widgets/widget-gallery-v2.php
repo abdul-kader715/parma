@@ -1,5 +1,5 @@
 <div class="widget <?php echo $klass; ?>">
-    <h3 class="widget_title">Photo Gallery</h3>
+    <h3 class="widget_title style3">Photo Gallery</h3>
     <div class="sidebar-gallery">
 		<?php
 			$img = array(

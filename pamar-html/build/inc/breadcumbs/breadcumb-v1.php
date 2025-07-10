@@ -5,8 +5,7 @@
      data-mask-src="assets/img/shape/breadcumb-shape.png" 
      data-bg-src="<?php echo !empty($breadcumb_image) ? $breadcumb_image : ''; ?>" 
      <?php echo $breadcumb_attr;?> 
-     data-overlay="black" 
-     data-opacity="7">
+     >
 
     <div class="container">
         <div class="row">

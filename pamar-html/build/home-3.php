@@ -17,11 +17,11 @@ get_section('appointment-sec-v1', 'appointment-area overflow-hidden');
 get_section('testi-sec-v3', 'space overflow-hidden');
 get_section('price-sec-v3', 'space-top');
 get_section('cta-v3', 'cta-area-3 position-relative ');
-get_section('faq-sec-v2', 'faq-area-2 space-bottom  position-relative');
+get_section('faq-sec-v2', 'faq-area-2 space-bottom  overflow-hidden position-relative');
 get_section('blog-sec-v3', 'space overflow-hidden');
 
 
 
 
-get_footer('v2', '');
+get_footer('v2', 'overflow-hidden');
 ?>

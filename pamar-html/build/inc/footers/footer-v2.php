@@ -2,17 +2,14 @@
 <!--==============================
 	Footer Area
 ==============================-->
-<footer class="footer-layout2   <?php echo $klass;?>">
-	<div class=" footer-bg-shape3-1 bg-mask" data-mask-src="assets/img/shape/footer-bg-shape3.png">
-		
-	</div>
-	<div class="container">
-		<div class="footer-top">
-			<div class="row gy-30 justify-content-lg-between ">
-				<div class="col-lg-auto" data-cue="slideInUp">
+<footer class="footer-layout2  bg-black-color12 <?php echo $klass;?>">
+	<div class="footer-top bg-mask" data-mask-src="assets/img/shape/footer-bg-shape3.png">
+		<div class="footer-wrap">
+			<div class="row  align-items-center">
+				<div class="col-lg-5" data-cue="slideInUp">
 					<h4 class="box-text">Subscribe to Our Newsletter</h4>
 				</div>
-				<div class="col-lg-auto" data-cue="slideInUp">
+				<div class="col-lg-7" data-cue="slideInUp">
 					<form class="newsletter-form">
 						<div class="form-group">
 							<input class="form-control" type="email" placeholder="Enter your email address" required="">
@@ -22,9 +19,10 @@
 						</button>
 					</form>
 				</div>
-				
 			</div>	
 		</div>
+	</div>
+	<div class="container">
 		<div class="footer-bottom">
 			<div class="widget-area">
 				<div class="row justify-content-between">
@@ -37,8 +35,8 @@
 					<div class="col-md-6 col-xl-auto" data-cue="slideInUp">	
 						<?php get_widget('nav-menu-v4', 'footer-widget style3'); ?>
 					</div>
-					<div class="col-md-6 col-xl-auto" data-cue="slideInUp">	
-						<?php get_widget('gallery-v2', 'footer-widget style3'); ?>
+					<div class="col-md-6 col-xl-3" data-cue="slideInUp">	
+						<?php get_widget('gallery-v2', 'footer-widget '); ?>
 					</div>
 				</div>
 			</div>
@@ -81,6 +79,13 @@
 			</div>
 		</div>
 	</div>
+	<div class="shape-mockup d-none d-xxl-block  " style="top: 0%; left: 0%;">
+		<img src="assets/img/shape/bg-shape11.png" alt="">
+	</div>
+	<div class="shape-mockup d-none d-xxl-block  " style="bottom: 0%; right: 0%;">
+		<img src="assets/img/shape/bg-shape12.png" alt="">
+	</div>
+
 </footer>
 
 
