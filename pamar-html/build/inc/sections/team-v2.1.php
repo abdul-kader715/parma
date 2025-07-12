@@ -1,10 +1,11 @@
 <?php 
-    $title = array(
+     $title = array(
         'Alex Johon',
         'Maria Chen',
         'Jenny William',
         'Taylor Reed',
         'Liam Parker',
+        'Jordan Smith',
     ); 
     $subtitle = array(
         'CEO & Founder',
@@ -12,6 +13,7 @@
         'Engineer',
         'Plumber',
         'Plumber Chief',
+        'Engineer',
     );
     $img = array(
         'assets/img/team/team_2_1.png',
@@ -19,11 +21,12 @@
         'assets/img/team/team_2_3.png',
         'assets/img/team/team_2_4.png',
         'assets/img/team/team_2_5.png',
+        'assets/img/team/team_2_6.png',
     );
     $arrlength = count($title);
     for($x = 0; $x < $arrlength; $x++) { ?>
         <div class="<?php echo $klass;?>">
-            <div class="th-team team-card style2">
+            <div class="th-team team-card style2 style4">
                 <div class="team-img">
                     <img src="<?php echo $img[$x];?>" alt="Team">
                 </div>
@@ -43,7 +46,9 @@
                         <a target="_blank" href="https://whatsapp.com/"><i class="fab fa-whatsapp"></i></a>
                     </div>
                 </div>
+                     
                 </div>
+                
             </div>
         </div>
         

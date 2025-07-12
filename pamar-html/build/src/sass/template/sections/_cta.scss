@@ -1,5 +1,6 @@
 //Call to action 1---------------------------------------
-.cta-wrap1 {
+.cta-wrap1,
+.cta-wrap4 {
    .text-stroke {
       color: transparent;
       -webkit-text-stroke: 1px $body-color;
@@ -12,6 +13,12 @@
 
    .btn-group {
       margin-top: 48px;
+   }
+}
+
+.cta-wrap4 {
+   .th-btn {
+      padding: 20px 28px;
    }
 }
 
@@ -36,7 +43,8 @@
    }
 }
 
-.cta-thumb1-1-shape {
+.cta-thumb1-1-shape,
+.cta-thumb1-2-shape {
    position: absolute;
    top: 0;
    right: 0;
@@ -65,6 +73,13 @@
       width: 100%;
       -o-object-fit: cover;
       object-fit: cover;
+   }
+
+}
+
+.cta-thumb1-2-shape {
+   &::before {
+      background: $gray-color;
    }
 }
 

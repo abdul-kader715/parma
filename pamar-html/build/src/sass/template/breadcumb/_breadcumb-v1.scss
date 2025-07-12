@@ -7,13 +7,12 @@
 
    li {
       display: inline-block;
-      margin-right: 3px;
       padding-right: 3px;
       list-style: none;
       position: relative;
 
       &:after {
-         content: "\f061";
+         content: "/";
          position: relative;
          margin-left: 10px;
          font-weight: 500;

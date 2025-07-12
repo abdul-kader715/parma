@@ -3,6 +3,18 @@
    margin-bottom: 30px;
    padding-top: 20px;
 
+   &.style2 {
+      margin-top: 50px;
+      margin-bottom: 0;
+      text-align: center;
+
+      a img {
+         @include sm {
+            width: 15px;
+         }
+      }
+   }
+
    ul {
       margin: 0;
       padding: 0;
@@ -60,7 +72,7 @@
          }
 
          img {
-             filter: brightness(0) invert(1);
+            filter: brightness(0) invert(1);
          }
       }
    }

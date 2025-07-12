@@ -420,6 +420,34 @@
    }
 }
 
+.contact-info.style3 {
+   background: transparent;
+   padding: 0;
+   gap: 12px;
+   box-shadow: 0px 10px 50px transparent;
+   border-radius: 0;
+   display: flex;
+   align-items: center;
+   text-align: left;
+
+   .box-icon {
+      border: 0;
+      border-radius: 50%;
+      height: 48px;
+      width: 48px;
+      font-size: 20px;
+      margin-bottom: 0;
+      &:after {
+         display: none;
+      }
+   }
+   .box-text {
+      margin: 0;
+      color: $black-color3;
+   }
+
+}
+
 /* Team Details Contact Form ---------------------------------- */
 .contact-form-v4 {
    padding: 56px;

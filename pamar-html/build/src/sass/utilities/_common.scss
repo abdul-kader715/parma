@@ -81,8 +81,16 @@
       margin-right: 16px;
       border-radius: 50%;
 
+      @include vxs {
+         margin-right: 7px;
+      }
+
       &:last-child {
          margin-right: 0;
+
+         @include vxs {
+            margin-right: 0;
+         }
       }
 
       &:hover {
@@ -123,6 +131,7 @@
          @include equal-size(var(--icon-size, 48px));
          line-height: var(--icon-size, 48px);
          border: 1px solid #D8DBDC;
+
          &:hover {
             border: 1px solid $theme-color;
          }

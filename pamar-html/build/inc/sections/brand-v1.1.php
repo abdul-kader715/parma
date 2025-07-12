@@ -7,7 +7,7 @@ Brand Area
         <div class="row justify-content-center">
             <div class="col-xl-6">
                 <div class="title-area text-center">
-                    <span class="sub-title2 bg-gray-color " data-cue="slideInUp">Trusted Partners</span>
+                    <span class="sub-title2 style3 bg-gray-color " data-cue="slideInUp">Trusted Partners</span>
                     <h2 class="sec-title style6 text-anim2" data-cue="slideInUp">Our Trusted Partners</h2>
                 </div>
             </div>

@@ -263,6 +263,14 @@
       }
    }
 
+   &.style3 {
+      padding: 1px 18px;
+
+      &:before {
+         background-image: url(../img/icon/title-icon5.svg);
+      }
+   }
+
    &.border-black-color8 {
       border: 1px solid $black-color8;
    }
