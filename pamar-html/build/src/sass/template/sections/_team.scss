@@ -863,3 +863,30 @@
       }
    }
 }
+
+
+// teamDetails
+.teamDetails {
+
+   .box-content {
+      max-width: 781px;
+   }
+
+   p {
+      color: $black-color3;
+   }
+
+
+}
+
+.skill-wrap {
+   display: inline-grid;
+   grid-template-columns: auto auto;
+   gap: 24px 32px;
+   width: 100%;
+   margin-right: -28px;
+
+   @include ml {
+      margin-right: 0;
+   }
+}

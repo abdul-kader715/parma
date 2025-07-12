@@ -80,9 +80,11 @@
       background: $white-color;
       position: relative;
       border: 1px solid $border-color;
+
       &:hover {
          background: $theme-color;
          border: 1px solid $theme-color;
+
          .box-icon img {
             filter: brightness(0) invert(1);
          }
@@ -142,6 +144,37 @@
    .progress-value {
       background: $border-color;
       transition: all .3s;
+   }
+}
+
+
+.skill-feature {
+   &.style3 {
+   
+      .skill-feature_title {
+         display: flex;
+         justify-content: space-between;
+         color: $title-color;
+         font-size: 18px;
+         font-weight: 500;
+         text-transform: capitalize;
+         margin-bottom: 10px;
+      }
+
+      .skill-feature_title span {
+         color: $title-color;
+         font-size: 18px;
+         font-weight: 500;
+      }
+
+      .progress {
+         height: 8px;
+         background: $gray-color4;
+      }
+
+      .progress .progress-bar{
+         border-radius: 40px;
+      }
    }
 }
 
@@ -1036,10 +1069,12 @@
 
 .why-sec-4 {
    margin-bottom: -250px;
-   @include ml{
+
+   @include ml {
       margin-bottom: -150px;
    }
-    @include sm{
+
+   @include sm {
       margin-bottom: -50px;
    }
 

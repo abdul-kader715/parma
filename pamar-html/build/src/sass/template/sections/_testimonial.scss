@@ -461,3 +461,28 @@
 
 
 }
+
+
+// testi-card4
+.testi-card {
+   border-radius: 16px;
+   background: $gray-color;
+   padding: 50px 27px;
+
+
+   .testi-card_review {
+      padding: 0;
+      border: 0;
+      color: #F68E27;
+      margin: 0;
+   }
+
+   .box-text {
+      font-family: $title-font;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 30px;
+      text-transform: capitalize;
+      margin: 0;
+   }
+}
