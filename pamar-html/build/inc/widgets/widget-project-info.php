@@ -1,51 +1,30 @@
 <div class="widget widget_info <?php echo $klass;?>">
-    <h3 class="widget_title">Project info</h3>
+    <h3 class="widget_title">Project Information</h3>
     <div class="info-list">
         <ul>
             <li>
-                <div class="box-icon">
-                    <i class="fas fa-user"></i>
-                </div>
-                <div>
-                    <div class="box-title">Company:</div>
-                    <div class="box-text">Digital Tech</div>
-                </div>
+                <div class="box-title">Project Date:</div>
+                <div class="box-text">21/06/2025</div>
             </li>
             <li>
-                <div class="box-icon">
-                    <i class="fas fa-file"></i>
-                </div>
-                <div>
-                    <div class="box-title">Category:</div>
-                    <div class="box-text">AI Technology</div>
-                </div>
+                <div class="box-title">Project Manager:</div>
+                <div class="box-text">Alice Johnson</div>
+            </li>
+             <li>
+                <div class="box-title">Budget:</div>
+                <div class="box-text">$8,50,000</div>
             </li>
             <li>
-                <div class="box-icon">
-                    <i class="fas fa-calendar-days"></i>
-                </div>
-                <div>
-                    <div class="box-title">Start Date:</div>
-                    <div class="box-text">14/01/2025</div>
-                </div>
+                <div class="box-title">Client:</div>
+                <div class="box-text">Alex John</div>
             </li>
             <li>
-                <div class="box-icon">
-                    <i class="fas fa-calendar-days"></i>
-                </div>
-                <div>
-                    <div class="box-title">End Date:</div>
-                    <div class="box-text">26/04/2025</div>
-                </div>
+                <div class="box-title">Project Type:</div>
+                <div class="box-text">Logistics</div>
             </li>
+          
             <li>
-                <div class="box-icon">
-                    <i class="fas fa-comments"></i>
-                </div>
-                <div>
-                    <div class="box-title">Feedback:</div>
-                    <div class="box-text">Happy Client</div>
-                </div>
+                <a class="th-btn " href="tel:+16369729901"><img src="assets/img/icon/phone.svg" alt="">Call Us: +163-6547-9874</a>
             </li>
         </ul>
     </div>

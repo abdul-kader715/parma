@@ -4,7 +4,7 @@ Project Area
 <section class="<?php echo $klass; ?>">
     <div class="container">
         <div class="row gx-40">
-            <div class="col-xxl-9 col-xl-8 col-lg-7">
+            <div class="col-xxl-8 col-xl-8 col-lg-7">
                 <div class="page-single mb-0">
                     <h2 class="page-title mt-n2 mb-20">Project Overview</h2>
                     <p class="mb-30">Plumbing emergencies can strike at any time, causing stress, damage, and inconvenience. At pamar, we provide 24/7 emergency plumbing services to resolve your urgent plumbing issues quickly and efficiently. Whether you’re dealing with burst pipes, overflowing drains, water heater failures, or any other unexpected plumbing crisis.</p>
@@ -23,7 +23,7 @@ Project Area
                     </div>
                     <h2 class="page-title mt-n2 mb-20">Our Exceptinal Services</h2>
                     <p class="mb-30">At Pamar, we believe that outstanding plumbing services go hand in hand with exceptional customer care. From the moment you contact us to the final repair or installation, our team is committed to providing a seamless, stress-free experience.</p>
-                    <div class="checklist style6 mt-25">
+                    <div class="checklist style6 mb-70">
                         <ul>
                             <li class="text-title"><img src="assets/img/icon/check-icon1-5.svg" alt="img"> Friendly & Professional Team</li>
                             <li class="text-title"><img src="assets/img/icon/check-icon1-5.svg" alt="img"> Upfront Pricing Plan</li>
@@ -109,10 +109,11 @@ Project Area
                 </div>
 
             </div>
-            <div class="col-xxl-3 col-xl-4 col-lg-5">
+            <div class="col-xxl-4 col-xl-4 col-lg-5">
                 <aside class="sidebar-area rounded-0 p-0 bg-transparent">
                     <?php 
 						get_widget('project-info');
+                        get_widget('contact-form');
 					?>
                 </aside>
             </div>
