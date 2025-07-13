@@ -17,7 +17,10 @@ Work Area
                 </div>
             </div>
         </div>
-         <?php get_section('work-v2', ''); ?>
+        <div class="row gy-60">
+            <?php get_section('work-v2', 'col-12'); ?>
+        </div>
+         
        
     </div>
 </div>

@@ -465,24 +465,41 @@
 
 // testi-card4
 .testi-card {
-   border-radius: 16px;
-   background: $gray-color;
-   padding: 50px 27px;
+   &.style4 {
+      // border-radius: 16px;
+      // padding: 50px 27px;
 
+      // .testi-card_review {
+      //    padding: 0;
+      //    border: 0;
+      //    color: #F68E27;
+      //    margin: 0;
+      // }
 
-   .testi-card_review {
-      padding: 0;
-      border: 0;
-      color: #F68E27;
-      margin: 0;
+      .box-text {
+         font-family: $title-font;
+         font-size: 20px;
+         font-weight: 500;
+         line-height: 30px;
+         text-transform: capitalize;
+         border-bottom: 1px solid #E5E5E5;
+         padding-bottom: 34px;
+      }
+
    }
 
-   .box-text {
-      font-family: $title-font;
-      font-size: 20px;
-      font-weight: 500;
-      line-height: 30px;
-      text-transform: capitalize;
-      margin: 0;
+   &.style5 {
+      padding-top: 65px;
+      @include ml{
+         padding-top: 0;
+      }
    }
+
+
+}
+
+
+.testi-wrap5 {
+   border-bottom: 1px solid $gray-color4;
+   padding-bottom: 32px;
 }

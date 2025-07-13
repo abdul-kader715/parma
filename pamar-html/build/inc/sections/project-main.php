@@ -6,13 +6,32 @@ Project Area
         <div class="row gx-40">
             <div class="col-xxl-9 col-xl-8 col-lg-7">
                 <div class="page-single mb-0">
-                    <div class="page-img overflow-hidden">
-                        <img src="assets/img/project/project-s-1-1.jpg" alt="img">
+                    <h2 class="page-title mt-n2 mb-20">Project Overview</h2>
+                    <p class="mb-30">Plumbing emergencies can strike at any time, causing stress, damage, and inconvenience. At pamar, we provide 24/7 emergency plumbing services to resolve your urgent plumbing issues quickly and efficiently. Whether you’re dealing with burst pipes, overflowing drains, water heater failures, or any other unexpected plumbing crisis.</p>
+                    <p class="mb-50">Whether you’re dealing with burst pipes, overflowing drains, water heater failures, or any other unexpected plumbing crisis, our experienced team is always ready to assist. With our fast response times, expert workmanship, and commitment to customer satisfaction.</p>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="page-img overflow-hidden">
+                                <img src="assets/img/project/project-s-1-1.jpg" alt="img">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="page-img overflow-hidden">
+                                <img src="assets/img/project/project-s-1-2.jpg" alt="img">
+                            </div>
+                        </div>
                     </div>
-                    <p class="project-meta">User Research</p>
-                    <h2 class="page-title mt-n2 mb-20">Artificial Intelligence Dev </h2>
-                    <p class="mb-30">Artificial Intelligence (AI) development focuses on creating intelligent systems that can mimic human cognitive functions such as learning, reasoning, problem-solving, and decision-making. AI development involves building algorithms, models, and applications that allow machines to perform tasks that typically require human intelligence. From simple automation to advanced machine learning and neural networks, AI is revolutionizing industries across the globe. AI development refers to the process of designing, building, and deploying AI-powered solutions to automate tasks, analyze large amounts of data, and improve business processes. The core goal of AI development is to create smart systems capable of making decisions, learning from experience, and performing tasks with minimal human intervention.</p>
-                    <p class="mb-50">AI solutions require ongoing monitoring to maintain accuracy and efficiency. We provide continuous support, updates, and performance enhancements to ensure your AI system remains effective as your business evolves. We implement the AI solution into your existing systems, ensuring a smooth integration with minimal disruption.</p>
+                    <h2 class="page-title mt-n2 mb-20">Our Exceptinal Services</h2>
+                    <p class="mb-30">At Pamar, we believe that outstanding plumbing services go hand in hand with exceptional customer care. From the moment you contact us to the final repair or installation, our team is committed to providing a seamless, stress-free experience.</p>
+                    <div class="checklist style6 mt-25">
+                        <ul>
+                            <li class="text-title"><img src="assets/img/icon/check-icon1-5.svg" alt="img"> Friendly & Professional Team</li>
+                            <li class="text-title"><img src="assets/img/icon/check-icon1-5.svg" alt="img"> Upfront Pricing Plan</li>
+                            <li class="text-title"><img src="assets/img/icon/check-icon1-5.svg" alt="img"> Timely Project Deliveries</li>
+                            <li class="text-title"><img src="assets/img/icon/check-icon1-5.svg" alt="img"> Fast Response Time</li>
+                            <li class="text-title"><img src="assets/img/icon/check-icon1-5.svg" alt="img"> Customized Solutions for Every Client</li>
+                        </ul>
+                    </div>
                     <div class="row gx-60 gy-40">
                         <div class="col-xxl-6">
                             <h4>AI developers build systems:</h4>
@@ -91,7 +110,7 @@ Project Area
 
             </div>
             <div class="col-xxl-3 col-xl-4 col-lg-5">
-                <aside class="sidebar-area sidebar-sticky rounded-0 p-0 bg-transparent">
+                <aside class="sidebar-area rounded-0 p-0 bg-transparent">
                     <?php 
 						get_widget('project-info');
 					?>

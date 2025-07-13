@@ -122,6 +122,18 @@
          }
       }
 
+      &.loodingbtn {
+         &::after {
+            background-image: url(../img/icon/loading-icon.svg);
+            background-repeat: no-repeat;
+            left: 7px;
+         }
+         &:hover{
+            &::after{
+               animation: spin 5s linear infinite;
+            }
+         }
+      }
    }
 
    &.style4 {
@@ -1443,6 +1455,7 @@
       }
 
    }
+
 
 }
 

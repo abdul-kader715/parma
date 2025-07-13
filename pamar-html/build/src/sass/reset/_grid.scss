@@ -34,6 +34,10 @@
   --bs-gutter-y: 50px;
 }
 
+.gx-50 {
+  --bs-gutter-x: 50px;
+}
+
 .gy-60 {
   --bs-gutter-y: 60px;
 }
@@ -54,9 +58,11 @@
   .gx-100 {
     --bs-gutter-x: 100px;
   }
- .gx-160 {
+
+  .gx-160 {
     --bs-gutter-x: 160px;
   }
+
   .gx-90 {
     --bs-gutter-x: 90px;
   }
@@ -74,7 +80,7 @@
   .gx-80 {
     --bs-gutter-x: 80px;
   }
- 
+
 }
 
 @media (min-width: $ml) {
@@ -94,6 +100,10 @@
 @include md {
   .gy-50 {
     --bs-gutter-y: 40px;
+  }
+
+  .gx-50 {
+    --bs-gutter-x: 40px;
   }
 
   .gy-80 {
