@@ -28,7 +28,7 @@
             <li><a href="project-details.html">Project Details</a></li>
             <li><a href="team.html">Our Team</a></li>
             <li><a href="team-details.html">Team Details</a></li>
-            <li><a href="chatbot.html">Chatbot Integration</a></li>
+            <li><a href="work.html">Work</a></li>
             <li><a href="pricing.html">Pricing</a></li>
             <li><a href="testimonial.html">Testimonial</a></li>
             <li><a href="faq.html">FAQ'S Page</a></li>

@@ -7,7 +7,7 @@ Chatbot Area
             <div class="col-xl-7">
                 <div class="title-area text-center">
                     <h3 class="page-title mt-n2">AI Chatbot</h3>
-                    <p>AI chatbot integration refers to embedding AI-powered chatbots into business systems to automate customer interactions, provide real-time assistance, and streamline communication processes.</p>
+                    <p>AI Work refers to embedding AI-powered chatbots into business systems to automate customer interactions, provide real-time assistance, and streamline communication processes.</p>
                 </div>
                 <div class="chatbot-site-wrap">
                     <a href="#"><img src="assets/img/icon/chatbot-icon1-1.png" alt="img"></a>

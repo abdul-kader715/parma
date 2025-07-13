@@ -437,10 +437,12 @@
       width: 48px;
       font-size: 20px;
       margin-bottom: 0;
+
       &:after {
          display: none;
       }
    }
+
    .box-text {
       margin: 0;
       margin-bottom: 5px;
@@ -464,9 +466,7 @@
    position: relative;
 
    .contact-map {
-      position: absolute;
-      inset: 0;
-      z-index: -1;
+      height: 398px;
 
       iframe {
          height: 100%;
@@ -502,6 +502,50 @@
    @include xs {
       .contact-form-wrap {
          padding: 40px 30px;
+      }
+   }
+}
+
+
+// contact-info ---4
+.contact-info {
+   &.style4 {
+      background: $gray-color;
+      padding: 0;
+      gap: 12px;
+      box-shadow: 0px 10px 50px transparent;
+      border-radius: 8px;
+      display: flex;
+      align-items: start;
+      text-align: left;
+      padding: 30px;
+
+      .box-icon {
+         border: 0;
+         border-radius: 50%;
+         height: 48px;
+         width: 48px;
+         font-size: 20px;
+         margin-bottom: 0;
+         background: $theme-color;
+         flex: none;
+
+         &:after {
+            display: none;
+         }
+      }
+
+       .box-title {
+         font-size: 20px;
+         font-weight: 500;
+         margin-bottom: 0;
+      }
+
+      .box-text {
+         margin: 0;
+         margin-bottom: 5px;
+         color: $black-color3;
+         max-width: 238px;
       }
    }
 }

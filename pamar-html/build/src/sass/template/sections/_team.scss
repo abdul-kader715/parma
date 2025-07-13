@@ -889,4 +889,8 @@
    @include ml {
       margin-right: 0;
    }
+   @include sm{
+      grid-template-columns: auto;
+      gap: 20px;
+   }
 }

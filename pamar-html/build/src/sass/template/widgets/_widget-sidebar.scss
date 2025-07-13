@@ -398,25 +398,9 @@
 
 // Download Widget --------------------
 .download-widget-wrap {
-   max-width: 190px;
 
-   .th-btn {
-      width: 100%;
-      padding-top: 0;
-      padding-bottom: 0;
-      background: #1C1C25;
-      border: 1px solid $theme-color;
-      height: 55px;
-      align-items: center;
 
-      &:after {
-         background: #1C1C25;
-      }
-
-      &:first-child {
-         margin-bottom: 10px;
-      }
-   }
+   
 }
 
 // Widget Info ---------------------
@@ -1468,5 +1452,13 @@ ol {
          font-size: 14px;
          line-height: 24px;
       }
+   }
+}
+
+
+.widget_download{
+
+   &.style2{
+      background: $theme-color;
    }
 }

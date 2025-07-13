@@ -4,7 +4,7 @@ Team Area
 <section class="<?php echo $klass; ?>">
     <div class="container">
         <div class="teamDetails">
-            <div class="row gx-40 gy-40">
+            <div class="row gx-40 gy-30 mb-24">
             <div class="col-xxl-4 col-xl-4 col-xl-6">
                 <div class="th-team team-card style2 style4">
                     <div class="team-img">
@@ -72,7 +72,7 @@ Team Area
                          <div class="col-xl-4 col-lg-4">
                             <div class="contact-info style3" data-cue="slideInUp">
                                 <div class="box-icon">
-                                    <i class="fal fa-envelope"></i>
+                                    <i class="fal fa-map-marker-alt"></i>
                                 </div>
                                 <div class="box-content">
                                     <p class="box-text">123 Maple Street Apt C </p>
@@ -84,7 +84,7 @@ Team Area
                 </div>
             </div>            
         </div>
-        <div class="row gx-40 gy-70">
+        <div class="row gx-40 gy-40">
             <div class="col-xxl-8 col-xl-8">
                 <div class="box-content">
                     <h2 class="box-title">Professional Skills</h2>
@@ -139,10 +139,12 @@ Team Area
                     <p class="box-text">Communication before and during the repair was helpful,
                          since we were unsure how extensive it might be once the area was dug out. 
                         We would highly recommend both Mike and Chris. Repairs were done in a timely,</p>
-                    
                 </div>
             </div>     
         </div>
         </div>
+    </div>
+    <div class="shape-mockup jump d-none d-xxl-block " style="bottom: -10%; left: 0%;">
+        <img src="assets/img/normal/about-thumb2-1.png" alt="shape">
     </div>
 </section>

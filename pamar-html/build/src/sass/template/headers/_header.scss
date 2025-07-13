@@ -730,6 +730,11 @@
          }
       }
    }
+   @media (max-width:1550px) {
+      .th-btn.style6{
+         display: none;
+      }
+   }
 }
 
 @include md {

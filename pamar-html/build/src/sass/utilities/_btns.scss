@@ -377,6 +377,8 @@
       padding: 19px 30px;
       background: $theme-color;
       color: $white-color;
+
+
       &::before {
          display: none;
       }
@@ -384,14 +386,17 @@
       &::after {
          display: none;
       }
-      &:hover{
+
+      &:hover {
          background: $theme-color3;
       }
    }
+
    &.style16 {
       border-radius: 100px;
       padding: 19px 30px;
       background: $white-color;
+
       &::before {
          display: none;
       }
@@ -399,9 +404,45 @@
       &::after {
          display: none;
       }
-      &:hover{
+
+      &:hover {
          background: $theme-color;
       }
+   }
+
+   &.style17 {
+      border: 0;
+      background: $white-color;
+      padding: 20px 24px;
+      width: 100%;
+      color: $title-color;
+      justify-content: space-between;
+
+      &::after {
+         background-image: url(../img/icon/download-icon.svg);
+         background-repeat: no-repeat;
+         left: 7px;
+
+
+      }
+
+      .after-bg {
+         background-color: $theme-color;
+         width: 36px;
+         height: 36px;
+         border-radius: 50%;
+         right: 8px;
+         top: 9px;
+
+      }
+
+      &:before {
+         display: none;
+      }
+
+      &:hover {}
+
+
    }
 
    &.style-border {
