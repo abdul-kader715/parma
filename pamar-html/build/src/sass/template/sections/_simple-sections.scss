@@ -319,9 +319,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 15px;
+    gap: 8px;
     text-align: center;
     margin-bottom: 60px;
+    border-bottom: 1px solid $border-color;
 
     @include lg {
         margin-bottom: 50px;
@@ -333,30 +334,28 @@
         gap: 6px;
     }
 
-    .th-btn {
-        border-radius: 5px;
-        padding: 15px 30px;
-        background-color: transparent;
-        color: $body-color;
-        border: 1px solid $border-color;
-        min-width: auto;
+    .tab-btn {
+        padding: 3px 20px;
+        padding-top: 4px;
+        background-color: $smoke-color2;
+        border-radius: 16px 16px 0px 0px;
+        background: $smoke-color;
+        color: $title-color;
+        font-family: $body-font;
+        font-size: 16px;
+        font-weight: 400;
+        border: 0;
 
-        &:before {
-            background-color: $theme-color;
+        &::before {
+            display: none;
         }
 
-        &:hover,
+        &::after {
+            display: none;
+        }
+
         &.active {
-            border-color: $theme-color;
-            color: $white-color;
-
-            &:before {
-                border-radius: 3px;
-            }
-        }
-
-        @include md {
-            padding: 13px 20px;
+            background-color: $theme-color2;
         }
     }
 }

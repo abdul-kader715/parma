@@ -13,12 +13,13 @@ calculation Area
                 <div class="col-xl-8">
                     <form action="mail.php" method="POST" class="contact-form-v5 ajax-contact">
                         <div class="row gx-40 gy-30 ">
-                            <div class="form-group col-12">
+                            <div class="form-group style3 col-12">
+                                <label>Service Area</label>
                                 <div class="price_slider_wrapper">
                                     <div class="price_slider"></div>
                                     <div class="price_label">
-                                        <span>SQFT:2250<span class="from"></span></span> 
-                                        <span>Cost:<span class="to">$70</span></span>
+                                        <span>SQFT:<span class="from"></span></span> 
+                                        <span>Cost:<span class="to"></span></span>
                                     </div>
                                 </div>
                             </div>            

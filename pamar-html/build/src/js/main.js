@@ -946,7 +946,6 @@
     });
     $(".from").text("$" + $(".price_slider").slider("values", 0));
     $(".to").text("$" + $(".price_slider").slider("values", 1));
-
     
     
     // /*----------- 00. Right Click Disable ----------*/

@@ -1,22 +1,23 @@
 <!--==============================
 Project Area  
 ==============================-->
-<section class="<?php echo $klass;?>" id="project-sec">
+<div class="overflow-hidden <?php echo $klass;?>">
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-xxl-6 col-xl-8">
-                <div class="title-area text-center">
-                    <div class="shadow-title style2">Case</div>
-                    <span class="sub-title text-anim" data-cue="slideInUp">Case Study</span>
-                    <h2 class="sec-title text-anim2" data-cue="slideInUp">AI Projects Case Study</h2>
-                    <p class="sec-text" data-cue="slideInUp">An AI agency is a specialized organization dedicated to helping businesses and organizations leverage artificial intelligence to achieve their goals.</p>
-                </div>
+
+
+
+        <div class="title-area text-center">
+            <div class="filter-menu indicator-active filter-menu-active">
+                <button data-filter="*" class="tab-btn active" type="button">View All</button>
+                <button data-filter=".cat1" class="tab-btn" type="button">Drain Plumber</button>
+                <button data-filter=".cat2" class="tab-btn" type="button">Install & Repair</button>
+                <button data-filter=".cat3" class="tab-btn" type="button">Water Heater Fixes</button>
+                <button data-filter=".cat4" class="tab-btn" type="button">Leak Detection</button>
+                <button data-filter=".cat5" class="tab-btn" type="button">Burst Pipe Repair</button>
             </div>
         </div>
-    </div>
-    <div class="container">
-        <div class="row gx-80 gy-60 justify-content-center">
-            <?php get_section('project-v2.1', 'col-md-6'); ?>
+        <div class="row gy-30 gallery-row filter-active">
+            <?php get_section('project-v2.1' , 'col-xl-6' );?>
         </div>
     </div>
-</section>
+</div>
