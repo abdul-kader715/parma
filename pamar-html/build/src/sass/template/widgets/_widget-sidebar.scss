@@ -1397,12 +1397,50 @@ ol {
 }
 
 .widget-contact-form {
-   background: $smoke-color;
-   border-radius: 30px;
-   padding: 40px;
+   background: $theme-color;
+   border-radius: 16px;
+   padding: 48px;
 
    @include xs {
       padding: 30px;
+   }
+
+   .widget_title {
+      line-height: 34px;
+   }
+
+   select,
+   .form-control,
+   .form-select,
+   textarea,
+   input {
+      height: 46px;
+   }
+
+   .form-group.style-border select {
+      background-color: $white-color;
+   }
+
+   .form-select,
+   select {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8' fill='none'%3E%3Cpath d='M11.823 1.6579L6.65523 7.14869C6.29996 7.52617 5.70008 7.52617 5.34482 7.14869L0.176982 1.6579C-0.211282 1.24533 0.0811899 0.568359 0.647727 0.568359H11.3522C11.9188 0.568359 12.2113 1.24533 11.823 1.6579Z' fill='%23A3A3A3'/%3E%3C/svg%3E");
+   }
+
+   .link-btn3 {
+      justify-content: space-between;
+      padding: 17px 24px;
+      &:hover{
+         background: $theme-color2;
+         opacity: 0.9;
+      }
+
+      @include sm {
+         padding: 18px 18px;
+      }
+      @include vxs {
+         gap: 4px;
+         padding: 14px 10px;
+      }
    }
 }
 

@@ -121,19 +121,34 @@
             font-weight: 500;
         }
     }
-     &.style6 {
+
+    &.style6 {
         li {
             color: $title-color;
             font-size: 24px;
             font-weight: 700;
             padding-left: 0;
             gap: 10px;
+
             &:before {
                 display: none;
             }
         }
     }
 
+    &.style8 {
+        li {
+            color: $title-color;
+            font-size: 16px;
+            font-weight: 600;
+            padding-left: 0;
+            gap: 10px;
+
+            &:before {
+                display: none;
+            }
+        }
+    }
 
     &.style-line {
         li {

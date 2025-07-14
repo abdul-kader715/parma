@@ -128,8 +128,9 @@
             background-repeat: no-repeat;
             left: 7px;
          }
-         &:hover{
-            &::after{
+
+         &:hover {
+            &::after {
                animation: spin 5s linear infinite;
             }
          }
@@ -1511,6 +1512,7 @@
    overflow: hidden;
    position: relative;
    transition: all 0.5s ease-in-out;
+   border: 0;
 
    @include sm {
       padding: 18px 18px;

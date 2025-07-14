@@ -535,7 +535,7 @@
          }
       }
 
-       .box-title {
+      .box-title {
          font-size: 20px;
          font-weight: 500;
          margin-bottom: 0;
@@ -547,5 +547,86 @@
          color: $black-color3;
          max-width: 238px;
       }
+   }
+}
+
+// contact-form-v5
+.contact-form-v5 {
+   padding: 70px 0;
+
+   @include ml {
+      padding: 70px 30px;
+   }
+
+   @include vxs {
+      padding: 70px 20px;
+   }
+
+   .form-group select,
+   .form-group.style3 input {
+      height: 56px;
+      background-color: $white-color;
+   }
+
+   .form-group.style3 input {
+      color: #101111;
+      font-family: $title-font;
+      font-size: 32px;
+      font-weight: 700;
+      text-transform: capitalize;
+   }
+
+   .form-group {
+      label {
+         color: $title-color;
+         font-family: $title-font;
+         font-size: 18px;
+         font-weight: 500;
+         text-transform: capitalize;
+         margin-bottom: 20px;
+
+         span {
+            color: $theme-color;
+         }
+      }
+   }
+
+   .custom-checkbox {
+      label {
+         color: $title-color;
+         font-family: $body-font;
+         font-size: 16px;
+         font-weight: 500;
+         text-transform: capitalize;
+
+         span {
+            color: $theme-color;
+         }
+      }
+   }
+
+   input[type=checkbox]:checked~label:before {
+      background-color: $theme-color;
+      border: 1px solid $theme-color;
+   }
+
+   input[type=checkbox]~label:before {
+      border: 1px solid $border-color;
+      height: 20px;
+      width: 20px;
+   }
+
+   .checkbox-wrap {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 0 30px;
+   }
+
+   .th-btn {
+      padding: 20px 24px;
+      justify-content: space-between;
+
+      &::after {}
    }
 }

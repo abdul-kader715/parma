@@ -32,7 +32,7 @@
             <li><a href="pricing.html">Pricing</a></li>
             <li><a href="testimonial.html">Testimonial</a></li>
             <li><a href="faq.html">FAQ'S Page</a></li>
-            <li><a href="ai-consulting.html">AI Consulting</a></li>
+            <li><a href="cost-calculation.html">Cost Calculation</a></li>
 			<li><a href="error.html">Error Page</a></li>
         </ul>
     </li>

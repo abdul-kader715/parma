@@ -1,0 +1,25 @@
+/* calculation ---------------------------------- */
+
+.calculation-wrap {
+    border-radius: 24px;
+
+    
+
+    .title {
+        text-align: center;
+        background: $theme-color;
+        padding: 43px 20px 55px;
+    }
+
+    .box-title {
+        font-size: 32px;
+        font-weight: 700;
+        text-transform: capitalize;
+        margin-bottom: 0;
+    }
+
+    .box-text {
+        font-size: 18px;
+        font-weight: 400;
+    }
+}
