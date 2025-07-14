@@ -1,11 +1,11 @@
 <?php 
     $title = array(
-        'AI Virtual reality VR', 
-        'AI Technology Smart Watch',
-        'AI-Enabled Autonomous Drones',
-        'AI Time machine',
-        'Wifi AI extender',
-        'AI Technological airpods',
+        'Electrical Switches breaker', 
+        'Kitchen Bathroom Sink Tap',
+        'Hand Tools Hex key Allen',
+        'Villeroy & Boch Sink',
+        'red pipe wrench',
+        'Stanley Hand Screw gun Tools',
         'Pen Pot',
         'Shopping Cart',
         'File ',

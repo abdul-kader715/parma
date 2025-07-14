@@ -24,7 +24,7 @@ Cart Area
                             <a class="cart-productimage" href="shop-details.html"><img width="91" height="91" src="assets/img/product/product_thumb_1_1.png" alt="Image"></a>
                         </td>
                         <td data-title="Name">
-                            <a class="cart-productname" href="shop-details.html">Business Board</a>
+                            <a class="cart-productname" href="shop-details.html">Electrical Switches breaker</a>
                         </td>
                         <td data-title="Price">
                             <span class="amount"><bdi><span>$</span>18</bdi></span>
@@ -48,7 +48,7 @@ Cart Area
                             <a class="cart-productimage" href="shop-details.html"><img width="91" height="91" src="assets/img/product/product_thumb_1_2.png" alt="Image"></a>
                         </td>
                         <td data-title="Name">
-                            <a class="cart-productname" href="shop-details.html">Note Book</a>
+                            <a class="cart-productname" href="shop-details.html">Kitchen Bathroom Sink Tap</a>
                         </td>
                         <td data-title="Price">
                             <span class="amount"><bdi><span>$</span>18</bdi></span>
@@ -72,7 +72,7 @@ Cart Area
                             <a class="cart-productimage" href="shop-details.html"><img width="91" height="91" src="assets/img/product/product_thumb_1_3.png" alt="Image"></a>
                         </td>
                         <td data-title="Name">
-                            <a class="cart-productname" href="shop-details.html">Headphone</a>
+                            <a class="cart-productname" href="shop-details.html">Hand Tools Hex key Allen</a>
                         </td>
                         <td data-title="Price">
                             <span class="amount"><bdi><span>$</span>18</bdi></span>
@@ -95,10 +95,10 @@ Cart Area
                         <td colspan="6" class="actions">
                             <div class="th-cart-coupon">
                                 <input type="text" class="form-control" placeholder="Coupon Code...">
-                                <button type="submit" class="th-btn ">Apply Coupon</button>
+                                <button type="submit" class="th-btn ">Apply Coupon <span class="after-bg"></span></button>
                             </div>
-                            <button type="submit" class="th-btn ">Update cart</button>
-                            <a href="shop.html" class="th-btn style3 ">Continue Shopping</a>
+                            <button type="submit" class="th-btn ">Update cart <span class="after-bg"></span></button>
+                            <a href="shop.html" class="th-btn style3 ">Continue Shopping <span class="after-bg"></span></a>
                         </td>
                     </tr>
                 </tbody>
@@ -159,7 +159,7 @@ Cart Area
                                             <input type="text" class="form-control" placeholder="Postcode / ZIP">
                                         </p>
                                         <p>
-                                            <button class="th-btn  btn-sm">Update</button>
+                                            <button class="th-btn  btn-sm">Update <span class="after-bg"></span></button>
                                         </p>
                                     </div>
                                 </form>
@@ -176,7 +176,7 @@ Cart Area
                     </tfoot>
                 </table>
                 <div class="wc-proceed-to-checkout mb-30">
-                    <a href="checkout.html" class="th-btn">Proceed to checkout</a>
+                    <a href="checkout.html" class="th-btn">Proceed to checkout <span class="after-bg"></span></a>
                 </div>
             </div>
         </div>

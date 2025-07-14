@@ -17,7 +17,17 @@ Project Area
             </div>
         </div>
         <div class="row gy-30 gallery-row filter-active">
-            <?php get_section('project-v2.1' , 'col-xl-6' );?>
+            <?php get_section('project-v2.1' , 'col-lg-6' );?>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-4">
+                <div class="text-center mt-60">
+                    <a href="#" class="th-btn style3 loodingbtn">
+                        Load More
+                        <span class="after-bg"></span>
+                    </a> 
+               </div>
+            </div>
         </div>
     </div>
 </div>

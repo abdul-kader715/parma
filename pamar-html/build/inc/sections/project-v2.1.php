@@ -4,17 +4,17 @@
         'Residential',
         'Residential',
         'Residential',
-        'Residential',
-        'Residential',
+        'Industrial',
+        'Commercial',
         'Residential',
     );
     $title = array(
         'Fixture installation and repair',
+        'Garbage Disposals',
+        'showers & Bathtubs repair',
         'Fixture installation and repair',
-        'Fixture installation and repair',
-        'Fixture installation and repair',
-        'Fixture installation and repair',
-        'Fixture installation and repair',
+        'Pipe Repair in commercial area',
+        'pipe leak in Residential',
     );
      $filter_class = array(
         'filter-item cat3',

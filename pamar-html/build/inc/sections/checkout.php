@@ -10,11 +10,11 @@ Checkout Arae
         <div class="row">
             <div class="col-12">
                 <form action="#" class="woocommerce-form-login mb-3">
-                    <div class="form-group">
+                    <div class="form-group style-border">
                         <label>Username or email *</label>
                         <input type="text" class="form-control" placeholder="Username or email">
                     </div>
-                    <div class="form-group">
+                    <div class="form-group style-border">
                         <label>Password *</label>
                         <input type="text" class="form-control" placeholder="Password">
                     </div>
@@ -25,7 +25,7 @@ Checkout Arae
                         </div>
                     </div>
                     <div class="form-group">
-                        <button type="submit" class="th-btn btn-sm ">Login</button>
+                        <button type="submit" class="th-btn btn-sm login">Login <span class="after-bg"></span></button>
                         <p class="mt-3 mb-0"><a class="text-reset" href="#">Lost your password?</a></p>
                     </div>
                 </form>
@@ -37,12 +37,12 @@ Checkout Arae
         <div class="row">
             <div class="col-12">
                 <form action="#" class="woocommerce-form-coupon">
-                    <div class="form-group">
+                    <div class="form-group style-border">
                         <label>Coupon code</label>
                         <input type="text" class="form-control" placeholder="Write your coupon code">
                     </div>
                     <div class="form-group">
-                        <button type="submit" class="th-btn btn-sm ">Apply coupon</button>
+                        <button type="submit" class="th-btn btn-sm ">Apply coupon <span class="after-bg"></span></button>
                     </div>
                 </form>
             </div>
@@ -52,7 +52,7 @@ Checkout Arae
                 <div class="col-lg-6">
                     <h2 class="h4 fw-semibold">Billing Details</h2>
                     <div class="row">
-                        <div class="col-12 form-group">
+                        <div class="col-12 form-group style-border">
                             <select class="form-select">
                                 <option>United Kingdom (UK)</option>
                                 <option>United State (US)</option>
@@ -61,29 +61,29 @@ Checkout Arae
                                 <option>Germany (DE)</option>
                             </select>
                         </div>
-                        <div class="col-md-6 form-group">
+                        <div class="col-md-6 form-group style-border">
                             <input type="text" class="form-control" placeholder="First Name">
                         </div>
-                        <div class="col-md-6 form-group">
+                        <div class="col-md-6 form-group style-border">
                             <input type="text" class="form-control" placeholder="Last Name">
                         </div>
-                        <div class="col-12 form-group">
+                        <div class="col-12 form-group style-border">
                             <input type="text" class="form-control" placeholder="Your Company Name">
                         </div>
-                        <div class="col-12 form-group">
+                        <div class="col-12 form-group style-border">
                             <input type="text" class="form-control" placeholder="Street Address">
                             <input type="text" class="form-control" placeholder="Apartment, suite, unit etc. (optional)">
                         </div>
-                        <div class="col-12 form-group">
+                        <div class="col-12 form-group style-border">
                             <input type="text" class="form-control" placeholder="Town / City">
                         </div>
-                        <div class="col-md-6 form-group">
+                        <div class="col-md-6 form-group style-border">
                             <input type="text" class="form-control" placeholder="Country">
                         </div>
-                        <div class="col-md-6 form-group">
+                        <div class="col-md-6 form-group style-border">
                             <input type="text" class="form-control" placeholder="Postcode / Zip">
                         </div>
-                        <div class="col-12 form-group">
+                        <div class="col-12 form-group style-border">
                             <input type="text" class="form-control" placeholder="Email Address">
                             <input type="text" class="form-control" placeholder="Phone number">
                         </div>
@@ -103,7 +103,7 @@ Checkout Arae
                     </p>
                     <div class="shipping_address">
                         <div class="row">
-                            <div class="col-12 form-group">
+                            <div class="col-12 form-group style-border">
                                 <select class="form-select">
                                     <option>United Kingdom (UK)</option>
                                     <option>United State (US)</option>
@@ -112,35 +112,35 @@ Checkout Arae
                                     <option>Germany (DE)</option>
                                 </select>
                             </div>
-                            <div class="col-md-6 form-group">
+                            <div class="col-md-6 form-group style-border">
                                 <input type="text" class="form-control" placeholder="First Name">
                             </div>
-                            <div class="col-md-6 form-group">
+                            <div class="col-md-6 form-group style-border">
                                 <input type="text" class="form-control" placeholder="Last Name">
                             </div>
-                            <div class="col-12 form-group">
+                            <div class="col-12 form-group style-border">
                                 <input type="text" class="form-control" placeholder="Your Company Name">
                             </div>
-                            <div class="col-12 form-group">
+                            <div class="col-12 form-group style-border">
                                 <input type="text" class="form-control" placeholder="Street Address">
                                 <input type="text" class="form-control" placeholder="Apartment, suite, unit etc. (optional)">
                             </div>
-                            <div class="col-12 form-group">
+                            <div class="col-12 form-group style-border">
                                 <input type="text" class="form-control" placeholder="Town / City">
                             </div>
-                            <div class="col-md-6 form-group">
+                            <div class="col-md-6 form-group style-border">
                                 <input type="text" class="form-control" placeholder="Country">
                             </div>
-                            <div class="col-md-6 form-group">
+                            <div class="col-md-6 form-group style-border">
                                 <input type="text" class="form-control" placeholder="Postcode / Zip">
                             </div>
-                            <div class="col-12 form-group">
+                            <div class="col-12 form-group style-border">
                                 <input type="text" class="form-control" placeholder="Email Address">
                                 <input type="text" class="form-control" placeholder="Phone number">
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 form-group">
+                    <div class="col-12 form-group style-border">
                         <textarea cols="20" rows="5" class="form-control" placeholder="Notes about your order, e.g. special notes for delivery."></textarea>
                     </div>
                 </div>
@@ -229,7 +229,7 @@ Checkout Arae
                     </li>
                 </ul>
                 <div class="form-row place-order">
-                    <button type="submit" class="th-btn btn-sm ">Place order</button>
+                    <button type="submit" class="th-btn btn-sm ">Place order <span class="after-bg"></span></button>
                 </div>
             </div>
         </div>

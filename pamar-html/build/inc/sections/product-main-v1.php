@@ -10,7 +10,7 @@ Product Area
 				<div class="row gy-40">
 					<?php get_section('product-grid', 'col-sm-6', '7'); ?>
 				</div>
-				<?php get_section('pagination-v1', 'text-center'); ?>
+				<?php get_section('pagination-v1', 'text-center mt-20'); ?>
 			</div>
 			<div class="col-xl-4 col-lg-5">
                 <aside class="sidebar-area sidebar-sticky" data-cue="slideInUp">
@@ -19,7 +19,6 @@ Product Area
 						get_widget('categories');
 						get_widget('price-filter');
 						get_widget('tagcloud');
-						get_widget('banner');
 					?>
                 </aside>
             </div>

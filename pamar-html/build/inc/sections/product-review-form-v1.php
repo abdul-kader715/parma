@@ -33,7 +33,7 @@
       <label for="reviewcheck">Save my name, email, and website in this browser for the next time I comment.<span class="checkmark"></span></label>
     </div>
     <div class="col-12 form-group mb-0">
-      <button class="th-btn">Post Review</button>
+      <button class="th-btn style4 active">Post Review <span class="after-bg"></span></button>
     </div>
   </div>
 </div>

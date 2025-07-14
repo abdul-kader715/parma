@@ -1,4 +1,5 @@
 .woocommerce-checkout {
+
     .form-group,
     .form-row {
         margin-bottom: 0;
@@ -26,11 +27,13 @@
 
     .select2-container--default .select2-selection--single {
         border-radius: 27px;
+
         .select2-selection__rendered,
         .form-control:focus {
             color: $body-color;
         }
     }
+
     .shipping_address {
         margin-top: -3px;
     }
@@ -44,6 +47,7 @@
 .woocommerce-form-login,
 .woocommerce-form-coupon,
 .woocommerce-checkout {
+
     select,
     .form-select,
     .form-control,
@@ -64,9 +68,7 @@
     border-radius: 27px;
 }
 
-.select2-container--default
-    .select2-selection--single
-    .select2-selection__rendered {
+.select2-container--default .select2-selection--single .select2-selection__rendered {
     line-height: 56px;
     padding-left: 25px;
     padding-right: 25px;
@@ -76,26 +78,18 @@
     margin-bottom: 0;
 }
 
-.select2-container--default
-    .select2-selection--single
-    .select2-selection__arrow
-    b:before {
+.select2-container--default .select2-selection--single .select2-selection__arrow b:before {
     content: "\f107";
     font-family: $icon-font;
 }
 
-.select2-container--default
-    .select2-selection--single
-    .select2-selection__arrow
-    b {
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
     margin: 0;
     border: none;
     top: 0;
 }
 
-.select2-container--default
-    .select2-selection--single
-    .select2-selection__arrow {
+.select2-container--default .select2-selection--single .select2-selection__arrow {
     height: 56px;
     line-height: 56px;
     margin-right: 30px;
@@ -104,7 +98,9 @@
 span.select2-selection.select2-selection--single:focus {
     outline: none;
 }
+
 .checkout-ordertable {
+
     th,
     td {
         border: 1px solid #ededed;
@@ -133,17 +129,52 @@ span.select2-selection.select2-selection--single:focus {
     }
 
     input[type="hidden"] {
-        ~ label {
+        ~label {
             color: $theme-color;
         }
     }
 }
 
+.th-checkout-wrapper {
+    .th-btn.btn-sm.login {
+        &::after {
+            left: 12px;
+        }
+    }
+}
+
 .woocommerce-checkout {
+    .form-group.style-border select {
+        background-color: $smoke-color;
+        border: 1px solid transparent;
+
+        &:focus {
+            border-color: $theme-color;
+        }
+    }
+
+    input[type=checkbox]~label:before {
+        border: 1px solid $smoke-color;
+    }
+
+    input[type=checkbox]:checked~label:before {
+        color: $theme-color;
+    }
+
     .form-group {
         input:not(:last-child) {
             margin-bottom: var(--bs-gutter-x);
         }
+    }
+}
+
+.woocommerce-form-login {
+    input[type=checkbox]~label:before {
+        border: 1px solid $smoke-color;
+    }
+
+    input[type=checkbox]:checked~label:before {
+        color: $theme-color;
     }
 }
 
@@ -162,7 +193,7 @@ span.select2-selection.select2-selection--single:focus {
             font-size: 16px;
         }
 
-        input[type="radio"] ~ label {
+        input[type="radio"]~label {
             margin-bottom: 17px;
             color: $body-color;
 
@@ -202,11 +233,12 @@ span.select2-selection.select2-selection--single:focus {
         display: none;
     }
 
-    .woocommerce-checkout-payment ul input[type="radio"] ~ label img {
+    .woocommerce-checkout-payment ul input[type="radio"]~label img {
         max-width: 150px;
     }
 
     .checkout-ordertable {
+
         th,
         td {
             padding: 5px 20px 5px 60px;
