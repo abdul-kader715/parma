@@ -25,8 +25,8 @@ Project Area
 
         <!-- Tabs -->
         <div class="nav tab-menu3 mb-40" id="tab-menu3" role="tablist">
-            <button class="th-btn tab-btn active" id="nav-one-tab" data-bs-toggle="tab" data-bs-target="#nav-one" type="button" role="tab" aria-controls="nav-one" aria-selected="true">View All</button>
-            <button class="th-btn tab-btn" id="nav-two-tab" data-bs-toggle="tab" data-bs-target="#nav-two" type="button" role="tab" aria-controls="nav-two" aria-selected="false">Drain Plumber</button>
+            <button class="th-btn tab-btn active" id="first-nav-one-tab" data-bs-toggle="tab" data-bs-target="#first-nav-one" type="button" role="tab" aria-controls="first-nav-one" aria-selected="true">View All</button>
+            <button class="th-btn tab-btn" id="sec-nav-two-tab" data-bs-toggle="tab" data-bs-target="#sec-nav-two" type="button" role="tab" aria-controls="sec-nav-two" aria-selected="false">Drain Plumber</button>
             <button class="th-btn tab-btn" id="nav-three-tab" data-bs-toggle="tab" data-bs-target="#nav-three" type="button" role="tab" aria-controls="nav-three" aria-selected="false">Install & Repair</button>
             <button class="th-btn tab-btn" id="nav-four-tab" data-bs-toggle="tab" data-bs-target="#nav-four" type="button" role="tab" aria-controls="nav-four" aria-selected="false">Water Heater Fixes</button>
             <button class="th-btn tab-btn" id="nav-five-tab" data-bs-toggle="tab" data-bs-target="#nav-five" type="button" role="tab" aria-controls="nav-five" aria-selected="false">Leak Detection</button>
@@ -34,8 +34,8 @@ Project Area
         </div>
 
         <!-- Tab Content -->
-        <div class="tab-content">
-            <div class="tab-pane fade show active" id="nav-one" role="tabpanel" aria-labelledby="nav-one-tab">
+        <div class="tab-content project-slider-content-wrap" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="first-nav-one" role="tabpanel" aria-labelledby="first-nav-one-tab">
                 <div class="slider-area project-slider2">
                     <div class="swiper th-slider" id="projectSlider1" data-slider-options='{
                                 "autoHeight": true,
@@ -57,11 +57,12 @@ Project Area
                 </div>
             </div>
 
-            <div class="tab-pane fade" id="nav-two" role="tabpanel" aria-labelledby="nav-two-tab">
+            <div class="tab-pane fade" id="sec-nav-two" role="tabpanel" aria-labelledby="sec-nav-two-tab">
                 <div class="slider-area project-slider2">
-                    <div class="swiper th-slider" id="projectSlider1" data-slider-options='{
+                    <div class="swiper th-slider" id="projectSlider2" data-slider-options='{
                                 "autoHeight": true,
                                 "centeredSlides": true,
+                                "initialSlide": 3,
                                 "speed" : "1500",
                                 "spaceBetween": 24,
                                 "breakpoints": {
@@ -81,9 +82,10 @@ Project Area
 
             <div class="tab-pane fade" id="nav-three" role="tabpanel" aria-labelledby="nav-three-tab">
                 <div class="slider-area project-slider2">
-                    <div class="swiper th-slider" id="projectSlider1" data-slider-options='{
+                    <div class="swiper th-slider" id="projectSlider3" data-slider-options='{
                                 "autoHeight": true,
                                 "centeredSlides": true,
+                                "initialSlide": 3,
                                 "spaceBetween": 24,
                                 "speed" : "1500",
                                 "breakpoints": {
@@ -103,9 +105,10 @@ Project Area
 
             <div class="tab-pane fade" id="nav-four" role="tabpanel" aria-labelledby="nav-four-tab">
                 <div class="slider-area project-slider2">
-                    <div class="swiper th-slider" id="projectSlider1" data-slider-options='{
+                    <div class="swiper th-slider" id="projectSlider4" data-slider-options='{
                                 "autoHeight": true,
                                 "centeredSlides": true,
+                                "initialSlide": 3,
                                 "spaceBetween": 24,
                                 "speed" : "1500",
                                 "breakpoints": {
@@ -125,9 +128,10 @@ Project Area
 
             <div class="tab-pane fade" id="nav-five" role="tabpanel" aria-labelledby="nav-five-tab">
                 <div class="slider-area project-slider2">
-                    <div class="swiper th-slider" id="projectSlider1" data-slider-options='{
+                    <div class="swiper th-slider" id="projectSlider5" data-slider-options='{
                                 "autoHeight": true,
                                 "centeredSlides": true,
+                                "initialSlide": 3,
                                 "spaceBetween": 24,
                                 "speed" : "1500",
                                 "breakpoints": {
@@ -147,9 +151,10 @@ Project Area
 
             <div class="tab-pane fade" id="nav-six" role="tabpanel" aria-labelledby="nav-six-tab">
                 <div class="slider-area project-slider2">
-                    <div class="swiper th-slider" id="projectSlider1" data-slider-options='{
+                    <div class="swiper th-slider" id="projectSlider6" data-slider-options='{
                                 "autoHeight": true,
                                 "centeredSlides": true,
+                                "initialSlide": 3,
                                 "spaceBetween": 24,
                                 "speed" : "1500",
                                 "breakpoints": {
@@ -170,4 +175,3 @@ Project Area
 
     </div>
 </section>
-

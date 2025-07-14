@@ -224,15 +224,20 @@
     }
 
 }
-
-.project-slider2 {
+.project-slider-content-wrap{
     position: relative;
     margin-left: -300px;
+}
+.project-slider2 {
+    // position: relative;
+    // margin-left: -300px;
 
     @include lg {
         margin-left: 0px;
     }
-
+    .swiper-wrapper{
+        height: auto !important;
+    }
     .swiper-slide {
         width: 312px !important;
         height: 541px !important;
