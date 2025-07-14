@@ -16,10 +16,10 @@ calculation Area
                             <div class="form-group style3 col-12">
                                 <label>Service Area</label>
                                 <div class="price_slider_wrapper">
-                                    <div class="price_slider"></div>
-                                    <div class="price_label">
-                                        <span>SQFT:<span class="from"></span></span> 
-                                        <span>Cost:<span class="to"></span></span>
+                                    <div class="price_slider costcalculating_slider"></div>
+                                    <div class="price_label costcalculating_slider_label">
+                                        <span>SQFT:<span class="costcalculating_slider_from"></span></span> 
+                                        <span>Cost:<span class="costcalculating_slider_to"></span></span>
                                     </div>
                                 </div>
                             </div>            
@@ -69,7 +69,7 @@ calculation Area
                             </div>
                             <div class="form-group style3 col-lg-8 col-12">
                                 <label>Total Amount</label>
-                                <input type="text" class="form-control" name="amount" id="amount" placeholder="$4590">
+                                <input type="text" readonly class="form-control" name="amount" id="amount" placeholder="$4590">
                             </div>
                             <div class="form-btn col-lg-4 col-12 d-flex align-items-end">
                                 <button class="th-btn w-100">Book An Appointment <span class="after-bg"></span></button>

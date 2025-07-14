@@ -946,6 +946,52 @@
     });
     $(".from").text("$" + $(".price_slider").slider("values", 0));
     $(".to").text("$" + $(".price_slider").slider("values", 1));
+
+   const defaultSQFT = 1700;
+    $(".costcalculating_slider").slider({
+        range: "min",
+        min: 0,
+        max: 3000,
+        step: 50,
+        value: defaultSQFT,
+        slide: function (event, ui) {
+            updateValues(ui.value);
+        }
+        });
+
+        function calculateCost(sqft) {
+        const pricePerSqft = 2.04; // example price per sqft
+        return Math.round(sqft * pricePerSqft);
+        }
+
+        function updateValues(sqft) {
+        const cost = calculateCost(sqft);
+
+        $(".costcalculating_slider_label .costcalculating_slider_from").text(sqft + " SQFT");
+        $(".costcalculating_slider_label .costcalculating_slider_to").text("$" + cost);
+        $("#amount").val("$" + cost);
+
+        updateLabelPosition(sqft);
+        }
+
+        function updateLabelPosition(value) {
+        const slider = $(".costcalculating_slider");
+        const sliderWidth = slider.width();
+        const min = slider.slider("option", "min");
+        const max = slider.slider("option", "max");
+
+        const percent = (value - min) / (max - min);
+        const left = percent * sliderWidth;
+
+        $(".costcalculating_slider_label").css("transform", `translateX(${left}px)`);
+        }
+
+        // initialize values & label position at first load
+        updateValues(defaultSQFT);
+
+
+
+
     
     
     // /*----------- 00. Right Click Disable ----------*/
