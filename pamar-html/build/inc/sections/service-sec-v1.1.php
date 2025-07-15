@@ -26,6 +26,5 @@ Service Area
             <?php get_section('service-v1.1', 'col-xl-4 col-lg-6'); ?>
         </div>
       </div>
-   </div>
 </section>
 

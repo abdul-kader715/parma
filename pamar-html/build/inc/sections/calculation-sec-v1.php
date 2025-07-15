@@ -15,11 +15,11 @@ calculation Area
                         <div class="row gx-40 gy-30 ">
                             <div class="form-group style3 col-12">
                                 <label>Service Area</label>
-                                <div class="price_slider_wrapper">
+                                <div class="price_slider_wrapper style2">
                                     <div class="price_slider costcalculating_slider"></div>
-                                    <div class="price_label costcalculating_slider_label">
-                                        <span>SQFT:<span class="costcalculating_slider_from"></span></span> 
-                                        <span>Cost:<span class="costcalculating_slider_to"></span></span>
+                                    <div class="price_label costcalculating_slider_label bg-mask" data-mask-src="assets/img/shape/costcalculating-slider.png">
+                                        <span class="from_text">SQFT: <span class="from_text costcalculating_slider_from"></span></span> 
+                                        <span class="to_text">Cost: <span class="costcalculating_slider_to"></span></span>
                                     </div>
                                 </div>
                             </div>            

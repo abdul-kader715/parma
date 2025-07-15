@@ -2,7 +2,7 @@
 <!--==============================
 Cta Area  
 ==============================-->
-<div class="cta-area-1 <?php echo $klass;?>">
+<div class="cta-area-1 <?php echo $klass;?>" id="contact-sec">
     <div class="container">
         <div class="row gy-30  align-items-start">
             <div class="col-xl-7">

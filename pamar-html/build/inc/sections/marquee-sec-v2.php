@@ -38,7 +38,7 @@ Marquee Area
                                     <div class="marquee-icon">
                                         <img src="<?php echo $icon[$x];?>" alt="img">
                                     </div>
-                                    <a target="_blank" href="#">
+                                    <a target="_blank" href="#" data-hover="<?php echo $text[$x];?>">
                                         <?php echo $text[$x];?>
                                     </a>                            
                                 </div>

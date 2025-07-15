@@ -5,17 +5,17 @@
             <li class="menu-item-has-children">
                 <a href="#">Multipage</a>
                 <ul class="sub-menu">
-                    <li><a href="<?php echo indexURL;?>">Home I (AI Startup)</a></li>
-                    <li><a href="home-2.html">Home II (AI Technology)</a></li>
-                    <li><a href="home-3.html">Home III (AI Agency)</a></li>
+                    <li><a href="<?php echo indexURL;?>">Home General Plumbing</a></li>
+                    <li><a href="home-2.html">Home Emergency Plumbing</a></li>
+                    <li><a href="home-3.html">Home Residential Plumbing</a></li>
                 </ul>
             </li>
             <li class="menu-item-has-children">
                 <a href="#">Onepage</a>
                 <ul class="sub-menu">
-                    <li><a href="home-1-op.html">Home I (AI Startup)</a></li>
-                    <li><a href="home-2-op.html">Home II (AI Technology)</a></li>
-                    <li><a href="home-3-op.html">Home III (AI Agency)</a></li>
+                    <li><a href="home-1-op.html">Home General Plumbing</a></li>
+                    <li><a href="home-2-op.html">Home Emergency Plumbing</a></li>
+                    <li><a href="home-3-op.html">Home Residential Plumbing</a></li>
                 </ul>
             </li>
         </ul>

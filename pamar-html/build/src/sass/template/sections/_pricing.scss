@@ -163,7 +163,6 @@
          align-items: start;
          font-size: 16px;
          font-weight: 500;
-         padding-left: 0;
 
          &:not(:last-child) {
             margin-bottom: 19px;
@@ -176,6 +175,10 @@
          }
 
          &:before {
+            // display: none;
+         }
+
+         img {
             display: none;
          }
 
@@ -374,21 +377,22 @@
          color: $theme-color2;
       }
 
-      
+
    }
-    .activesubtitle {
-         border-radius: 16px 0px 0px 0px;
-         background: $theme-color2;
-         position: absolute;
-         right: 0;
-         bottom: 0;
-         color: $black-color;
-         font-size: 18px;
-         font-weight: 400;
-         padding: 8px 24px;
-         opacity: 0;
-         visibility: hidden;
-      }
+
+   .activesubtitle {
+      border-radius: 16px 0px 0px 0px;
+      background: $theme-color2;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      color: $black-color;
+      font-size: 18px;
+      font-weight: 400;
+      padding: 8px 24px;
+      opacity: 0;
+      visibility: hidden;
+   }
 
    &.active {
       .activesubtitle {
@@ -413,6 +417,20 @@
          font-family: $body-font;
          font-weight: 400;
          color: $black-color6;
+         padding-left: 0;
+         gap: 16px;
+
+         &::before {
+            position: relative;
+            background: none;
+            background-image: url(../img/icon/check-icon1-4.svg);
+            background-size: 100% 100%;
+            width: 16px;
+            height: 16px;
+            left: 0;
+            clip-path: none;
+
+         }
 
          &:not(:last-child) {
             margin-bottom: 20px;
@@ -535,6 +553,12 @@
          font-weight: 500;
          gap: 10px;
          margin-bottom: 10px;
+         padding-left: 0;
+
+         &::before {
+            display: none;
+
+         }
 
          i {
             color: $white-color;
@@ -560,25 +584,29 @@
 }
 
 // price-card 4
-.price-card.style4{
+.price-card.style4 {
 
-   .price-card_price{
+   .price-card_price {
       background: $theme-color;
    }
-   .price-card_price{
+
+   .price-card_price {
       color: $white-color;
-      .duration{
+
+      .duration {
          color: $white-color;
       }
    }
-   
-   .activesubtitle{
+
+   .activesubtitle {
       background: $white-color;
    }
-   .price_card-wrap{
+
+   .price_card-wrap {
       background: $gray-color;
    }
-   .th-btn{
+
+   .th-btn {
       padding: 20px 26px;
    }
 

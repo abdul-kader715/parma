@@ -4,7 +4,7 @@ Booking Area
 <section class="bg-black-color7 <?php echo $klass;?>">
     <div class="container">
         <div class="booking-wrap" >
-            <div class="nav tab-menu2 mb-40" id="tab-menu3" role="tablist">
+            <div class="nav tab-menu2 mb-40" id="tab-menu2" role="tablist">
                 <button class="th-btn tab-btn active" id="nav-one-tab" data-bs-toggle="tab" data-bs-target="#nav-one" type="button" role="tab" aria-controls="nav-one" aria-selected="true">Residensital</button>
                 <button class="th-btn tab-btn" id="nav-two-tab" data-bs-toggle="tab" data-bs-target="#nav-two" type="button" role="tab" aria-controls="nav-two" aria-selected="false">Commercial</button>
             </div>
@@ -19,7 +19,7 @@ Booking Area
                 </div>
                 <div class="tab-pane fade" id="nav-two" role="tabpanel" aria-labelledby="nav-two-tab">
                     <div class="row gy-30 justify-content-center">
-                        <?php get_section('booking-form-v1'); ?>
+                        <?php get_section('booking-form-v1.1'); ?>
                     </div>
                 </div>
             </div>

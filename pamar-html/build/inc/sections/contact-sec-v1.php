@@ -1,7 +1,7 @@
 <!--==============================
 Contact Area   
 ==============================-->
-<div class="<?php echo $klass;?> contact-area-1 position-relative z-index-common" id="contact-sec"> 
+<div class="<?php echo $klass;?> contact-area-1 position-relative z-index-common" id="contact-info-sec"> 
     <div class="container">
         <div class="row gy-40 justify-content-center">
             <div class="col-xl-4 col-lg-6 col-md-6">

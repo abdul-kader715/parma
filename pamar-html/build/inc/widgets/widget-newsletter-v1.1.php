@@ -7,7 +7,6 @@
         </div>
          <button type="submit" class="th-btn style7">
             Subscribe Now <span class="after-bg"></span>
-            </div>
          </button>
     </form>
 </div>

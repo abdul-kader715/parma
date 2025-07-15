@@ -130,8 +130,20 @@
             padding-left: 0;
             gap: 10px;
 
-            &:before {
+              img {
                 display: none;
+            }
+
+            &::before {
+                position: relative;
+                background: none;
+                background-image: url(../img/icon/check-icon1-5.svg);
+                background-size: 100% 100%;
+                width: 24px;
+                height: 24px;
+                left: 0;
+                clip-path: none;
+
             }
         }
     }
@@ -144,8 +156,20 @@
             padding-left: 0;
             gap: 10px;
 
-            &:before {
+            img {
                 display: none;
+            }
+
+            &::before {
+                position: relative;
+                background: none;
+                background-image: url(../img/icon/check-icon1-5.svg);
+                background-size: 100% 100%;
+                width: 24px;
+                height: 24px;
+                left: 0;
+                clip-path: none;
+
             }
         }
     }

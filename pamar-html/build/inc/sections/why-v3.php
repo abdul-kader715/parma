@@ -17,7 +17,7 @@ Feature Area
     </div>
     <div class="container-fluid p-0">
         <div class="brand-wrap1">
-            <div class="swiper th-slider" data-cue="slideInUp" id="brandSlider1"
+            <div class="swiper th-slider" data-cue="slideInUp" id="brandSlider"
                 data-slider-options='{"breakpoints":{"0":{"slidesPerView":"auto"}},
                 "autoplay":{"delay":0,"disableOnInteraction":false},"noSwiping":"true","speed":8000,"spaceBetween":24}'>
                     <div class="swiper-wrapper">

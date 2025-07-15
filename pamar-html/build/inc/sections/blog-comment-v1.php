@@ -31,6 +31,7 @@
                                 <a href="blog-details.html" class="reply-btn">
                                 <i class="fa-solid fa-reply"></i> Reply</a>
                             </div>
+                        </div>
                     </div>
                 </li>
             </ul>

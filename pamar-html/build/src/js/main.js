@@ -960,14 +960,14 @@
         });
 
         function calculateCost(sqft) {
-        const pricePerSqft = 2.04; // example price per sqft
+        const pricePerSqft = 2.04; 
         return Math.round(sqft * pricePerSqft);
         }
 
         function updateValues(sqft) {
         const cost = calculateCost(sqft);
 
-        $(".costcalculating_slider_label .costcalculating_slider_from").text(sqft + " SQFT");
+        $(".costcalculating_slider_label .costcalculating_slider_from").text(sqft + " ");
         $(".costcalculating_slider_label .costcalculating_slider_to").text("$" + cost);
         $("#amount").val("$" + cost);
 

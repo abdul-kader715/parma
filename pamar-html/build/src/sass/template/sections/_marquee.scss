@@ -30,10 +30,30 @@
       font-weight: 500;
       color: transparent;
       line-height: 94px;
+      transition: all 0.3s ease-in-out;
+
+      &::before {
+         overflow: hidden;
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 0;
+         color: $white-color;
+         white-space: nowrap;
+         content: attr(data-hover);
+         transition: all 0.5s cubic-bezier(0.17, 0.67, 0.32, 0.87);
+      }
+
+
 
       &:hover {
          color: $title-color;
-         -webkit-text-stroke-color: transparent;
+         -webkit-text-stroke-color: $title-color;
+
+         &::before {
+            width: 100%;
+            color: $title-color;
+         }
       }
    }
 
@@ -96,7 +116,11 @@
 
       &:hover {
          color: $theme-color2;
-         -webkit-text-stroke-color: transparent;
+         -webkit-text-stroke-color: $theme-color2;
+
+         &::before {
+            color: $theme-color2;
+         }
       }
 
       @include xs {

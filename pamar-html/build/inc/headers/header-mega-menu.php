@@ -7,7 +7,9 @@
                         <div class="mega-menu-img">
                             <img src="assets/img/pages/index.jpg" alt="Home One">
                             <div class="btn-wrap">
-                                <a href="<?php echo indexURL;?>" class="th-btn">View Demo</a>
+                                <a href="<?php echo indexURL;?>" class="th-btn">Multipage</a>
+                                <a href="home-1-op.html" class="th-btn">Onepage</a>
+                                
                             </div>
                         </div>
                         <h3 class="mega-menu-title"><a href="<?php echo indexURL;?>">Home General Plumbing</a></h3>                        
@@ -18,7 +20,8 @@
                         <div class="mega-menu-img">
                             <img src="assets/img/pages/home-2.jpg" alt="Home Two">
                             <div class="btn-wrap">
-                                <a href="home-2.html" class="th-btn">View Demo</a>
+                                <a href="home-2.html" class="th-btn">Multipage</a>
+                                <a href="home-2-op.html" class="th-btn">Onepage</a>
                             </div>
                         </div>
                         <h3 class="mega-menu-title"><a href="home-2.html">Home Emergency Plumbing</a></h3>                        
@@ -29,7 +32,8 @@
                         <div class="mega-menu-img">
                             <img src="assets/img/pages/home-3.jpg" alt="Home Three">
                             <div class="btn-wrap">
-                                <a href="home-3.html" class="th-btn">View Demo</a>
+                                <a href="home-3.html" class="th-btn">Multipage</a>
+                                <a href="home-3-op.html" class="th-btn">Onepage</a>
                             </div>
                         </div>
                         <h3 class="mega-menu-title"><a href="home-3.html">Home Residential Plumbing</a></h3>                        

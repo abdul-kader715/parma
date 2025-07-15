@@ -13,6 +13,9 @@
       font-size: 14px;
       background-color: $theme-color;
       color: $white-color;
+      &::after{
+         display: none;
+      }
    }
 }
 

@@ -10,7 +10,7 @@ Work Area
                     <span class="sub-title style2 text-anim after-none before-none" 
                     data-cue="slideInLeft">Work Process</span>
                     <h2 class="sec-title style3 text-anim2" data-cue="slideInLeft">
-                        How We Work!</span>
+                        How We Work!
                     </h2>
                     <p>Our plumbing services are designed to provide fast, reliable,
                          and long-lasting solutions for both residential and commercial needs.</p>

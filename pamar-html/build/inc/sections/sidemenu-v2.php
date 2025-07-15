@@ -6,6 +6,6 @@
         <button class="closeButton sideMenuCls"><i class="far fa-times"></i></button>
         <?php get_widget('about-black')?>
         <?php get_widget('recent-post')?>
-        <?php get_widget('newsletter')?>
+        <?php get_widget('newsletter-v2.1')?>
     </div>
 </div>

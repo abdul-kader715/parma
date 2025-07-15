@@ -27,7 +27,7 @@ Marquee Area
                                         <div class="masking-src" data-mask-src="assets/img/shape/star-shape1.png"></div>
                                         <img src="assets/img/shape/star-shape1.png" alt="img">
                                     </div>
-                                    <a target="_blank" href="#">
+                                    <a target="_blank" href="#" data-hover="<?php echo $text[$x];?>">
                                         <?php echo $text[$x];?>
                                     </a>                            
                                 </div>

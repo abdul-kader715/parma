@@ -53,12 +53,12 @@ Appointment Area
                                 <div class="form-group style-border4 style4 col-lg-6">
                                     <label>Select Date</label>
                                     <i class="fal fa-calendar-days"></i>
-                                    <input type="date" class="form-control" name="date" id="date" placeholder="Date of visit">
+                                    <input type="date" class="form-control" name="date" id="date" >
                                 </div>
                                 <div class="form-group style-border4 style4 col-lg-6">
                                     <label>Select Time</label>
                                     <i class="fa-solid fa-clock"></i>
-                                    <input type="time" class="form-control" name="time" id="time" placeholder="Time of visit">
+                                    <input type="time" class="form-control" name="time" id="time">
                                 </div>
                                 <div class="form-btn style4 col-12">
                                     <button class="th-btn style14">Make an Appointment</button>

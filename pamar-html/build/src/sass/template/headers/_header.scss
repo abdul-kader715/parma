@@ -740,6 +740,7 @@
 @include md {
    .header-default {
       .menu-area {
+         border-top: 1px solid #2626265e;
          padding: 10px 0;
          background: var(--title-color);
       }
