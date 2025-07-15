@@ -6,7 +6,7 @@ Brand Area
     <div class="container">
         <div class="brand-wrap4 p-0 m-0 text-center">
             <div class="swiper th-slider" id="brandSlider1" data-slider-options='{"breakpoints":{"0":{"slidesPerView":2},
-            "576":{"slidesPerView":"2"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"3"},
+            "576":{"slidesPerView":"2"},"768":{"slidesPerView":"3"},"992":{"slidesPerView":"3"},
             "1200":{"slidesPerView":"4"},"1400":{"slidesPerView":"5"}}}'>
                 <div class="swiper-wrapper">
                     <?php

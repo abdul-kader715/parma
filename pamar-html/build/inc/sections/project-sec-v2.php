@@ -40,12 +40,14 @@ Project Area
                     <div class="swiper th-slider" id="projectSlider1" data-slider-options='{
                                 "autoHeight": true,
                                 "centeredSlides": true,
-                                "spaceBetween": 24,
+                                "initialSlide": 3,
                                 "speed" : "1500",
+                                "loop":true,
+                                "spaceBetween": 24,
                                 "breakpoints": {
-                                            "0": { "slidesPerView": 1, "centeredSlides": false },
-                                            "991": { "slidesPerView": 1, "centeredSlides": false },
-                                            "1200": { "slidesPerView": 2, "centeredSlides": false },
+                                            "0": { "slidesPerView": 1, "centeredSlides": true },
+                                            "991": { "slidesPerView": 2, "centeredSlides": true },
+                                            "1200": { "slidesPerView": 2, "centeredSlides": true },
                                             "1300": { "slidesPerView": 4, "centeredSlides": true },
                                             "1600": { "slidesPerView": 4, "centeredSlides": true }
                                         }
@@ -60,15 +62,16 @@ Project Area
             <div class="tab-pane fade" id="sec-nav-two" role="tabpanel" aria-labelledby="sec-nav-two-tab">
                 <div class="slider-area project-slider2">
                     <div class="swiper th-slider" id="projectSlider2" data-slider-options='{
-                                "autoHeight": true,
+                                 "autoHeight": true,
                                 "centeredSlides": true,
                                 "initialSlide": 3,
                                 "speed" : "1500",
+                                "loop":true,
                                 "spaceBetween": 24,
                                 "breakpoints": {
-                                            "0": { "slidesPerView": 1, "centeredSlides": false },
-                                            "991": { "slidesPerView": 1, "centeredSlides": false },
-                                            "1200": { "slidesPerView": 2, "centeredSlides": false },
+                                            "0": { "slidesPerView": 1, "centeredSlides": true },
+                                            "991": { "slidesPerView": 2, "centeredSlides": true },
+                                            "1200": { "slidesPerView": 2, "centeredSlides": true },
                                             "1300": { "slidesPerView": 4, "centeredSlides": true },
                                             "1600": { "slidesPerView": 4, "centeredSlides": true }
                                         }
@@ -83,15 +86,16 @@ Project Area
             <div class="tab-pane fade" id="nav-three" role="tabpanel" aria-labelledby="nav-three-tab">
                 <div class="slider-area project-slider2">
                     <div class="swiper th-slider" id="projectSlider3" data-slider-options='{
-                                "autoHeight": true,
+                                 "autoHeight": true,
                                 "centeredSlides": true,
                                 "initialSlide": 3,
-                                "spaceBetween": 24,
                                 "speed" : "1500",
+                                "loop":true,
+                                "spaceBetween": 24,
                                 "breakpoints": {
-                                            "0": { "slidesPerView": 1, "centeredSlides": false },
-                                            "991": { "slidesPerView": 1, "centeredSlides": false },
-                                            "1200": { "slidesPerView": 2, "centeredSlides": false },
+                                            "0": { "slidesPerView": 1, "centeredSlides": true },
+                                            "991": { "slidesPerView": 2, "centeredSlides": true },
+                                            "1200": { "slidesPerView": 2, "centeredSlides": true },
                                             "1300": { "slidesPerView": 4, "centeredSlides": true },
                                             "1600": { "slidesPerView": 4, "centeredSlides": true }
                                         }
@@ -106,15 +110,16 @@ Project Area
             <div class="tab-pane fade" id="nav-four" role="tabpanel" aria-labelledby="nav-four-tab">
                 <div class="slider-area project-slider2">
                     <div class="swiper th-slider" id="projectSlider4" data-slider-options='{
-                                "autoHeight": true,
+                                 "autoHeight": true,
                                 "centeredSlides": true,
                                 "initialSlide": 3,
-                                "spaceBetween": 24,
                                 "speed" : "1500",
+                                "loop":true,
+                                "spaceBetween": 24,
                                 "breakpoints": {
-                                            "0": { "slidesPerView": 1, "centeredSlides": false },
-                                            "991": { "slidesPerView": 1, "centeredSlides": false },
-                                            "1200": { "slidesPerView": 2, "centeredSlides": false },
+                                            "0": { "slidesPerView": 1, "centeredSlides": true },
+                                            "991": { "slidesPerView": 2, "centeredSlides": true },
+                                            "1200": { "slidesPerView": 2, "centeredSlides": true },
                                             "1300": { "slidesPerView": 4, "centeredSlides": true },
                                             "1600": { "slidesPerView": 4, "centeredSlides": true }
                                         }
@@ -129,15 +134,16 @@ Project Area
             <div class="tab-pane fade" id="nav-five" role="tabpanel" aria-labelledby="nav-five-tab">
                 <div class="slider-area project-slider2">
                     <div class="swiper th-slider" id="projectSlider5" data-slider-options='{
-                                "autoHeight": true,
+                                 "autoHeight": true,
                                 "centeredSlides": true,
                                 "initialSlide": 3,
-                                "spaceBetween": 24,
                                 "speed" : "1500",
+                                "loop":true,
+                                "spaceBetween": 24,
                                 "breakpoints": {
-                                            "0": { "slidesPerView": 1, "centeredSlides": false },
-                                            "991": { "slidesPerView": 1, "centeredSlides": false },
-                                            "1200": { "slidesPerView": 2, "centeredSlides": false },
+                                            "0": { "slidesPerView": 1, "centeredSlides": true },
+                                            "991": { "slidesPerView": 2, "centeredSlides": true },
+                                            "1200": { "slidesPerView": 2, "centeredSlides": true },
                                             "1300": { "slidesPerView": 4, "centeredSlides": true },
                                             "1600": { "slidesPerView": 4, "centeredSlides": true }
                                         }
@@ -152,15 +158,16 @@ Project Area
             <div class="tab-pane fade" id="nav-six" role="tabpanel" aria-labelledby="nav-six-tab">
                 <div class="slider-area project-slider2">
                     <div class="swiper th-slider" id="projectSlider6" data-slider-options='{
-                                "autoHeight": true,
+                                 "autoHeight": true,
                                 "centeredSlides": true,
                                 "initialSlide": 3,
-                                "spaceBetween": 24,
                                 "speed" : "1500",
+                                "loop":true,
+                                "spaceBetween": 24,
                                 "breakpoints": {
-                                            "0": { "slidesPerView": 1, "centeredSlides": false },
-                                            "991": { "slidesPerView": 1, "centeredSlides": false },
-                                            "1200": { "slidesPerView": 2, "centeredSlides": false },
+                                            "0": { "slidesPerView": 1, "centeredSlides": true },
+                                            "991": { "slidesPerView": 2, "centeredSlides": true },
+                                            "1200": { "slidesPerView": 2, "centeredSlides": true },
                                             "1300": { "slidesPerView": 4, "centeredSlides": true },
                                             "1600": { "slidesPerView": 4, "centeredSlides": true }
                                         }

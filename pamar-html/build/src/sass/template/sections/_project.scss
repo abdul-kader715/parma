@@ -224,60 +224,74 @@
     }
 
 }
-.project-slider-content-wrap{
-    position: relative;
-    margin-left: -300px;
-}
-.project-slider2 {
-    // position: relative;
-    // margin-left: -300px;
 
-    @include lg {
+.project-slider-content-wrap {
+    position: relative;
+    margin-left: -313px;
+
+    @media (max-width:1599px) {
         margin-left: 0px;
     }
-    .swiper-wrapper{
+
+    // @include ml {
+    //     margin-left: 0px;
+    // }
+}
+
+.project-slider2 {
+    // position: relative; 
+    // margin-left: -300px;
+
+    // @include lg {
+    //     margin-left: 0px;
+    // }
+
+    .swiper-wrapper {
         height: auto !important;
     }
+
     .swiper-slide {
-        width: 312px !important;
-        height: 541px !important;
-        border-radius: 32px;
-        transition: all .3s;
-        position: relative;
-
-        @include lg {
-            width: 548px !important;
+        @media (min-width:1600px) {
+            width: 312px !important;
             height: 541px !important;
-            border-radius: 32px;
+            border-radius: 32px ;
+            transition: all 1s ease-in-out 0s;
+            position: relative;
         }
 
-        @include md {
-            width: 100% !important;
-            height: 100% !important;
-            border-radius: 32px;
-        }
+
+
+        //    @media (max-width:1599px) {
+        //         width: unset !important;
+        //         height: unset !important;
+        //         border-radius: 32px;
+        //     }
 
 
     }
 
     .swiper-slide.swiper-slide-active {
-        width: 648px !important;
-        height: 541px !important;
-        border-radius: 32px;
-        transition: all .3s;
-        position: relative;
+        // width: 648px !important;
+        // height: 541px !important;
+        // border-radius: 32px;
+        // transition: all .3s;
+        // position: relative;
 
-        @include lg {
-            width: 548px !important;
+        @media (min-width:1600px) {
+            width: 648px !important;
             height: 541px !important;
             border-radius: 32px;
+            transition: all 1s ease-in-out 0s;
+            position: relative;
         }
 
-        @include md {
-            width: 100% !important;
-            height: 100% !important;
-            border-radius: 32px;
-        }
+        // @media (max-width:1599px) {
+        //     width: unset !important;
+        //     height: unset !important;
+        //     border-radius: 32px;
+        // }
+
+
 
         .project-card {
 

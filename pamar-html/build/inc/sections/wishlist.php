@@ -38,7 +38,7 @@ Checkout Area
                                 <a href="shop-details.html"><img src="assets/img/product/product_thumb_1_1.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="image"></a>
                             </td>
                             <td class="product-name">
-                                <a href="shop-details.html">Business Board</a>
+                                <a href="shop-details.html">Electrical Switches breaker</a>
                             </td>
                             <td class="product-price">
                                 <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>45.00</bdi></span>
@@ -69,7 +69,7 @@ Checkout Area
                                 <a href="shop-details.html"><img src="assets/img/product/product_thumb_1_2.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="image"></a>
                             </td>
                             <td class="product-name">
-                                <a href="shop-details.html">Note Book</a>
+                                <a href="shop-details.html">Kitchen Bathroom Sink Tap</a>
                             </td>
                             <td class="product-price">
                                 <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>18.00</bdi></span></ins>
@@ -99,7 +99,7 @@ Checkout Area
                                 <a href="shop-details.html"><img src="assets/img/product/product_thumb_1_3.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="image"></a>
                             </td>
                             <td class="product-name">
-                                <a href="shop-details.html">Headphone</a>
+                                <a href="shop-details.html">Hand Tools Hex key Allen</a>
                             </td>
                             <td class="product-price">
                                 <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>18.00</bdi></span></ins>
