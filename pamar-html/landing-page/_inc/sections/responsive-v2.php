@@ -1,7 +1,7 @@
 <!--==============================
  Responsive Supported
 ==============================-->
-<div class="space responsive-sec" id="responsive" style="background-image: url(assets/img/responsive/responsive_bg.jpg)">
+<div class="space responsive-sec bg-gray-color" id="responsive" >
     <div class="responsive-shape"></div>
     <div class="container">
 

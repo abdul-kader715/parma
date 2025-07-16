@@ -9,11 +9,11 @@
             <p class="sec-text">Choose one of styles or cutomize easily your site following your ideas. <br> More demos are coming soon.</p>
         </div>
         <ul class="filter-menu">
-            <li><button class="th-btn style3 isActive active" data-filter="*">All</button></li>
-            <li><button class="th-btn style3" data-filter=".blog">Blog</button></li>
-            <li><button class="th-btn style3" data-filter=".service">Service</button></li>
-            <li><button class="th-btn style3" data-filter=".shop">Shop</button></li>
-            <li><button class="th-btn style3" data-filter=".others">Others</button></li>
+            <li><button class="th-btn isActive active" data-filter="*">All </button></li>
+            <li><button class="th-btn" data-filter=".blog">Blog </button></li>
+            <li><button class="th-btn" data-filter=".service">Service </button></li>
+            <li><button class="th-btn" data-filter=".shop">Shop </button></li>
+            <li><button class="th-btn" data-filter=".others">Others </button></li>
         </ul>
     </div>
     <div class="container">
@@ -35,8 +35,8 @@
                     'Cart Page',
                     'Checkout',
                     'Wishlist',
-                    'AI Consulting',
-                    'Chatbot Integration',
+                    'Work',
+                    'Cost Calculation',
                     'Testimonial',
                     'Contact',
                     'Faq',
@@ -59,8 +59,8 @@
                     'cart',
                     'checkout',
                     'wishlist',
-                    'ai-consulting',
-                    'chatbot',
+                    'work',
+                    'cost-calculation',
                     'testimonial',
                     'contact',
                     'faq',
@@ -127,7 +127,7 @@
                             </div>
                             <div class="thumb-box-content">
                                 <h3 class="thumb-title"><a target="_blank" href="demo/<?php echo $url[$x];?>.html"><?php echo $title[$x];?></a></h3>
-                                <a target="_blank" href="demo/<?php echo $url[$x];?>.html" class="th-btn style3">View Demo</a>
+                                <a target="_blank" href="demo/<?php echo $url[$x];?>.html" class="th-btn style3">View Demo <span class="after-bg"></span></a>
                             </div>
                         </div>
                     </div>

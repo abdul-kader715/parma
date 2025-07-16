@@ -8,7 +8,7 @@
                 <div class="hero-logo">
                     <img src="assets/img/logo-big.svg" alt="<?php echo THEME;?>">
                 </div>
-                <h1 class="hero-title">Plumbing & Repair Service HTML Template</h1>
+                <h1 class="hero-title">Plumbing & Repair Service  HTML Template</h1>
                 <div class="hero-btns onepage-nav">
                     <a href="#homePage" class="th-btn style3">View Demos</a>
                     <a target="_blank" href="#" class="th-btn style5">Purchase Now</a>

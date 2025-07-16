@@ -1,5 +1,5 @@
 <!-- Footer Area -->
-<footer class="th-footer" style="background-image: url(assets/img/footer-bg.jpg); background-size: cover;">
+<footer class="th-footer" >
     <div class="container text-center space">
         <div class="row justify-content-center">
             <div class="col-lg-9 col-xl-6 col-xxl-5">
@@ -8,7 +8,7 @@
                 </div>
                 <h2 class="sec-title fw-semibold text-white mb-4">Get <span class="text-theme"><?php echo THEME;?></span> Right Now</h2>
                 <p class="text-white mb-4 pb-2">We have everything you need for a perfect Business Agency & Consulting Company Template</p>
-                <a target="_blank" href="https://themeforest.net/user/themehour" class="th-btn style2">Purchase Now</a>
+                <a target="_blank" href="https://themeforest.net/user/themehour" class="th-btn">Purchase Now <span class="after-bg"></span></a>
             </div>
         </div>
     </div>

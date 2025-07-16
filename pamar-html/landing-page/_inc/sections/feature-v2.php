@@ -31,7 +31,7 @@
                                 latest theme and plugin anytime. But after six months if you need support you should renew
                                 your support.</p>
                             <div class="feature-action">
-                                <a href="https://themeforest.net/user/themehour" class="th-btn style3">Contact Us</a>
+                                <a href="https://themeforest.net/user/themehour" class="th-btn style3">Contact Us <span class="after-bg"></span></a>
                             </div>
                         </div>
                         <div class="col-lg-7 order-0 order-lg-1 text-center text-lg-end">

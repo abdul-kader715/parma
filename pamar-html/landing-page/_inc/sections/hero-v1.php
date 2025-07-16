@@ -6,7 +6,7 @@
         <canvas id="canvas"></canvas>
         <div class="container">
             <div class="row justify-content-center text-center">
-                <div class="col-xxl-12 col-xl-10 col-lg-10">
+                <div class="col-xxl-10 col-xl-10 col-lg-10">
                     <h1 class="hero-title text-white">Pamar - Plumbing & Repair Service HTML Template</h1>
                     <div class="hero-btns onepage-nav">
                         <a href="#homePage" class="th-btn">View Demos

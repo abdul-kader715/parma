@@ -37,9 +37,9 @@
                   'Home III',
                 );
                 $text = array(
-                  'Home AI Startup',
-                  'Home AI Technology',
-                  'Home AI Agency',
+                  'Home General Plumbing',
+                  'Home Emergency Plumbing',
+                  'Home Residential Plumbing',
                 );
                 $arrlength = count($title);
                 for($x = 0; $x < $arrlength; $x++) { ?>
@@ -64,7 +64,7 @@
             ?>
         </div>
         <div class="text-center mt-4">
-            <a href="demo/index.html" target="_blank" class="th-btn style3 style-radius">Explore Pages </a>
+            <a href="demo/index.html" target="_blank" class="th-btn style3 style-radius">Explore Pages <span class="after-bg"></span></a>
         </div>
     </div>
 </section>
