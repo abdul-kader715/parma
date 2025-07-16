@@ -22,7 +22,6 @@
                 $title = array(
                     'About Us',
                     'Blog Standard',
-                    'Blog Grid',
                     'Blog Details',
                     'Service',
                     'Service Details',
@@ -46,7 +45,6 @@
                 $url = array(
                     'about',
                     'blog',
-                    'blog-2',
                     'blog-details',
                     'service',
                     'service-details',
@@ -76,11 +74,11 @@
                         } elseif ($x == 2) {
                             $klass = 'filter-item blog';
                         } elseif ($x == 3) {
-                            $klass = 'filter-item blog';
-                        } elseif ($x == 4) {
                             $klass = 'filter-item service';
                         } elseif ($x == 5) {
                             $klass = 'filter-item service';
+                        } elseif ($x == 5) {
+                            $klass = 'filter-item others';
                         } elseif ($x == 6) {
                             $klass = 'filter-item others';
                         } elseif ($x == 7) {
@@ -88,7 +86,7 @@
                         } elseif ($x == 8) {
                             $klass = 'filter-item others';
                         } elseif ($x == 9) {
-                            $klass = 'filter-item others';
+                            $klass = 'filter-item shop';
                         } elseif ($x == 10) {
                             $klass = 'filter-item shop';
                         } elseif ($x == 11) {
@@ -98,7 +96,7 @@
                         } elseif ($x == 13) {
                             $klass = 'filter-item shop';
                         } elseif ($x == 14) {
-                            $klass = 'filter-item shop';
+                            $klass = 'filter-item others';
                         } elseif ($x == 15) {
                             $klass = 'filter-item others';
                         } elseif ($x == 16) {
@@ -114,8 +112,6 @@
                         } elseif ($x == 21) {
                             $klass = 'filter-item others';
                         } elseif ($x == 22) {
-                            $klass = 'filter-item others';
-                        } elseif ($x == 23) {
                             $klass = 'filter-item others';
                         }
                     ?>
