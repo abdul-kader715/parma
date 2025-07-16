@@ -26,7 +26,7 @@
     $arrlength = count($title);
     for($x = 0; $x < $arrlength; $x++) { ?>
         <div class="<?php echo $klass;?>">
-            <div class="th-team team-card style2 style4">
+            <div class="th-team team-card style2 style4" data-cue="slideInUp">
                 <div class="team-img">
                     <img src="<?php echo $img[$x];?>" alt="Team">
                 </div>

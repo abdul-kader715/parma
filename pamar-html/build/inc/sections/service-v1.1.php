@@ -35,7 +35,7 @@
 
     for($x = 0; $x < $arrlength; $x++) {
     ?>
-        <div class="<?php echo $klass;?>" >
+        <div class="<?php echo $klass;?>" data-cue="slideInUp">
             <div class="service-card style2">
                <div class="d-flex justify-content-between">
                   <div class="box-icon">

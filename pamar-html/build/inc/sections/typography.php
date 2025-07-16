@@ -6,7 +6,7 @@
         <div class="p-4 text-white text-center" style="background-color: var(--theme-color);">Theme Color</div>
       </div>
       <div class="col-xl-2">
-        <div class="p-4 text-white text-center" style="background-color: var(--theme-color);">Theme Color 2</div>
+        <div class="p-4 text-white text-center" style="background-color: var(--theme-color2);">Theme Color 2</div>
       </div>
       <div class="col-xl-2">
         <div class="p-4 text-white text-center" style="background-color: var(--title-color);">Title Color</div>
@@ -15,10 +15,10 @@
         <div class="p-4 text-white text-center" style="background-color: var(--body-color);">Body Color</div>
       </div>
       <div class="col-xl-2">
-        <div class="p-4 text-white text-center" style="background-color: var(--gray-color);">Gray Color</div>
+        <div class="p-4 text-color text-center" style="background-color: var(--gray-color);">Gray Color</div>
       </div>
       <div class="col-xl-2">
-        <div class="p-4 text-white text-center" style="background-color: var(--smoke-color);">Smoke Color</div>
+        <div class="p-4 text-color text-center" style="background-color: var(--smoke-color);">Smoke Color</div>
       </div>
     </div>
   </div>
@@ -205,7 +205,7 @@
       <div class="row align-items-center gy-3 gx-3">
         <div class="col-auto"><a href="#" class="th-btn">Appointment</a></div>
         <div class="col-auto"><a href="#" class="th-btn">Appointment<i class="fal fa-arrow-right"></i></a></div>
-        <div class="col-auto"><a href="#" class="th-btn style2"><span class="btn-icon"><i class="far fa-plus"></i></span><span class="btn-text">Register Now</span></a></div>
+        <div class="col-auto"><a href="#" class="th-btn style2 "><span class="btn-icon"><i class="far fa-plus"></i></span><span class="btn-text">Register Now</span></a></div>
       </div>
     </div>
     <h4>Icon Button Style</h4>
@@ -213,10 +213,10 @@
       <div class="row align-items-center gy-3 gx-3">
         <div class="col-auto"><a href="#" class="icon-btn"><i class="fal fa-arrow-right"></i></a></div>
         <div class="col-auto"><a href="#" class="icon-btn style2"><i class="fal fa-arrow-right"></i></a></div>
-        <div class="col-auto"><a href="#" class="icon-btn style3"><i class="fal fa-arrow-right"></i></a></div>
+        <div class="col-auto"><a href="#" class="icon-btn style3 text-white"><i class="fal fa-arrow-right"></i></a></div>
         <div class="col-auto"><a href="#" class="icon-btn style1 btn-md"><i class="far fa-chevron-right"></i></a></div>
         <div class="col-auto"><a href="#" class="icon-btn style2 btn-md"><i class="far fa-chevron-right"></i></a></div>
-        <div class="col-auto"><a href="#" class="icon-btn style3 btn-md"><i class="far fa-chevron-right"></i></a></div>
+        <div class="col-auto"><a href="#" class="icon-btn style3 text-white btn-md"><i class="far fa-chevron-right"></i></a></div>
       </div>
     </div>
   </div>
