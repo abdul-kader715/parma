@@ -10,7 +10,7 @@ get_section('brand-v3', 'overflow-hidden brand-area-3 position-relative z-index-
 get_section('service-sec-v3', 'space overflow-hidden');
 get_section('why-v3', 'space overflow-hidden position-relative z-index-2');
 get_section('team-sec-v3', 'space  overflow-hidden');
-get_section('process-sec-v3', 'process2 space-top bg-gray-color8 pb-160 overflow-hidden position-relative');
+get_section('process-sec-v3', 'process4 space-top bg-gray-color8 pb-160 overflow-hidden position-relative');
 get_section('project-sec-v3', ' overflow-hidden');
 get_section('contact-info-v2', 'space  overflow-hidden');
 get_section('appointment-sec-v1', 'appointment-area overflow-hidden');

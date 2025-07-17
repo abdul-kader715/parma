@@ -5,7 +5,7 @@ Work Area
 
     <div class="container">
         <div class="row justify-content-center align-items-center">
-            <div class="col-xxl-5">
+            <div class="col-xxl-5 col-md-6">
                 <div class="title-area text-center pt-1">
                     <span class="sub-title style2 text-anim after-none before-none" 
                     data-cue="slideInLeft">Work Process</span>

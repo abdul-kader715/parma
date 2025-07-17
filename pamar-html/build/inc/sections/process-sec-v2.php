@@ -3,13 +3,13 @@ Process Area
 ==============================-->
 <section class="position-relative <?php echo $klass;?>" >
     <div class="container">
-        <div class="row justify-content-center">
+        <div class="row xxl-justify-content-center">
             <div class="col-xxl-6">
                     <div class="img1">
                         <img src="assets/img/process/process_thum2_1.jpg" alt="">
                     </div>
             </div> 
-            <div class="col-xxl-6">
+            <div class="col-lg-6">
                 <div class="title-area">
                       <span class="sub-title2 bg-black-color7" data-cue="slideInUp">Our Work Process</span>
                     <h2 class="sec-title style4 text-anim2 " data-cue="slideInUp">Fixing Your Plumbing Issues in Just <span>5 Steps</span> </h2>

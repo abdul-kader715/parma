@@ -80,6 +80,15 @@
          color: $theme-color;
       }
    }
+
+   &.style7 {
+      @include ml {
+
+         br {
+            display: none;
+         }
+      }
+   }
 }
 
 .sub-title {
@@ -629,7 +638,7 @@ hr.title-line {
 
    .title-area,
    .sec-title {
-      --section-title-space: 40px;
+      --section-title-space: 55px;
 
       &.mb-45 {
          margin-bottom: 35px;

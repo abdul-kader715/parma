@@ -146,9 +146,31 @@
 
 .about-area2 {
    padding-top: 400px;
+
+   @include lg {
+      padding-top: 500px;
+   }
+
+   @include sm {
+      padding-top: 400px;
+   }
+
+   .sec-title {
+      br {
+         @include sm {
+            display: none;
+         }
+      }
+   }
 }
 
 .about-wrap2 {
+
+   .sec-text2 {
+      @include lg {
+         margin: 0;
+      }
+   }
 
    .checklist {
       ul {
@@ -177,6 +199,7 @@
          border-right: 1px solid $black-color2;
       }
    }
+
 }
 
 .img-box2 {
@@ -239,6 +262,10 @@
       margin-right: -90px;
       margin-bottom: 24px;
 
+      @media (max-width:1599px) {
+         margin-right: 0px;
+      }
+
       @include sm {
          margin-top: 24px;
       }
@@ -257,6 +284,11 @@
    justify-content: space-between;
    background: $white-color;
    max-width: 410px;
+
+   @media (max-width:1599px) {
+      flex-direction: column;
+      gap: 20px;
+   }
 
    @include xs {
       flex-direction: column;

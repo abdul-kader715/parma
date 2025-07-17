@@ -146,8 +146,6 @@
 
    @include xl {
       padding: 220px 0;
-      text-align: center;
-      margin: 0 auto;
    }
 
    @include ml {
@@ -164,7 +162,6 @@
       max-width: 665px;
 
       @include xl {
-         margin: 0 auto;
          margin-bottom: 30px;
       }
    }
@@ -176,9 +173,9 @@
 
    }
 
-   .btn-group {
+   .th-btn {
       @media (max-width:575px) {
-         justify-content: center !important;
+         padding: 21px 24px;
       }
    }
 
@@ -248,11 +245,11 @@
       }
 
       @include md {
-         padding: 200px 0 100px;
+         padding: 300px 0 100px;
       }
 
       @include xs {
-         padding: 150px 0 50px;
+         padding: 250px 0 50px;
       }
    }
 

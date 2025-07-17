@@ -152,41 +152,41 @@
     </ol>
     <h4>Input Styles</h4>
     <div class="row">
-      <div class="form-group col-lg-6 has-label">
+      <div class="form-group col-lg-6 has-label style-border">
         <label for="text">Company name (optional)*</label>
         <input type="text" id="text" placeholder="Enter Your Name">
       </div>
-      <div class="form-group col-lg-6 has-label">
+      <div class="form-group col-lg-6 has-label style-border">
         <label for="text2">Company name (optional)*</label>
         <input type="text" id="text2" placeholder="Enter Your Name">
         <i class="fal fa-user"></i>
       </div>
-      <div class="form-group col-lg-6">
+      <div class="form-group col-lg-6 style-border">
         <input type="text" placeholder="Enter Your Name">
         <i class="fal fa-user"></i>
       </div>
-      <div class="form-group col-lg-6">
+      <div class="form-group col-lg-6 style-border">
         <input type="text" placeholder="Enter Your Name">
         <i class="fal fa-user"></i>
       </div>
-      <div class="form-group col-12">
+      <div class="form-group col-12 style-border">
         <select name="name" id="name">
           <option value="" selected disabled hidden>Select Subject</option>
           <option value="">Option 1</option>
-          <option value="">Option 2</option>
+          <option value="">Option 2</option> 
           <option value="">Option 3</option>
           <option value="">Option 4</option>
         </select>
       </div>
-      <div class="form-group col-12">
+      <div class="form-group col-12 style-border">
         <textarea name="textARea" id="textARea" cols="30" rows="10" placeholder="Write you message"></textarea>
         <i class="far fa-pencil"></i>
       </div>
-      <div class="form-group col-12">
-        <input type="checkbox" id="checkbox" name="checkbox">
+      <div class="form-group checkbox col-12 ">
+        <input type="checkbox" id="checkbox" name="checkbox" >
         <label for="checkbox">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, similique?</label>
       </div>
-      <div class="form-group col-12">
+      <div class="form-group col-12 style-border">
         <div>
           <input type="radio" id="html" name="fav_language" value="HTML">
           <label for="html">HTML</label>
@@ -203,9 +203,9 @@
     <h4>Buttons Style</h4>
     <div class="p-5 mb-4 bg-light">
       <div class="row align-items-center gy-3 gx-3">
-        <div class="col-auto"><a href="#" class="th-btn">Appointment</a></div>
-        <div class="col-auto"><a href="#" class="th-btn">Appointment<i class="fal fa-arrow-right"></i></a></div>
-        <div class="col-auto"><a href="#" class="th-btn style2 "><span class="btn-icon"><i class="far fa-plus"></i></span><span class="btn-text">Register Now</span></a></div>
+        <div class="col-auto"><a href="#" class="th-btn">Appointment <span class="after-bg"></span></a></div>
+        <div class="col-auto"><a href="#" class="th-btn style2 ">Appointment<span class="after-bg"></span></a></div>
+        <div class="col-auto"><a href="#" class="th-btn style15 ">Register Now</a></div>
       </div>
     </div>
     <h4>Icon Button Style</h4>

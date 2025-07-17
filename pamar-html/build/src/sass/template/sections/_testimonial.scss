@@ -490,7 +490,8 @@
 
    &.style5 {
       padding-top: 65px;
-      @include ml{
+
+      @include ml {
          padding-top: 0;
       }
    }
@@ -502,4 +503,31 @@
 .testi-wrap5 {
    border-bottom: 1px solid $gray-color4;
    padding-bottom: 32px;
+   @include lg{
+      
+   }
+}
+
+
+.testi-card.style6 {
+   border-radius: 16px;
+   background: #F2F7FF;
+   padding: 50px 27px;
+
+   .testi-card_review {
+      margin-bottom: 24px;
+      font-size: 16px;
+      border-radius: 40px;
+      border: 0;
+      padding: 0;
+   }
+
+   .box-text {
+      color: $title-color;
+      font-family: $title-font;
+      font-size: 20px;
+      font-weight: 500;
+      text-transform: capitalize;
+      margin: 0;
+   }
 }

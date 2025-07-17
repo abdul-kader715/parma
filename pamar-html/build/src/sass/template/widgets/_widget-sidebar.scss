@@ -404,6 +404,10 @@
    padding: 40px;
    border-radius: 16px;
 
+   @media (max-width: 575px) {
+      padding: 30px;
+   }
+
    .info-list {
       margin-top: 0;
       padding: 0;
@@ -1429,7 +1433,8 @@ ol {
    .link-btn3 {
       justify-content: space-between;
       padding: 17px 24px;
-      &:hover{
+
+      &:hover {
          background: $theme-color2;
          opacity: 0.9;
       }
@@ -1437,6 +1442,7 @@ ol {
       @include sm {
          padding: 18px 18px;
       }
+
       @include vxs {
          gap: 4px;
          padding: 14px 10px;

@@ -18,6 +18,10 @@
         }
     }
 
+    .th-widget-about .about-text {
+        color: $body-color;
+    }
+
     .th-newsletter-widget .newsletter-form input {
         color: $title-color;
     }
@@ -41,11 +45,13 @@
             input {
                 background: $smoke-color;
                 text-align: left;
+
                 &:active,
                 &:focus {
                     border-color: $theme-color;
                 }
             }
+
             .th-btn {
                 color: $white-color;
             }

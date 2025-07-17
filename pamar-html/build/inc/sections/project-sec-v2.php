@@ -7,14 +7,14 @@ Project Area
             <div class="row justify-content-between align-items-center">
                 <div class="col-xl-auto">
                     <div class="title-area text-left">
-                        <span class="sub-title2 bg-black-color7" data-cue="slideInUp">Pamar services</span>
-                        <h2 class="sec-title style4 text-anim2 " data-cue="slideInUp">Exclusive Recent
+                        <span class="sub-title2 bg-black-color7" data-cue="slideInUp">Project Experience</span>
+                        <h2 class="sec-title style4 text-anim2 mb-0" data-cue="slideInUp">Exclusive Recent
                              <span>Projects</span></h2>
                     </div>
                 </div>
                 
                 <div class="col-xl-auto">
-                   <div class="btn-group mt-30 mb-50" data-cue="slideInUp">
+                   <div class="btn-group" data-cue="slideInUp">
                         <a href="project.html" class="link-btn3">
                             Discover More
                         </a>

@@ -5,6 +5,11 @@
         'Jenny William',
         'Taylor Reed',
         'Liam Parker',
+        'Alex Johon',
+        'Maria Chen',
+        'Jenny William',
+        'Taylor Reed',
+        'Liam Parker',
     ); 
     $subtitle = array(
         'CEO & Founder',
@@ -12,8 +17,18 @@
         'Engineer',
         'Plumber',
         'Plumber Chief',
+        'CEO & Founder',
+        'Plumber Chief',
+        'Engineer',
+        'Plumber',
+        'Plumber Chief',
     );
     $img = array(
+        'assets/img/team/team_2_1.png',
+        'assets/img/team/team_2_2.png',
+        'assets/img/team/team_2_3.png',
+        'assets/img/team/team_2_4.png',
+        'assets/img/team/team_2_5.png',
         'assets/img/team/team_2_1.png',
         'assets/img/team/team_2_2.png',
         'assets/img/team/team_2_3.png',

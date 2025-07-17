@@ -12,7 +12,7 @@ get_header('color-scheme');
 ==============================-->
 <header class="th-header header-layout1">
     <div class="header-top">
-      <div class="row justify-content-center justify-content-lg-between  align-items-center gy-2">
+      <div class="row justify-content-center justify-content-xl-between  align-items-center gy-2">
             <div class="col-auto">
                <div class="header-links">
                      <ul>
@@ -22,7 +22,7 @@ get_header('color-scheme');
                      </ul>
                </div>
             </div>
-            <div class="col-auto">
+            <div class="col-auto d-none d-xxl-block d-xl-block ">
                <div class="top-right">
                  <div class="header-links">
                      <ul>
@@ -51,7 +51,7 @@ get_header('color-scheme');
                             <?php get_header('menu'); ?>
                         </nav>
                         <div class="header-button d-flex d-lg-none">
-                            <button type="button" class="th-menu-toggle icon-btn"><i class="far fa-bars"></i></button>
+                            <button type="button" class="th-menu-toggle icon-btn style7"><i class="far fa-bars"></i></button>
                         </div>
                     </div>
                     <div class="col-auto d-none d-xxl-block">

@@ -4,7 +4,7 @@ Cta Area
 ==============================-->
 <div class="cta-area-1 <?php echo $klass;?>" id="contact-sec">
     <div class="container">
-        <div class="row gy-30  align-items-start">
+        <div class="row gy-40  align-items-start">
             <div class="col-xl-7">
                 <div class="cta-img" data-cue="slideInUp">
                     <img src="assets/img/normal/cta-img1-1.jpg" alt="">
@@ -34,7 +34,7 @@ Cta Area
             </div>
         </div>
     </div>
-      <div class="price-bg-shape1-1 shape-mockup d-none d-xxl-inline" data-bottom="7%" data-right="-6%">
+      <div class="cta-shape1-1 shape-mockup d-none d-xxl-inline" data-bottom="7%" data-right="0%">
             <img src="assets/img/shape/cta-shape.png" alt="img">
       </div>
       <div class="cta-thumb1-1-shape bg-mask"  data-mask-src="assets/img/shape/cta-thumb1-1-shape.png">

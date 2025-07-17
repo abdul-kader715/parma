@@ -18,7 +18,7 @@ Why Choose Us Area
             <div class="col-xxl-6">
                 <div class="why-card-wrap">
                     <div class="row gy-4 justify-content-center">
-                        <div class="col-xxl-6 col-lg-3 col-md-6">
+                        <div class="col-xxl-6  col-md-6">
                             <div class="why-card style4" data-cue="slideInUp">
                                 <div class="box-icon">
                                     <img src="assets/img/icon/why-icon1-1.svg" alt="why-icon">
@@ -38,7 +38,7 @@ Why Choose Us Area
                                 </div> 
                             </div>
                         </div> 
-                        <div class="col-xxl-6 col-lg-3 col-md-6">
+                        <div class="col-xxl-6  col-md-6">
                             <div class="why-card style4" data-cue="slideInUp">
                                 <div class="box-icon">
                                     <img src="assets/img/icon/why-icon1-2.svg" alt="why-icon">
@@ -58,7 +58,7 @@ Why Choose Us Area
                                 </div> 
                             </div>
                         </div> 
-                        <div class="col-xxl-6 col-lg-3 col-md-6">
+                        <div class="col-xxl-6  col-md-6">
                             <div class="why-card style4" data-cue="slideInUp">
                                 <div class="box-icon">
                                     <img src="assets/img/icon/why-icon1-3.svg" alt="why-icon">
@@ -78,7 +78,7 @@ Why Choose Us Area
                                 </div> 
                             </div>
                         </div> 
-                        <div class="col-xxl-6 col-lg-3 col-md-6">
+                        <div class="col-xxl-6  col-md-6">
                             <div class="why-card style4" data-cue="slideInUp">
                                 <div class="box-icon">
                                     <img src="assets/img/icon/why-icon1-4.svg" alt="why-icon">

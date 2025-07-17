@@ -32,8 +32,9 @@
    padding: 34px;
    transition: all .3s;
 
-   @include lg {
+   @include ml {
       padding: 30px 20px;
+      max-width: 100%;
    }
 
    .box-icon {

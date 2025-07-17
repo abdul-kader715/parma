@@ -32,7 +32,7 @@
     ?>
     <div class="<?php echo $klass;?>">
         <div class="row gy-50 flex-row-reverse">
-            <div class="col-xl-6">
+            <div class="col-xl-6 col-lg-7">
                 <div class="testi-thumb1-1">
                 <div class="quote-icon" >
                     <img src="assets/img/icon/quote-icon2.svg" alt="">
@@ -42,7 +42,7 @@
                 </div>
                 </div>
             </div>
-            <div class="col-xl-6">
+            <div class="col-xl-6 col-lg-5">
                 <div class="testi-card style5">
                     <div class="testi-card_review">
                         <i class="fa-sharp fa-solid fa-star"></i>

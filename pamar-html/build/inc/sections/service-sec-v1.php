@@ -12,7 +12,7 @@ Service Area
                <div class="col-xxl-6 col-xl-6 col-lg-6 ">
                   <div class="text-xxl-end text-xl-end text-lg-end text-start">
                      <span class="sub-title style2 after-none before-none" data-cue="slideInUp">OUR SERVICES</span>
-                     <h2 class="sec-title style3 mb-0" data-cue="slideInUp">We Provide Best Plumbing <br> <span>Services for You</span></h2>
+                     <h2 class="sec-title style3 style7 mb-0" data-cue="slideInUp">We Provide Best Plumbing <br> <span>Services for You</span></h2>
                   </div>
                </div>
                <div class="col-xxl-6 col-xl-6 col-lg-6">

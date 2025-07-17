@@ -1,4 +1,28 @@
 /* Faq 1 ---------------------------------- */
+.faq-section {
+
+   .title-area {
+      @include ml {
+         text-align: center;
+      }
+
+      .sec-text2 {
+         @include ml {
+            margin: 0 auto;
+         }
+      }
+   }
+
+   .sec-title {
+      br {
+         @include ml {
+            display: none;
+         }
+      }
+
+   }
+}
+
 .faq-wrap {
    .sec-title {
       padding-bottom: 40px;
@@ -137,7 +161,7 @@
 
 /* Faq 2 ---------------------------------- */
 .faq-area-2 {
-   padding-top: 750px;
+   padding-top: 808px;
 
    @include ml {
       padding-top: 300px;

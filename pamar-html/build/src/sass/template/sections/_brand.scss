@@ -123,6 +123,7 @@
 // brand-wrap4
 .brand-wrap4 {
    .brand-box {
+      justify-content: flex-start;
 
       img {
          filter: grayscale(0) brightness(100%);
@@ -158,10 +159,11 @@
       justify-content: center;
       transition: 0.4s ease-in-out;
       min-height: 60px;
+
       img {
          transition: filter 0.3s;
          filter: none;
       }
    }
-   
+
 }

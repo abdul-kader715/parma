@@ -15,7 +15,7 @@ get_section('counter-v2', 'style2 overflow-hidden position-relative z-index-2');
 get_section('team-sec-v2', 'space overflow-hidden');
 get_section('cta-v1', ' space overflow-hidden position-relative z-index-2');
 get_section('price-sec-v2', 'space overflow-hidden position-relative z-index-2');
-get_section('faq-sec-v1', 'bg-black-color7 space overflow-hidden position-relative z-index-2');
+get_section('faq-sec-v1', 'faq-section bg-black-color7 space overflow-hidden position-relative z-index-2');
 get_section('blog-sec-v2', 'space overflow-hidden');
 get_footer('v1');
 ?>

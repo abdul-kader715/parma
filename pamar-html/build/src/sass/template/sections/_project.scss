@@ -39,6 +39,10 @@
     position: relative;
     overflow: hidden;
 
+    @include sm {
+        max-width: 400px;
+    }
+
     .box-img {
         overflow: hidden;
         position: relative;
@@ -156,6 +160,10 @@
         border-radius: 32px;
         transition: all .3s;
 
+        @include sm {
+            max-width: 100%;
+        }
+
         .box-img {
             position: relative;
             height: 541px !important;
@@ -179,14 +187,20 @@
             visibility: hidden;
             transition: all .3s;
 
+            @media (max-width: 575px) {
+                top: 30%;
+            }
+
             img {
                 width: 32px;
+                min-height: 20px;
             }
         }
 
         @media (max-width: 575px) {
-            .box-img img {
+            .box-img .mein-img {
                 min-height: auto;
+                height: 100%;
             }
         }
 
@@ -199,6 +213,10 @@
             opacity: 0;
             visibility: hidden;
             transition: all .3s;
+
+            @media (max-width:1599px) {
+                display: block;
+            }
         }
 
         .box-subtitle {
@@ -218,6 +236,10 @@
         .icon-btn.style2 {
             background: $theme-color2;
             border-color: $theme-color2;
+
+            @media (max-width:1599px) {
+                margin-top: 15px;
+            }
         }
 
 
@@ -254,7 +276,7 @@
         @media (min-width:1600px) {
             width: 312px !important;
             height: 541px !important;
-            border-radius: 32px ;
+            border-radius: 32px;
             transition: all 1s ease-in-out 0s;
             position: relative;
         }
@@ -296,6 +318,10 @@
         .project-card {
 
             &.style2 {
+                @include sm {
+                    max-width: 100%;
+                }
+
                 .popup-image {
                     opacity: 1;
                     visibility: visible;
@@ -563,7 +589,9 @@
         border-radius: 32px;
         transition: all .3s;
 
-
+        @media (max-width: 767px) {
+            max-width: 100%;
+        }
 
         .popup-image {
             width: 72px;
@@ -582,8 +610,13 @@
             visibility: hidden;
             transition: all .3s;
 
+            @media (max-width: 575px) {
+                top: 20%;
+            }
+
             img {
                 width: 32px;
+                min-height: 20px;
             }
         }
 

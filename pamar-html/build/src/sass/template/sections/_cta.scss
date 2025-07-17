@@ -43,6 +43,12 @@
    }
 }
 
+.cta-shape1-1 {
+   @media (max-width:1799px) {
+      max-width: 150px;
+   }
+}
+
 .cta-thumb1-1-shape,
 .cta-thumb1-2-shape {
    position: absolute;
@@ -331,7 +337,7 @@
 
 .cta-area-3 {
    position: relative;
-   bottom: -655px;
+   bottom: -680px;
    margin-top: -235px;
    z-index: 1;
 

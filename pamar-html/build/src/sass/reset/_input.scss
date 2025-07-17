@@ -215,7 +215,8 @@ textarea {
    &.style-border {
 
       textarea,
-      input {
+      input,
+      select {
          background: $smoke-color;
 
          &:active,
@@ -224,10 +225,10 @@ textarea {
          }
       }
 
-      select {
-         background-color: transparent;
-         border: 1px solid $border-color;
-      }
+      // select {
+      //    background-color: transparent;
+      //    border: 1px solid $border-color;
+      // }
    }
 
    &.style-border2 {
@@ -309,15 +310,15 @@ textarea {
          padding: 0 20px 0 43px;
       }
 
-      > i {
-             right: auto;
-             left: calc(var(--bs-gutter-x) / 2 + 25px);
-             z-index: 1;
-             top: 50px;
+      >i {
+         right: auto;
+         left: calc(var(--bs-gutter-x) / 2 + 25px);
+         z-index: 1;
+         top: 50px;
       }
-      
+
    }
-  
+
 
    &.style-white {
 
@@ -424,17 +425,19 @@ textarea {
       }
    }
 }
- .form-btn.style4{
-      .th-btn.style12{
-         max-width: 300px;
-         text-transform: uppercase;
-         background: $theme-color3;
-         padding: 19px 30px;
-         @include sm{
-            padding: 17px 20px;
-         }
+
+.form-btn.style4 {
+   .th-btn.style12 {
+      max-width: 300px;
+      text-transform: uppercase;
+      background: $theme-color3;
+      padding: 19px 30px;
+
+      @include sm {
+         padding: 17px 20px;
       }
    }
+}
 
 [class*="col-"].form-group {
    >i {
@@ -544,6 +547,18 @@ input[type="checkbox"] {
          }
       }
    }
+
+   &.style3 {
+
+      &:checked {
+         ~label {
+            &:before {
+               color: $title-color;
+               border-color: $title-color;
+            }
+         }
+      }
+   }
 }
 
 input[type="radio"] {
@@ -591,6 +606,52 @@ input[type="radio"] {
             border-color: $theme-color;
             background-color: $theme-color;
             color: $white-color;
+         }
+      }
+   }
+}
+
+.checkbox {
+   input[type="checkbox"] {
+      visibility: hidden;
+      opacity: 0;
+      display: inline-block;
+      vertical-align: middle;
+      width: 0;
+      height: 0;
+      display: none;
+
+      &:checked {
+         ~label {
+            &:before {
+               content: "\f00c";
+               color: $title-color;
+               background-color: transparent;
+            }
+         }
+      }
+
+      ~label {
+         position: relative;
+         padding-left: 30px;
+         cursor: pointer;
+         display: block;
+
+         &:before {
+            content: "";
+            font-family: $icon-font;
+            font-weight: 700;
+            position: absolute;
+            left: 0px;
+            top: 3.5px;
+            background-color: transparent;
+            border: 1px solid $title-color;
+            height: 18px;
+            width: 18px;
+            line-height: 18px;
+            text-align: center;
+            font-size: 12px;
+            border-radius: 4px;
          }
       }
    }

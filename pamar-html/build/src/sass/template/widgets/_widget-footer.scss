@@ -283,24 +283,24 @@
          }
 
          &::placeholder {
-            color: #666;
+            color: $title-color;
          }
 
          &::-webkit-input-placeholder {
-            color: #666;
+            color: $title-color;
          }
 
          &:-ms-input-placeholder {
-            color: #666;
+             color: $title-color;
          }
 
          &::-moz-placeholder {
-            color: #666;
+             color: $title-color;
             opacity: 1;
          }
 
          &:-moz-placeholder {
-            color: #666;
+             color: $title-color;
             opacity: 1;
          }
 
@@ -310,7 +310,28 @@
       }
 
       .form-group.style-dark .form-control {
-         color: #666;
+          color: $title-color;
+           &::placeholder {
+            color: $title-color;
+         }
+
+         &::-webkit-input-placeholder {
+            color: $title-color;
+         }
+
+         &:-ms-input-placeholder {
+             color: $title-color;
+         }
+
+         &::-moz-placeholder {
+             color: $title-color;
+            opacity: 1;
+         }
+
+         &:-moz-placeholder {
+             color: $title-color;
+            opacity: 1;
+         }
       }
 
       .th-btn {

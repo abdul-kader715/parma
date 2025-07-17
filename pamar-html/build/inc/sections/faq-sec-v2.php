@@ -51,9 +51,9 @@ Faq Area
                                 $show_class = '';
                                 $arealabel = 'false';
                                 if ($x == 0) {
-                                    $collapse_class = '';
-                                    $show_class = 'show';
-                                    $arealabel = 'true';
+                                   $collapse_class = '';
+                                   $show_class = '';
+                                   $arealabel = 'true';
                                 }
                         ?>
                     <div class="accordion-card style2 wow <?php echo $anim[$x];?>"
@@ -112,7 +112,7 @@ Faq Area
                                 $arealabel = 'false';
                                 if ($x == 0) {
                                     $collapse_class = '';
-                                    $show_class = 'show';
+                                    $show_class = '';
                                     $arealabel = 'true';
                                 }
                         ?>

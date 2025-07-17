@@ -1,6 +1,9 @@
 .video-wrap {
     max-width: 1664px;
     margin-left: auto;
+     @include hd{
+        margin-right: auto;
+    }
 }
 
 .video-box-center {

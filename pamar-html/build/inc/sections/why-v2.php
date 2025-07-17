@@ -14,7 +14,7 @@ Why Choose Us Area
                                 delivering outstanding home services customized to meet your specific requirements.</p>
                         
                     </div>
-                    <div class="btn-group mt-30 mb-50" data-cue="slideInUp">
+                    <div class="btn-group  mb-50" data-cue="slideInUp">
                             <a href="about.html" class="link-btn3">
                                 Discover More
                             </a>

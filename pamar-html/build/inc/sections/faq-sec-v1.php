@@ -4,7 +4,7 @@ Faq Area
 ==============================-->
 <div class="overflow-hidden <?php echo $klass;?>">
     <div class="container">
-        <div class="row gy-40">  
+        <div class="row gy-40 justify-content-center">  
             <div class="col-xxl-5">
                <div class="faq-wrap">
                   <div class="title-area text-left mb-0">
@@ -20,7 +20,7 @@ Faq Area
                   </div>  
                </div>             
             </div>
-            <div class="col-xxl-7">
+            <div class="col-xxl-7 col-lg-7">
                   <?php get_section('faq-v1');?>     
             </div>               
         </div>

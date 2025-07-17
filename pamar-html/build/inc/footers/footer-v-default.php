@@ -44,12 +44,12 @@
 	<div class="copyright-wrap">
 		<div class="container">
 			<div class="row justify-content-center gy-3 align-items-center">
-				<div class="col-md-6" data-cue="slideInUp">
+				<div class="col-lg-6" data-cue="slideInUp">
 					<p class="copyright-text">
                   Copyright
 					<i class="fal fa-copyright"></i> <?php echo date("Y"); ?>  <a href="<?php echo indexURL;?>"><?php echo Author;?></a>, All rights reserved. </p>
 				</div>
-				<div class="col-md-6 text-md-end text-center" data-cue="slideInUp">
+				<div class="col-lg-6 text-lg-end text-center" data-cue="slideInUp">
 					<div class="footer-links">
 						<ul>
 							<li><a href="about.html">Terms of service</a></li>

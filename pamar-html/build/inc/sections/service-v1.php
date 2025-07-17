@@ -11,17 +11,17 @@
         'assets/img/icon/service/service_icon_1_1.svg',
         'assets/img/icon/service/service_icon_1_2.svg',
         'assets/img/icon/service/service_icon_1_3.svg',
-        'assets/img/icon/service/service_icon_1_1.svg',
-        'assets/img/icon/service/service_icon_1_2.svg',
-        'assets/img/icon/service/service_icon_1_3.svg',
+        'assets/img/icon/service/service_icon_1_4.svg',
+        'assets/img/icon/service/service_icon_1_5.svg',
+        'assets/img/icon/service/service_icon_1_6.svg',
     ); 
      $img = array(
-        'assets/img/service/service_card_1_1.jpg',
-        'assets/img/service/service_card_1_1.jpg',
-        'assets/img/service/service_card_1_1.jpg',
-        'assets/img/service/service_card_1_1.jpg',
-        'assets/img/service/service_card_1_1.jpg',
-        'assets/img/service/service_card_1_1.jpg',
+       'assets/img/service/service_card_4_1.jpg',
+        'assets/img/service/service_card_4_2.jpg',
+        'assets/img/service/service_card_4_3.jpg',
+        'assets/img/service/service_card_4_4.jpg',
+        'assets/img/service/service_card_4_5.jpg',
+        'assets/img/service/service_card_4_6.jpg',
     ); 
     $text = array(
         'From leaky faucets to running toilets, we handle all types of plumbing repairs to keep your home or business running smoothly.',

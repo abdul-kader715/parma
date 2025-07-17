@@ -5,7 +5,7 @@ Team Area
     <div class="container">
         <div class="teamDetails">
             <div class="row gx-40 gy-30 mb-24">
-            <div class="col-xxl-4 col-xl-4 col-xl-6">
+            <div class="col-xxl-4 col-xl-4 col-md-6">
                 <div class="th-team team-card style2 style4">
                     <div class="team-img">
                         <img src="assets/img/team/team_2_6.png" alt="Team">
@@ -127,7 +127,7 @@ Team Area
                 </div>
             </div>   
             <div class="col-xxl-4 col-xl-4 col-xl-6">
-                <div class="testi-card">
+                <div class="testi-card style6">
                     <div class="d-flex justify-content-between align-items-center mb-24">
                         <div class="box-icon">
                             <img src="assets/img/icon/quote-icon5.svg" alt="">
