@@ -81,4 +81,7 @@
   @include lg {
     padding-bottom: 120px;
   }
+   @include md {
+    padding-bottom: 80px;
+  }
 }

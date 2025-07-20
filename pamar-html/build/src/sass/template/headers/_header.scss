@@ -878,7 +878,7 @@
    margin: 0 auto;
    border-radius: 24px;
 
-   @media (max-width:1599px) {
+   @media (max-width:1699px) {
       background-color: $white-color;
    }
 
@@ -930,7 +930,7 @@
       z-index: -1;
       background-color: $white-color;
 
-      @media (max-width:1599px) {
+      @media (max-width:1699px) {
          display: none;
       }
 
@@ -980,7 +980,7 @@
       padding: 12px 0;
       color: $white-color;
 
-      @media (max-width:1599px) {
+      @media (max-width:1699px) {
          color: $title-color;
       }
    }
@@ -990,7 +990,7 @@
    .main-menu ul li.menu-item-has-children>a:after {
       color: $white-color;
 
-      @media (max-width:1599px) {
+      @media (max-width:1699px) {
          color: $title-color;
       }
    }

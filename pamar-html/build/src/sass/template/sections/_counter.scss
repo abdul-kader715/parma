@@ -101,6 +101,10 @@
       padding: 109px 0;
       background-color: $black-color6;
 
+      @include md {
+         padding: 80px 0;
+      }
+
       &::before {
          display: none;
       }
@@ -164,6 +168,18 @@
       width: 250px;
       height: auto;
 
+      @include lg {
+         width: 210px;
+      }
+
+      @include md {
+         width: 48%;
+      }
+
+      @include sm {
+         width: 100%;
+      }
+
       .media-body {
          transform: rotate(0deg);
       }
@@ -195,6 +211,10 @@
             font-size: 60px;
          }
 
+         @include lg {
+            font-size: 40px;
+         }
+
          span {
             color: $theme-color2;
          }
@@ -205,6 +225,10 @@
          font-size: 24px;
          text-transform: capitalize;
          color: $white-color;
+
+         @include lg {
+            font-size: 20px;
+         }
       }
    }
 
@@ -236,5 +260,9 @@
 
    @include ml {
       justify-content: center;
+   }
+
+   @include md {
+      gap: 30px 24px;
    }
 }

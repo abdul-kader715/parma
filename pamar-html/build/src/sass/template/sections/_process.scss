@@ -300,7 +300,9 @@
    padding: 10px;
    padding-top: 0;
 
-
+   @include lg {
+      margin-top: 80px;
+   }
 
    .process-icon {
       width: 100px;
@@ -374,6 +376,10 @@
       font-size: 16px;
       font-weight: 400;
       text-transform: capitalize;
+
+      @include ml {
+         font-size: 14px;
+      }
    }
 
 
@@ -383,7 +389,7 @@
 .process2 {
 
    .th-slider {
-      padding-bottom: 50px;
+      padding-bottom: 28px;
 
       @include ml {
          padding-bottom: 0;

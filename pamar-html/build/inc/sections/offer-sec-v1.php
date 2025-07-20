@@ -2,7 +2,7 @@
 offer Area  
 ==============================-->
 <section class="<?php echo $klass;?>">
-    <div class="offer-wrap1 overflow-hidden" >
+    <div class="offer-wrap1" >
         <div class="container">
             <div class="row gx-70 gy-40 align-items-center">
                 <div class="col-xxl-4 order-xxl-1 order-2">

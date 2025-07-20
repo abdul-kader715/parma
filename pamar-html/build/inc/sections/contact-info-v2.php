@@ -14,7 +14,7 @@ Contact Info Area
             </div>            
         </div>
         <div class="row gy-30">
-            <div class="col-lg-3 col-md-6">
+            <div class="col-xl-3 col-lg-6 col-md-6">
                 <div class="contact-info2">
                     <div class="box-icon">
                         <i class="fal fa-clock"></i>
@@ -29,7 +29,7 @@ Contact Info Area
                     
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6">
+            <div class="col-xl-3 col-lg-6 col-md-6">
                 <div class="contact-info2">
                     <div class="box-icon">
                         <i class="fal fa-phone"></i>
@@ -44,7 +44,7 @@ Contact Info Area
                     
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6">
+            <div class="col-xl-3 col-lg-6 col-md-6">
                 <div class="contact-info2">
                     <div class="box-icon">
                         <i class="fal fa-envelope"></i>
@@ -58,7 +58,7 @@ Contact Info Area
                     </div>
                 </div>
             </div>
-             <div class="col-lg-3 col-md-6">
+             <div class="col-xl-3 col-lg-6 col-md-6">
                 <div class="contact-info2">
                     <div class="box-icon">
                         <i class="fal fa-map-marker-alt"></i>

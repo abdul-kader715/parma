@@ -89,7 +89,7 @@ Hero Area
                 <h3 class="box-title">Emergency <span>Plumbing</span></h3>
                 <p class='box-text'>We’re Open 24/7/365 – Because Plumbing Emergencies Can’t Wait!</p>
             </div>     
-            <div class="shape-mockup" data-top="0" data-right="0">
+            <div class="shape-mockup bg-shape10" data-top="0" data-right="0">
                 <img src="assets/img/shape/bg-shape10.png" alt="">
             </div>   
             <div class="shape-mockup hero-info-bg" data-top="0" data-right="0">
