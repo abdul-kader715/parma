@@ -9,7 +9,7 @@ About Area
                 <div class="col-xxl-6 col-xl-6">
                     <div class="title-area text-left ">
                         <span class="sub-title2 text-bg-white" data-cue="slideInUp">About Us</span>
-                        <h2 class="sec-title style4 text-anim2 " data-cue="slideInUp">Our <span>Commitment</span> to <br> Excellence Experiences</h2>
+                        <h2 class="sec-title style4 text-anim2 " data-cue="slideInUp">Our <span>Commitment</span> to <br> Best Experience</h2>
                         <p class="sec-text2" data-cue="slideInUp">Explore the core mission and vision that drives us every day.
                              At Behind the Stories Company, we're not just about cleaning homes;
                              we're about making a difference in the lives of our clients and our community..</p>

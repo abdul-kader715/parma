@@ -7,9 +7,9 @@ Blog Area
         <div class="row justify-content-center">
             <div class="col-xl-12">
                 <div class="title-area text-center mb-60">
-                    <span class="sub-title2 style2 text-bg-white" data-cue="slideInUp">Latest Posts</span>
+                    <span class="sub-title2 style2 border-black-color8" data-cue="slideInUp">Latest Posts</span>
                     <h2 class="sec-title style5 text-anim2" data-cue="slideInUp">
-                        Our latest news and article
+                        Our Latest News And Article
                     </h2>
                 </div>
             </div>            

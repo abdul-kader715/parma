@@ -540,6 +540,7 @@
       position: relative;
       transform: rotate(-13deg);
       z-index: -1;
+      transition: 0.4s ease-in-out;
 
       @include xxl {
          transform: rotate(0deg);
@@ -560,6 +561,10 @@
          gap: 10px;
          margin-bottom: 10px;
          padding-left: 0;
+
+         @include sm {
+            font-size: 13px;
+         }
 
          &::before {
             display: none;
@@ -582,11 +587,16 @@
       text-transform: uppercase;
 
       &:hover {
-         background: $theme-color3;
+         background: $black-color;
          color: $white-color;
       }
    }
 
+   &:hover {
+      .checklist {
+         transform: rotate(0deg);
+      }
+   }
 }
 
 // price-card 4

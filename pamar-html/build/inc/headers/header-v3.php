@@ -85,9 +85,7 @@ get_header('color-scheme');
                             <div class="header-sidbtn d-flex d-xl-none">
                                 <div class="sidebar-btn">
                                     <button type="button" class="simple-icon th-menu-toggle">
-                                        <span class="dots"></span>
-                                        <span class="dots"></span>
-                                        <span class="dots"></span>
+                                        <i class="far fa-bars"></i>
                                     </button>
                                 </div>
                             </div>

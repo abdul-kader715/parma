@@ -1,7 +1,8 @@
 .video-wrap {
     max-width: 1664px;
     margin-left: auto;
-     @include hd{
+
+    @include hd {
         margin-right: auto;
     }
 }
@@ -31,6 +32,7 @@
 
     @include xs {
         height: 300px;
+        margin: 0 10px;
 
         .play-btn {
             i {
@@ -40,9 +42,7 @@
     }
 }
 
-.video-area-5 {
-   
-}
+.video-area-5 {}
 
 .video-wrap2 {
     max-width: 1620px;

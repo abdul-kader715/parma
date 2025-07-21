@@ -6,6 +6,9 @@
     <div class="shape-mockup footer-bg-shape1-1 bg-mask " data-left="0%" data-top="0" data-mask-src="assets/img/shape/footer-bg-shape1.png">
       <img src="assets/img/shape/footer-bg-shape2.png" alt="img">
     </div>
+	<div class="footer-bg-responcive1-1">
+      <img src="assets/img/shape/footer-bg-shape2.png" alt="img">
+    </div>
 	<div class="footer-top text-center">
 		<div class="container">
 			<div class="shadow-text" data-cue="slideInUp">Get In Touch</div>

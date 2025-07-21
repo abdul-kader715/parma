@@ -51,7 +51,7 @@ Faq Area
                                 $show_class = '';
                                 $arealabel = 'false';
                                 if ($x == 0) {
-                                   $collapse_class = '';
+                                   $collapse_class = 'collapsed';
                                    $show_class = '';
                                    $arealabel = 'true';
                                 }
@@ -111,7 +111,7 @@ Faq Area
                                 $show_class = '';
                                 $arealabel = 'false';
                                 if ($x == 0) {
-                                    $collapse_class = '';
+                                    $collapse_class = 'collapsed';
                                     $show_class = '';
                                     $arealabel = 'true';
                                 }

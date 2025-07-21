@@ -272,6 +272,11 @@
    .row {
       .col {
          transform: rotate(15deg);
+         transition: 0.4s ease-in-out;
+
+         &:hover {
+            transform: rotate(0deg);
+         }
 
          @include ml {
             transform: rotate(0deg);
@@ -281,6 +286,11 @@
          &:nth-child(even) {
             margin-top: 115px;
             transform: rotate(-15deg);
+            transition: 0.4s ease-in-out;
+
+            &:hover {
+               transform: rotate(0deg);
+            }
 
             @include ml {
                margin-top: 0;
@@ -415,33 +425,33 @@
 
 }
 
-.slider-area.process-slider {
-   .swiper-wrapper {
-      padding-top: 125px;
+// .slider-area.process-slider {
+//    .swiper-wrapper {
+//       padding-top: 125px;
 
-      @include ml {
-         padding-top: 0;
-      }
+//       @include ml {
+//          padding-top: 0;
+//       }
 
-      .swiper-slide {
-         .process-card3.shape-mockup-wrap {
-            position: relative;
-            transition: 0.5s;
-            top: 0;
-         }
+//       .swiper-slide {
+//          .process-card3.shape-mockup-wrap {
+//             position: relative;
+//             transition: 0.5s;
+//             top: 0;
+//          }
 
-         &.swiper-slide-active {
-            .process-card3.shape-mockup-wrap {
-               top: -125px;
+//          &.swiper-slide-active {
+//             .process-card3.shape-mockup-wrap {
+//                top: -125px;
 
-               @include ml {
-                  top: 0;
-               }
-            }
-         }
-      }
-   }
-}
+//                @include ml {
+//                   top: 0;
+//                }
+//             }
+//          }
+//       }
+//    }
+// }
 
 .process-card3 {
    position: relative;
@@ -507,11 +517,9 @@
 
 
 
-
 }
 
 .process-slider {
-   margin-right: -300px;
    position: relative;
    z-index: 1;
    margin-top: -300px;
@@ -526,8 +534,8 @@
       gap: 20px;
       max-width: 873px;
       position: relative;
-      top: -55px;
-      margin-top: -70px;
+      margin: 0 auto;
+      // margin-top: -70px;
       justify-content: flex-start;
 
       @media (max-width:1730px) {
@@ -584,21 +592,27 @@
    }
 
    .swiper-slide {
+      margin-top: 120px;
+      transition: all 0.5s ease-out;
+      // width: 872px !important;
+
       @include ml {
          width: 100% !important;
       }
    }
 
    .swiper-slide-active {
-      margin-top: 0px;
-      width: 873px !important;
+      // margin-top: 0px;
+      // width: 873px !important;
+      margin-top: 0 !important;
+      margin-bottom: 60px;
 
       @include ml {
-         width: 100% !important;
+         // width: 100% !important;
       }
 
       .process-card3 {
-         margin-top: 0px;
+         // margin-top: 0px;
       }
    }
 }

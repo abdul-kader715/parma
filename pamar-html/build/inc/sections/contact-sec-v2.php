@@ -12,7 +12,7 @@ Contact Area
                 </div>
                 <div class="col-xxl-6">
                     <div class="consulting-form-wrap1">
-                        <div class="title-area mb-60">
+                        <div class="title-area mb-60 ">
                            <span class="sub-title style2 text-white border-white text-anim after-none before-none" data-cue="slideInLeft">Get In Touch</span>
                             <h2 class="sec-title text-white">Get Your Free <span>Estimate!</span></h2>
                         </div>

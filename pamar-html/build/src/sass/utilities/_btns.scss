@@ -22,6 +22,10 @@
    background: transparent;
    transition: 0.4s;
 
+   @include sm {
+      padding: 17px 24px
+   }
+
    &::after {
       content: '';
       position: relative;
@@ -60,7 +64,7 @@
       color: $white-color;
 
       &:before {
-         opacity: 0.8;
+         background: $title-color;
       }
    }
 
@@ -70,6 +74,10 @@
       border: 1px solid $white-color;
       background: transparent;
       padding: 20px 24px;
+
+      @include sm {
+         padding: 16px 24px
+      }
 
       &::after {
          background-image: url(../img/icon/arrow-right-white.svg);
@@ -142,6 +150,10 @@
       color: $title-color;
       padding: 20px 24px;
 
+      @include sm {
+         padding: 17px 24px
+      }
+
       &:before {
          background: transparent;
          border: 1px solid $border-color;
@@ -184,6 +196,10 @@
       color: $title-color;
       padding: 20px 24px;
 
+      @include sm {
+         padding: 16px 24px
+      }
+
       &:before {
          background: $theme-color2;
       }
@@ -207,6 +223,13 @@
       &::before {
          width: 100%;
       }
+
+      &:hover {
+
+         &:before {
+            background: $theme-color;
+         }
+      }
    }
 
    &.style7 {
@@ -219,14 +242,20 @@
          background: $white-color;
       }
 
-
+      &:hover {
+         &:before {
+            background: $theme-color
+         }
+      }
    }
 
    &.style8 {
       border: 1px solid $white-color;
       background: transparent;
       padding: 20px 24px;
-
+ @include sm {
+         padding: 16px 24px
+      }
       &::after {
          background-image: url(../img/icon/arrow-right-white.svg);
          left: 7px;
@@ -288,6 +317,7 @@
       .after-bg {
          background: $title-color;
       }
+    
    }
 
    &.style11 {
@@ -295,7 +325,9 @@
       border: 1px solid $title-color;
       background: transparent;
       padding: 20px 24px;
-
+ @include sm {
+         padding: 16px 24px
+      }
       &::after {
          background-image: url(../img/icon/arrow-right.svg);
       }
@@ -430,7 +462,9 @@
       width: 100%;
       color: $title-color;
       justify-content: space-between;
-
+ @include sm {
+         padding: 16px 24px
+      }
       &::after {
          background-image: url(../img/icon/download-icon.svg);
          background-repeat: no-repeat;
@@ -840,7 +874,8 @@
          color: $theme-color2;
       }
    }
-&.style7 {
+
+   &.style7 {
       background: $theme-color2;
 
 

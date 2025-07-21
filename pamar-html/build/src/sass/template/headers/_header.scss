@@ -873,7 +873,7 @@
    position: absolute;
    left: 0;
    right: 0;
-   top: 0;
+   top: 16px;
    max-width: 1888px;
    margin: 0 auto;
    border-radius: 24px;
@@ -886,15 +886,28 @@
       border-radius: 0px;
    }
 
+   @include sm {
+      top: 0px;
+   }
+
    .header-top {
       padding: 11px 56px;
       background-color: $theme-color2;
       border-radius: 0px;
       margin: 0;
       max-width: 100%;
+      border-radius: 24px 24px 0 0;
 
       @include lg {
          padding: 11px 20px;
+      }
+
+      @include md {
+         border-radius: 0;
+      }
+
+      @include sm {
+         display: none;
       }
 
       &::after {
@@ -1408,24 +1421,24 @@
    }
 
    .sidebar-btn {
-      height: 90px;
       display: inline-flex;
-      padding-left: 40px;
-      padding-right: 40px;
       align-items: center;
+      justify-content: center;
       background: $theme-color;
       transition: 0.4s;
+      width: 56px;
+      height: 56px;
+      padding: 0;
+      font-size: 20px;
+      border: none;
+      border-radius: 8px;
+      margin: 0 20px;
 
-      @include xs {
-         height: 81px;
-      }
-
-      @include sm {
-         height: 81px;
+      @include vxs {
+         margin: 0 10px;
       }
 
       .dots {
-         background: $white-color;
 
          &:after,
          &:before {
@@ -1514,16 +1527,11 @@
    @include md {
 
 
-      .sidebar-btn {
-         height: 90px;
-         padding: 0 25px;
-      }
+      .sidebar-btn {}
    }
 
    @include sm {
-      .sidebar-btn {
-         height: 81px;
-      }
+      .sidebar-btn {}
    }
 }
 

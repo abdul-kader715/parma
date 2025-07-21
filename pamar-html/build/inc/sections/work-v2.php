@@ -43,7 +43,7 @@
                             <div>
                                 <h3 class="box-title"><?php echo $title[$x];?></h3>
                                 <p class="box-text mb-45"><?php echo $text[$x];?></p>
-                                <a href="#" class="th-btn style3">
+                                <a href="about.html" class="th-btn style3">
                                     Discover More
                                     <span class="after-bg"></span>
                                 </a>

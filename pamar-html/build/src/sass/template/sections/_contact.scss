@@ -74,6 +74,12 @@
    //  @include xs {
    //      padding: 30px 10px 10px;
    //  }
+
+   .title-area{
+      @include sm{
+         text-align: center;
+      }
+   }
 }
 
 /* Contact Area 1 ---------------------------------- */

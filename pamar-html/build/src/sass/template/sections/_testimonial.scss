@@ -202,11 +202,13 @@
 
    @include md {
       padding: 32px 20px;
+      display: block;
    }
 
 
    .slider-area {
       overflow: hidden;
+      max-width: 564px;
    }
 
    .slider-arrow {
@@ -264,7 +266,7 @@
 
    @include lg {
       flex-direction: column;
-      align-items: flex-start;
+      align-items: center;
       justify-content: center;
       gap: 0;
    }
@@ -320,7 +322,6 @@
    }
 
    .testi-card_review {
-      left: -50px;
       position: relative;
 
       i {
@@ -333,7 +334,7 @@
 
 
       .box-text {
-         font-size: 24px;
+         font-size: 23px;
          font-weight: 700;
          color: $white-color;
          font-family: $title-font;
@@ -350,6 +351,9 @@
             font-size: 18px;
             margin-top: 20px;
             margin-bottom: 30px;
+         }
+           @include sm {
+            font-size: 13px;
          }
       }
 
