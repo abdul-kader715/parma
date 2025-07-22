@@ -26,7 +26,7 @@ Why Choose Us Area
                 <div class="why-img-box2" data-cue="slideInUp">
                     <div class="slider-area">
                         <div class="swiper th-slider " id="whySlide1"
-                                 data-slider-options='{"autoHeight": "true","effect": "fade"}'>
+                                 data-slider-options='{"autoHeight": "true"}'>
                             <div class="swiper-wrapper">  
                                 <?php get_section('work-v1', 'swiper-slide');?>
                             </div>

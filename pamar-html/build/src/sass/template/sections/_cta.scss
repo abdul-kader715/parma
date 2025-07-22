@@ -19,6 +19,14 @@
 .cta-wrap4 {
    .th-btn {
       padding: 20px 28px;
+      @include sm {
+         padding: 17px 28px;
+      }
+   }
+   .th-btn.style8.style11.style12{
+      @include sm {
+         padding: 16px 28px;
+      }
    }
 }
 

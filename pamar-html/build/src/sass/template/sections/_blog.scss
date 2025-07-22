@@ -720,7 +720,6 @@ blockquote.has-very-dark-gray-color {
 
       .share-links-title {
          font-size: 18px;
-         display: block;
          margin: 0 0 10px 0;
       }
    }
@@ -762,9 +761,17 @@ blockquote.has-very-dark-gray-color {
       gap: 16px;
       width: calc(100% - 75px);
 
+      @include vxs {
+         width: 100%;
+      }
+
       .image {
          width: 80px;
          height: 80px;
+
+         @include vxs {
+            display: none;
+         }
 
          img {
             width: 100%;
@@ -776,6 +783,10 @@ blockquote.has-very-dark-gray-color {
 
       .pagi-box-content {
          width: calc(100% - 80px);
+
+         @include vxs {
+            width: 100%;
+         }
 
          a {
             display: block;
@@ -817,6 +828,7 @@ blockquote.has-very-dark-gray-color {
       display: flex;
       align-items: center;
       justify-content: center;
+flex: none
       img {
          filter: brightness(0) invert(0);
          transition: filter 0.3s ease;
@@ -834,6 +846,7 @@ blockquote.has-very-dark-gray-color {
    &.next {
       .pagi-box {
          flex-direction: row-reverse;
+
       }
    }
 }
@@ -841,4 +854,8 @@ blockquote.has-very-dark-gray-color {
 .pagi-icon {
    font-size: 20px;
    color: $theme-color;
+
+   @include md {
+      display: none;
+   }
 }

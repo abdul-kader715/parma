@@ -1,6 +1,6 @@
 <!-- Post Pagination Style -->
 <div class="post-pagination mb-60 <?php echo $klass; ?>">
-  <div class="row justify-content-between align-items-center">
+  <div class="row gy-40 justify-content-between align-items-center">
     <div class="col">
       <div class="post-pagi-box prev">
          <a href="blog.html" class="icon text-center">

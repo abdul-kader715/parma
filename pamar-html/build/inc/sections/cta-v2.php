@@ -7,7 +7,7 @@ Cta Area
         <div class="container">
             <div class="row">
                 <div class="col-lg-5">
-                   <div class="cta-thumb-info">
+                   <div class="cta-thumb-info" data-cue="slideInUp">
                         <span class="box-title text-white text-center">
                             Contact Us Today
                         </span>

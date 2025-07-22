@@ -48,7 +48,7 @@ Process Area
                     $text = array(
                         'Starting your journey with Pamar is seamless and straightforward.
                             If you encounter a leak, a blocked drain, or any plumbing crisis, 
-                        simply contact us to take the first step towards a solution.',
+                        simply contact us to take the first step towards.',
                         'When you contact Pamar, our skilled plumbers will arrive swiftly to evaluate
                             your plumbing problem with expertise and attention. 
                             Equipped with state-of-the-art diagnostic equipment.',

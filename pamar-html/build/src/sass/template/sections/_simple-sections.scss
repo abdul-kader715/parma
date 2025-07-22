@@ -130,7 +130,11 @@
             padding-left: 0;
             gap: 10px;
 
-              img {
+            @include sm {
+                font-size: 18px;
+            }
+
+            img {
                 display: none;
             }
 
