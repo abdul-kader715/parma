@@ -4,6 +4,13 @@
 
    .icon-btn {
       border-radius: 10px;
+
+   }
+
+   .th-menu-toggle {
+      &:hover {
+         background: $theme-color;
+      }
    }
 
    .menu-area {
@@ -1321,7 +1328,7 @@
 
    .header-bg-shape {
       position: absolute;
-      left: 0;
+      left: -2px;
       top: 0;
       width: 100%;
       height: 100%;

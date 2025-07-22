@@ -19,11 +19,13 @@
 .cta-wrap4 {
    .th-btn {
       padding: 20px 28px;
+
       @include sm {
          padding: 17px 28px;
       }
    }
-   .th-btn.style8.style11.style12{
+
+   .th-btn.style8.style11.style12 {
       @include sm {
          padding: 16px 28px;
       }
@@ -350,19 +352,7 @@
 
 .cta-area-3 {
    position: relative;
-   bottom: -680px;
-   margin-top: -235px;
    z-index: 1;
-
-   @include ml {
-      bottom: -200px;
-      margin-top: -100px;
-   }
-
-   @include lg {
-      bottom: 0;
-      margin-top: 0;
-   }
 }
 
 .cta-wrap3 {
@@ -375,11 +365,18 @@
    }
 
    @include lg {
-      padding: 120px 0px;
+      padding: 90px 0px;
       text-align: center;
+      background: $white-color;
+      border-radius: 20px;
    }
-   @include md{
+
+   @include md {
       padding: 80px 0px;
+   }
+
+   @include sm {
+      padding: 60px 10px;
    }
 
    &::before {

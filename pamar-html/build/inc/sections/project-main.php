@@ -65,6 +65,7 @@ Project Area
                         </div>
                         <div class="col-md-6">
                             <div class="checklist style8 mt-10">
+                                <ul>
                                     <li class="text-title"><img src="assets/img/icon/check-icon1-5.svg" alt="img"> Bad odors in Sinks.</li>
                                     <li class="text-title"><img src="assets/img/icon/check-icon1-5.svg" alt="img"> The Drain or Adjacent piping.</li>
                                     <li class="text-title"><img src="assets/img/icon/check-icon1-5.svg" alt="img"> Garbadge Disposal and Repair.</li>

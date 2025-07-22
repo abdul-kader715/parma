@@ -1,7 +1,7 @@
 <!--==============================
 Price Area  
 ==============================-->
-<section class="<?php echo $klass;?> position-relative z-index-2">
+<section class="<?php echo $klass;?> position-relative">
     <div class="container"> 
         <div class="row justify-content-center">
             <div class="title-area text-center mb-60">

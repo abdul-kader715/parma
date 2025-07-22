@@ -72,11 +72,8 @@
 /* Brand 3 ---------------------------------- */
 
 .brand-area-3 {
-   margin-top: -290px;
 
-   @include md {
-      margin-top: 0px;
-   }
+ 
 
    .container-fluid {
       max-width: 1840px;

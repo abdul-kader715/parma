@@ -1,7 +1,7 @@
 <!--==============================
 Feature Area  
 ==============================-->
-<section class="<?php echo $klass;?>" data-bg-src="assets/img/shape/feature-thumb-shape2-1.png">
+<section class="<?php echo $klass;?>" data-bg-src="assets/img/shape/feature-thumb-shape2-1.png" id="feature-sec">
 
     <div class="container">
         <div class="row gy-4 justify-content-center">

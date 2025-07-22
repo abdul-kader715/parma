@@ -420,26 +420,35 @@
 }
 
 /* About 3 ---------------------------------- */
-.about-sec3 {
+.about-brand-sec {
    margin-top: -180px;
-   padding-top: 200px;
-   padding-bottom: 300px;
-   margin-bottom: 120px;
+   padding-top: 100px;
 
    @include ml {
-      padding-top: 120px;
-      padding-bottom: 200px;
-   }
-
-   @include lg {
-      padding-top: 180px;
+      padding-top: 50px;
    }
 
    @include md {
+      padding-top: 0px;
       margin-top: 0px;
-      margin-bottom: 0;
-      padding-top: 80px;
-      padding-bottom: 80px;
+   }
+}
+
+.about-sec3 {
+
+   // padding-top: 200px;
+   // padding-bottom: 300px;
+   // margin-bottom: 120px;
+
+   // @include lg {
+   //    padding-top: 180px;
+   // }
+
+   @include md {
+      // margin-top: 0px;
+      // margin-bottom: 0;
+      // padding-top: 80px;
+      // padding-bottom: 80px;
    }
 }
 

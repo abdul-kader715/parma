@@ -872,22 +872,22 @@
 
     const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-   //  if (!prefersReducedMotion) {
-   //      const lenis = new Lenis({
-   //          lerp: 0.07,
-   //      });
+    if (!prefersReducedMotion) {
+        const lenis = new Lenis({
+            lerp: 0.07,
+        });
 
-   //      lenis.on("scroll", ScrollTrigger.update);
+        lenis.on("scroll", ScrollTrigger.update);
 
-   //      gsap.ticker.add((time) => {
-   //          lenis.raf(time * 1000);
-   //      });
+        gsap.ticker.add((time) => {
+            lenis.raf(time * 1000);
+        });
 
-   //      document.querySelectorAll(".allow-natural-scroll").forEach((el) => {
-   //          el.addEventListener("wheel", (e) => e.stopPropagation(), { passive: true });
-   //          el.addEventListener("touchmove", (e) => e.stopPropagation(), { passive: true });
-   //      });
-   //  }
+        document.querySelectorAll(".allow-natural-scroll").forEach((el) => {
+            el.addEventListener("wheel", (e) => e.stopPropagation(), { passive: true });
+            el.addEventListener("touchmove", (e) => e.stopPropagation(), { passive: true });
+        });
+    }
 
 
     // ---------- GSAP Text Animation ----------
