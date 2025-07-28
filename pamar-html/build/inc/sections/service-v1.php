@@ -41,7 +41,6 @@
                <div class="d-flex justify-content-between">
                   <div class="box-icon">
                     <div class="color-masking">
-                        <div class="masking-src" data-mask-src="<?php echo $img[$x];?>"></div>
                         <img src="<?php echo $icon[$x];?>" alt="icon">
                     </div>
                 </div>
@@ -59,7 +58,6 @@
                <div class="d-flex justify-content-between">
                   <div class="box-icon">
                     <div class="color-masking">
-                        <div class="masking-src" data-mask-src="<?php echo $img[$x];?>"></div>
                         <img src="<?php echo $icon[$x];?>" alt="icon">
                     </div>
                 </div>

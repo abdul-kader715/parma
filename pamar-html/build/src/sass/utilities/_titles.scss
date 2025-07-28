@@ -49,7 +49,8 @@
       @include sm {
          font-size: 35px;
       }
-        @include vxs {
+
+      @include vxs {
 
          br {
             display: none;
@@ -677,5 +678,62 @@ hr.title-line {
 @include vxs {
    .title-area2 {
       padding: 40px 20px;
+   }
+}
+
+
+
+
+.common-style-for-title>div {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   max-width: 100%;
+   padding-right: calc(var(--bs-gutter-x) / 2);
+   padding-left: calc(var(--bs-gutter-x) / 2);
+   column-gap: 30px;
+
+   @media (max-width: 991px) {
+      flex-direction: column;
+align-items: flex-start;
+      .col-xl-6 {}
+   }
+
+   // flex-direction: column;
+   // text-align: center;
+   // margin-bottom: 0;
+   >div {
+      @media (min-width: 1400px) {
+
+         -ms-flex: 0 0 auto;
+         flex: 0 0 auto;
+         width: 50%;
+
+         .col-xxl-6,
+         .col-xxl-7 {}
+      }
+
+      @media (min-width: 1200px) {
+         width: 50%;
+
+         .col-xl-6 {}
+      }
+
+      @media (max-width: 768px) {
+         width: 100%;
+
+         .col-xl-6 {}
+      }
+   }
+
+
+}
+
+.common-style-for-title {
+   .title-area-right {
+      @media (max-width: 991px) {
+         
+      }
+
    }
 }

@@ -560,19 +560,22 @@
          font-weight: 500;
          gap: 10px;
          margin-bottom: 10px;
-         padding-left: 0;
+         padding-left: 20px;
 
          @include sm {
             font-size: 13px;
          }
 
          &::before {
-            display: none;
-
+            clip-path: none;
+            content: "\f336";
+            font-family: Font Awesome\ 6 Pro;
+            background: transparent;
          }
 
          i {
             color: $white-color;
+            display: none;
          }
       }
    }
